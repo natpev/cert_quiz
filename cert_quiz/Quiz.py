@@ -11,7 +11,7 @@
 
 
 ### Change this line to the file path to properly formated .txt file that you wish to be quized on
-txt = 'quiz_files/Network+_questions.txt'
+txt = 'quiz_files/Security+_questions2.txt'
 ######################################
 
 
@@ -102,16 +102,22 @@ def enter():
 
 ###function to select the starting question
 def start_q():
+    is_it_there = 0
+    global resp
     resp = input('Starting question:  ')
     global q_num
     q_num = int(resp)
     #resp = '450'
-    lookup = ("QUESTION " + resp)
-    with open(txt) as f:
-        for num, line in enumerate(f, 1):
-            if lookup in line:
-                question_num = (num + 2)
-                break
+    while is_it_there == 0:
+        lookup = ("QUESTION " + str(resp) + '\n')
+        with open(txt) as f:
+            for num, line in enumerate(f, 1):
+                if lookup in line:
+                    print(line)
+                    question_num = (num + 2)
+                    is_it_there = 1
+        resp = int(resp) + 1
+        print (resp)
     clear()    
     return question_num
 
@@ -167,6 +173,8 @@ def check_answer():
     while True:
         while True:
             if len(my_ans) != len(correct):
+                print(my_ans)
+                print(correct)
                 my_ans = input("incorrect answer length\n    try again: ")
             else:
                 break
@@ -206,6 +214,7 @@ try:
     correct = []
     q_num = 0
     my_ans = ''
+    resp = 0
 
     RANS = 0
     WANS = 0
