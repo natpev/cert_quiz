@@ -11,7 +11,7 @@
 
 
 ### Change this line to the file path to properly formated .txt file that you wish to be quized on
-txt = 'Network+_questions.txt'
+txt = 'quiz_files/Network+_questions.txt'
 ######################################
 
 
