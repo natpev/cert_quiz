@@ -5,13 +5,13 @@
 #                    Created by Nathan P.                      #
 #   Free for all but dont be a dick and remove the credit.     #
 #                                                              #
-#                         v0.9.1                               #
+#                         v0.9.3                               #
 #                                                              #
 ################################################################
 
 
 ### Change this line to the file path to properly formated .txt file that you wish to be quized on
-txt = 'quiz_files/Security+_questions2.txt'
+txt = 'quiz_files/Security+_questions.txt'
 ######################################
 
 
@@ -68,7 +68,7 @@ def credits():
     sleep(.1)
     print('#                                                              #')
     sleep(.1)
-    print('#                         v0.9.1                               #')
+    print('#                         v0.9.3                               #')
     sleep(.1)
     print('#                                                              #')
     sleep(.1)
@@ -107,8 +107,7 @@ def start_q():
     resp = input('Starting question:  ')
     global q_num
     q_num = int(resp)
-    #resp = '450'
-    while is_it_there == 0:
+    while is_it_there != 1:
         lookup = ("QUESTION " + str(resp) + '\n')
         with open(txt) as f:
             for num, line in enumerate(f, 1):
@@ -117,14 +116,29 @@ def start_q():
                     question_num = (num + 2)
                     is_it_there = 1
         resp = int(resp) + 1
-        print (resp)
     clear()    
     return question_num
+
 
 ###prints out question and defines answers
 def pr_ques(num):
     global ans_bank
+    global resp
+    global question_num
     ###print the questions
+    print(num)
+    is_it_there = 0
+    while is_it_there != 1:
+        lookup = ("QUESTION " + str(resp) + '\n')
+        with open(txt) as f:
+            for i, line in enumerate(f, 1):
+                if lookup in line:
+                    #print(line)
+                    #print(i)
+                    question_num = (i + 2)
+                    is_it_there = 1
+        resp = int(resp) + 1
+
     print('\n' + linecache.getline(txt,int(num)))
     num += 2
     while True:
@@ -227,9 +241,9 @@ try:
 
     while linecache.getline(txt,int(question_num)) != 'END\n':
         if (RANS + WANS) == 0:
-            print('Right/Wrong: ' + str(RANS) + '/' + str(WANS) + '   ---   TOTAL: ' + str(RANS + WANS) + '\n\nQUESTION ' + str(q_num))
+            print('Right/Wrong: ' + str(RANS) + '/' + str(WANS) + '   ---   TOTAL: ' + str(RANS + WANS) + '\n\nQUESTION ' + str(resp - 1))
         else:
-            print('Right/Wrong: ' + str(RANS) + '/' + str(WANS) + '   ---   ' + str((RANS/(RANS + WANS))*100) + '%   ---   TOTAL: ' + str(RANS + WANS) + '\n\nQUESTION ' + str(q_num))
+            print('Right/Wrong: ' + str(RANS) + '/' + str(WANS) + '   ---   ' + str((RANS/(RANS + WANS))*100) + '%   ---   TOTAL: ' + str(RANS + WANS) + '\n\nQUESTION ' + str(resp - 1))
         q_num += 1
         question_num = pr_ques(question_num)
         #print(question_num)
@@ -252,7 +266,7 @@ try:
 except KeyboardInterrupt:
     print("\n\nexiting......")
     sleep(1.5)
-
+'''
 except UnboundLocalError:
     print("\n\nInvalid Number\n    Exiting......")
-    sleep(1.5)
+    sleep(1.5)'''
