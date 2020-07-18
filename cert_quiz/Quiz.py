@@ -11,7 +11,7 @@
 
 
 ### Change this line to the file path to properly formated .txt file that you wish to be quized on
-txt = 'quiz_files/Security+_questions.txt'
+txt = 'quiz_files/Network+_questions.txt'
 ######################################
 
 
@@ -187,8 +187,8 @@ def check_answer():
     while True:
         while True:
             if len(my_ans) != len(correct):
-                print(my_ans)
-                print(correct)
+                #print(my_ans)
+                #print(correct)
                 my_ans = input("incorrect answer length\n    try again: ")
             else:
                 break
@@ -266,7 +266,10 @@ try:
 except KeyboardInterrupt:
     print("\n\nexiting......")
     sleep(1.5)
-'''
+    clear()
+
+
 except UnboundLocalError:
     print("\n\nInvalid Number\n    Exiting......")
-    sleep(1.5)'''
+    sleep(1.5)
+    clear()
