@@ -1,7 +1,5 @@
 #!/bin/python3
 
-###this is a test line
-
 ################################################################
 #                                                              #
 #                    Created by Nathan P.                      #
@@ -15,11 +13,9 @@
 ################################################################
 
 
-### Change this line to the file path to properly formated .txt file that you wish to be quized on
+### Change this line to the file path to properly formated .txt file that you wish to be quized on. ####
 txt = 'quiz_files/Network+_questions.txt'
 ######################################
-
-
 
 
 
@@ -63,7 +59,6 @@ txt = 'quiz_files/Network+_questions.txt'
 
 
 import linecache
-import io
 from time import sleep
 from os import system, name
 import os
