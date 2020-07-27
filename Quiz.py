@@ -25,7 +25,7 @@ txt = 'quiz_files/Network+_questions.txt'
 #                                                                                                                                  #
 # QUESTION 1                                                                                                                       #
 #                                                                                                                                  #
-# what is the best food combo from lakeside pizza pizza? (Choose 2)                                                                #
+# what is the best food combo from lakeside pizza? (Choose 3)                                                                      #
 #                                                                                                                                  #
 # A. Lunch Special                                                                                                                 #
 # B. Large Peperoni pizza                                                                                                          #
@@ -62,6 +62,7 @@ import linecache
 from time import sleep
 from os import system, name
 import os
+from termcolor import colored, cprint
 
 
 
@@ -79,7 +80,7 @@ def credits():
     sleep(.1)
     print('#                            v0.9.6                            #'.center(int(columns)))
     sleep(.1)
-    print('#                             LINUX                            #'.centre(int(columns)))
+    print('#                             LINUX                            #'.center(int(columns)))
     sleep(.1)
     print('#                                                              #'.center(int(columns)))
     sleep(.1)
@@ -124,6 +125,36 @@ def enter():
     ##if mac or linux
     else:
         _ = system("pause")
+
+
+##quiz_select
+def quiz_select():
+    global quizes
+    global quizes_files
+    global direct
+    global txt
+
+    directory = (os.getcwd() + '/quiz_files')
+    file_list = (os.listdir(directory))
+
+    for i in file_list:
+        quizes_files = (directory + '/' +  i)
+        titleline = (linecache.getline(quizes_files,int(1))[5:-1])
+        quizes.append(titleline)
+        direct[titleline] = quizes_files
+
+    while True:
+        for i in quizes:
+            print(i.rjust(int(int(columns)/2 - 32 + len(i))))
+        print('\n')
+        ans = input('Which quiz would you like to take? '.rjust(int(int(columns)/2 + 3)))
+        if ans in quizes:
+            txt = direct[ans]
+            break
+        else:
+            print(colored('INVALID'.rjust(int(int(columns)/2 -32 + 7)), 'red'))
+            sleep(1)
+            clear()
 
 
 ###function to select the starting question
@@ -254,6 +285,10 @@ try:
     rows = 0
     columns = 0
 
+    quizes = []
+    quizes_files = []
+    direct = {}
+
     correct = []
     q_num = 0
     my_ans = ''
@@ -267,6 +302,7 @@ try:
     question_num = ''
     term_size()
     credits()
+    quiz_select()
     question_num = start_q()
 
     while linecache.getline(txt,int(question_num)) != 'END\n':

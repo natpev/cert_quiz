@@ -21,5 +21,16 @@ for i in file_list:
     quizes.append(titleline)
     direct[titleline] = quizes_files
 
-print(quizes)
-print(colored(direct.keys(), 'red', attrs=['blink']))
+
+
+
+
+while True:
+    for i in quizes:
+        print(i)
+    ans = input('\nWhich quiz would you like to take? ')
+    if ans in quizes:
+        break
+    else:
+        print(colored('INVALID', 'red'))
+        sleep(1)
