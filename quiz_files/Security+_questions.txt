@@ -1,3 +1,5 @@
+TOTAL:684
+
 QUESTION 4
 
  Which of the following would a security specialist be able to determine upon examination of a server™s certificate?  
@@ -8049,8 +8051,3 @@ C. IP spoofing
 D. SYN flooding   
 
 Correct Answer: A
-
-
-
-
-END
