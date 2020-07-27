@@ -2,7 +2,7 @@ TOTAL:455
 
 QUESTION 1
 
-A UTM is deployed on the external edge of the main corporate office. The office connects to the WAN port of the edge router.The edge router at the main office connects to the remote offices using GRE IPSec tunnels. A network administrator noticesthat a worm that was not detected by the UTM has spread from the remote sites into the corporate network. The UTM currentlyhas traffic rules applied that should block the port used by the worm. Which of the following steps would MOST likely correctthis issue?
+A UTM is deployed on the external edge of the main corporate office. The office connects to the WAN port of the edge router.The edge router at the main office connects to the remote offices using GRE IPSec tunnels. A network administrator noticesthat a worm that was not detected by the UTM has spread from the remote sites into the corporate network. The UTM currentlyhas traffic rules applied that should block the port used by the worm. Which of the following steps would MOST likely correctthis issue? 
 
 A.Move the UTM onto the LAN side of the network
 B.Enable TLS inspection on the UTM
