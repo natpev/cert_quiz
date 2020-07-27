@@ -5,7 +5,7 @@
 #                    Created by Nathan P.                      #
 #   Free for all but dont be a dick and remove the credit.     #
 #                                                              #
-#                         v0.9.5                               #
+#                         v0.9.6                               #
 #                          LINUX                               #
 #                                                              #
 #             Now on Malware I mean Windows 10                 #
@@ -22,35 +22,42 @@ txt = 'quiz_files/Network+_questions.txt'
 
 
 ######must be in the following format##########
-#########################################################################################################
-## QUESTION 1
-##
-## A UTM is deployed on the external edge of the main corporate office. The office connects to the WAN port of the edge router.The edge router at the main office connects to the remote offices using GRE IPSec tunnels. A network administrator noticesthat a worm that was not detected by the UTM has spread from the remote sites into the corporate network. The UTM currentlyhas traffic rules applied that should block the port used by the worm. Which of the following steps would MOST likely correctthis issue?
-##
-## A.Move the UTM onto the LAN side of the network
-## B.Enable TLS inspection on the UTM
-## C.Enable stateful inspection on the UTM
-## D.Configure the UTM to deny encrypted files from being transferred
-## 
-## Correct Answer: C
-## 
-## 
-## QUESTION 2
-##
-## A technician has racked a new access switch and has run multimode fiber to a new location. After installing an extended-range10Gb SFP in the core switch, the technician installed a 10Gb SFP in the access switch and connected the port to the newextension with a fiber jumper. However, the link does not display, and the technician cannot see light emitting from the coreswitch. Which of the following solutions is MOST likely to resolve the problem?
-##
-## A.Swap the fiber pairs in one of the SFPs 
-## B.Replace the jumpers with single-mode fiber
-## C.Set the correct MTU on the new interface
-## D.Install an optic that matches the fiber type 
-##
-## Correct Answer: B
-##
-##
-#########################################################################################################
-##
-## Can have up to 26 answers one for each letter. answers must be A. B. C. ect.
-
+####################################################################################################################################
+# TOTAL:2                                                                                                                          #
+#                                                                                                                                  #
+# QUESTION 1                                                                                                                       #
+#                                                                                                                                  #
+# what is the best food combo from lakeside pizza pizza? (Choose 2)                                                                #
+#                                                                                                                                  #
+# A. Lunch Special                                                                                                                 #
+# B. Large Peperoni pizza                                                                                                          #
+# C. tea                                                                                                                           #
+# D. medium sasuage pizza                                                                                                          #
+# E. vanilla ice cream                                                                                                             #
+# F. chocolate ice cream                                                                                                           #
+# G. strawberry ice cream                                                                                                          #
+# H. Rootbeer                                                                                                                      #
+# I. Pepsi                                                                                                                         #
+#                                                                                                                                  #
+# Correct Answer: ACG                                                                                                              #
+#                                                                                                                                  #
+#                                                                                                                                  #
+# QUESTION 2                                                                                                                       #
+#                                                                                                                                  #
+# what is the best flavor of ice cream at lakeside pizza?                                                                          #
+#                                                                                                                                  #
+# A. vanilla                                                                                                                       #
+# B. chocolate                                                                                                                     #
+# C. straberry                                                                                                                     #
+# D. neopolitan                                                                                                                    #
+# E. blueberry                                                                                                                     #
+# E. moosetracks                                                                                                                   #
+#                                                                                                                                  #
+# Correct Answer: C                                                                                                                #
+####################################################################################################################################
+#
+# Can have up to 26 answers one for each letter. answers must be A. B. C. ect.
+#
 
 
 import linecache
@@ -73,7 +80,7 @@ def credits():
     sleep(.1)
     print('#                                                              #'.center(int(columns)))
     sleep(.1)
-    print('#                            v0.9.5                            #'.center(int(columns)))
+    print('#                            v0.9.6                            #'.center(int(columns)))
     sleep(.1)
     print('#                             LINUX                            #'.centre(int(columns)))
     sleep(.1)
