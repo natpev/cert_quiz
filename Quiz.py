@@ -5,7 +5,7 @@
 #                    Created by Nathan P.                      #
 #   Free for all but dont be a dick and remove the credit.     #
 #                                                              #
-#                         v0.9.6                               #
+#                         v0.9.7                               #
 #                          LINUX                               #
 #                                                              #
 #             Now on Malware I mean Windows 10                 #
@@ -78,7 +78,7 @@ def credits():
     sleep(.1)
     print('#                                                              #'.center(int(columns)))
     sleep(.1)
-    print('#                            v0.9.6                            #'.center(int(columns)))
+    print('#                            v0.9.7                            #'.center(int(columns)))
     sleep(.1)
     print('#                             LINUX                            #'.center(int(columns)))
     sleep(.1)
