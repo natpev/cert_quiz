@@ -5,7 +5,10 @@
 #                    Created by Nathan P.                      #
 #   Free for all but dont be a dick and remove the credit.     #
 #                                                              #
-#                         v0.9.3                               #
+#                         v0.9.5                               #
+#                          LINUX                               #
+#                                                              #
+#             Now on Malware I mean Windows 10                 #
 #                                                              #
 ################################################################
 
@@ -51,31 +54,50 @@ txt = 'quiz_files/Network+_questions.txt'
 
 
 import linecache
+import io
 from time import sleep
 from os import system, name
 import os
 
 
 
+
 def credits():
-    print('################################################################')
+    print('################################################################'.center(int(columns)))
     sleep(.1)
-    print('#                                                              #')
+    print('#                                                              #'.center(int(columns)))
     sleep(.1)
-    print('#                    Created by Nathan P.                      #')
+    print('#                     Created by Nathan P.                     #'.center(int(columns)))
     sleep(.1)
-    print('#   Free for all but dont be a dick and remove the credit.     #')
+    print('#    Free for all but dont be a dick and remove the credit.    #'.center(int(columns)))
     sleep(.1)
-    print('#                                                              #')
+    print('#                                                              #'.center(int(columns)))
     sleep(.1)
-    print('#                         v0.9.3                               #')
+    print('#                            v0.9.5                            #'.center(int(columns)))
     sleep(.1)
-    print('#                                                              #')
+    print('#                             LINUX                            #'.centre(int(columns)))
     sleep(.1)
-    print('################################################################\n')
+    print('#                                                              #'.center(int(columns)))
+    sleep(.1)
+    print('#               Now on Malware I mean Windows 10               #'.center(int(columns)))
+    sleep(.1)
+    print('#                                                              #'.center(int(columns)))
+    sleep(.1)
+    print('################################################################'.center(int(columns)))
+    print("\n")
     sleep(.5)
 
 
+def term_size():
+    global rows
+    global columns
+    if name == 'nt':
+        rows = os.get_terminal_size().lines
+        columns = os.get_terminal_size().columns
+    else:
+        rows, columns = os.popen('stty size', 'r').read().split()
+    
+    
 
 
 
@@ -104,12 +126,12 @@ def enter():
 def start_q():
     is_it_there = 0
     global resp
-    resp = input('Starting question:  ')
+    resp = input('Starting question:  '.rjust(int(int(columns)/2 -12)))
     global q_num
     q_num = int(resp)
     while is_it_there != 1:
         lookup = ("QUESTION " + str(resp) + '\n')
-        with open(txt) as f:
+        with open(txt, encoding='utf-8') as f:
             for num, line in enumerate(f, 1):
                 if lookup in line:
                     print(line)
@@ -130,7 +152,7 @@ def pr_ques(num):
     is_it_there = 0
     while is_it_there != 1:
         lookup = ("QUESTION " + str(resp) + '\n')
-        with open(txt) as f:
+        with open(txt, encoding='utf-8') as f:
             for i, line in enumerate(f, 1):
                 if lookup in line:
                     #print(line)
@@ -225,6 +247,9 @@ def check_answer():
 ################
 
 try:
+    rows = 0
+    columns = 0
+
     correct = []
     q_num = 0
     my_ans = ''
@@ -236,6 +261,7 @@ try:
     ans_bank = []
 
     question_num = ''
+    term_size()
     credits()
     question_num = start_q()
 
