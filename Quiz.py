@@ -62,7 +62,6 @@ import linecache
 from time import sleep
 from os import system, name
 import os
-from termcolor import colored, cprint
 
 
 
@@ -145,14 +144,14 @@ def quiz_select():
 
     while True:
         for i in quizes:
-            print(i.rjust(int(int(columns)/2 - 32 + len(i))))
+            print(i.rjust(int(int(columns)/2 - 31 + len(i))))
         print('\n')
-        ans = input('Which quiz would you like to take? '.rjust(int(int(columns)/2 + 3)))
+        ans = input('Which quiz would you like to take? '.rjust(int(int(columns)/2 + 4)))
         if ans in quizes:
             txt = direct[ans]
             break
         else:
-            print(colored('INVALID'.rjust(int(int(columns)/2 -32 + 7)), 'red'))
+            print('INVALID'.rjust(int(int(columns)/2 -24)))
             sleep(1)
             clear()
 
@@ -161,7 +160,7 @@ def quiz_select():
 def start_q():
     is_it_there = 0
     global resp
-    resp = input('Starting question:  '.rjust(int(int(columns)/2 -12)))
+    resp = input('Starting question:  '.rjust(int(int(columns)/2 -11)))
     global q_num
     q_num = int(resp)
     while is_it_there != 1:
