@@ -5,7 +5,7 @@
 #                    Created by Nathan P.                      #
 #   Free for all but dont be a dick and remove the credit.     #
 #                                                              #
-#                         v0.9.7                               #
+#                         v0.9.8                               #
 #                          LINUX                               #
 #                                                              #
 #             Now on Malware I mean Windows 10                 #
@@ -16,46 +16,6 @@
 ### Change this line to the file path to properly formated .txt file that you wish to be quized on. ####
 txt = 'quiz_files/Network+_questions.txt'
 ######################################
-
-
-
-######must be in the following format##########
-####################################################################################################################################
-# TOTAL:2                                                                                                                          #
-#                                                                                                                                  #
-# QUESTION 1                                                                                                                       #
-#                                                                                                                                  #
-# what is the best food combo from lakeside pizza? (Choose 3)                                                                      #
-#                                                                                                                                  #
-# A. Lunch Special                                                                                                                 #
-# B. Large Peperoni pizza                                                                                                          #
-# C. tea                                                                                                                           #
-# D. medium sasuage pizza                                                                                                          #
-# E. vanilla ice cream                                                                                                             #
-# F. chocolate ice cream                                                                                                           #
-# G. strawberry ice cream                                                                                                          #
-# H. Rootbeer                                                                                                                      #
-# I. Pepsi                                                                                                                         #
-#                                                                                                                                  #
-# Correct Answer: ACG                                                                                                              #
-#                                                                                                                                  #
-#                                                                                                                                  #
-# QUESTION 2                                                                                                                       #
-#                                                                                                                                  #
-# what is the best flavor of ice cream at lakeside pizza?                                                                          #
-#                                                                                                                                  #
-# A. vanilla                                                                                                                       #
-# B. chocolate                                                                                                                     #
-# C. straberry                                                                                                                     #
-# D. neopolitan                                                                                                                    #
-# E. blueberry                                                                                                                     #
-# E. moosetracks                                                                                                                   #
-#                                                                                                                                  #
-# Correct Answer: C                                                                                                                #
-####################################################################################################################################
-#
-# Can have up to 26 answers one for each letter. answers must be A. B. C. ect.
-#
 
 
 import linecache
@@ -77,7 +37,7 @@ def credits():
     sleep(.1)
     print('#                                                              #'.center(int(columns)))
     sleep(.1)
-    print('#                            v0.9.7                            #'.center(int(columns)))
+    print('#                            v0.9.8                            #'.center(int(columns)))
     sleep(.1)
     print('#                             LINUX                            #'.center(int(columns)))
     sleep(.1)
@@ -195,8 +155,16 @@ def pr_ques(num):
                     is_it_there = 1
         resp = int(resp) + 1
 
-    print('\n' + linecache.getline(txt,int(num)))
-    num += 2
+    print('\n')
+    while True:
+        line = (linecache.getline(txt,int(num)))
+        if line == '\n':
+            num += 1
+            break
+        else:
+            print(line, end="")
+            num += 1
+    print('\n')
     while True:
     ###print off the answers
         line = linecache.getline(txt,int(num))
@@ -331,7 +299,7 @@ try:
 except KeyboardInterrupt:
     print("\n\nexiting......")
     sleep(1.5)
-    clear()
+#    clear()
 
 
 except UnboundLocalError:
