@@ -5,7 +5,7 @@
 #                    Created by Nathan P.                      #
 #   Free for all but dont be a dick and remove the credit.     #
 #                                                              #
-#                         v0.9.7                               #
+#                         v1.0.0                               #
 #                          LINUX                               #
 #                                                              #
 #             Now on Malware I mean Windows 10                 #
@@ -13,55 +13,11 @@
 ################################################################
 
 
-### Change this line to the file path to properly formated .txt file that you wish to be quized on. ####
-txt = 'quiz_files/Network+_questions.txt'
-######################################
-
-
-
-######must be in the following format##########
-####################################################################################################################################
-# TOTAL:2                                                                                                                          #
-#                                                                                                                                  #
-# QUESTION 1                                                                                                                       #
-#                                                                                                                                  #
-# what is the best food combo from lakeside pizza? (Choose 3)                                                                      #
-#                                                                                                                                  #
-# A. Lunch Special                                                                                                                 #
-# B. Large Peperoni pizza                                                                                                          #
-# C. tea                                                                                                                           #
-# D. medium sasuage pizza                                                                                                          #
-# E. vanilla ice cream                                                                                                             #
-# F. chocolate ice cream                                                                                                           #
-# G. strawberry ice cream                                                                                                          #
-# H. Rootbeer                                                                                                                      #
-# I. Pepsi                                                                                                                         #
-#                                                                                                                                  #
-# Correct Answer: ACG                                                                                                              #
-#                                                                                                                                  #
-#                                                                                                                                  #
-# QUESTION 2                                                                                                                       #
-#                                                                                                                                  #
-# what is the best flavor of ice cream at lakeside pizza?                                                                          #
-#                                                                                                                                  #
-# A. vanilla                                                                                                                       #
-# B. chocolate                                                                                                                     #
-# C. straberry                                                                                                                     #
-# D. neopolitan                                                                                                                    #
-# E. blueberry                                                                                                                     #
-# E. moosetracks                                                                                                                   #
-#                                                                                                                                  #
-# Correct Answer: C                                                                                                                #
-####################################################################################################################################
-#
-# Can have up to 26 answers one for each letter. answers must be A. B. C. ect.
-#
-
-
 import linecache
 from time import sleep
 from os import system, name
 import os
+import random
 
 
 
@@ -77,7 +33,7 @@ def credits():
     sleep(.1)
     print('#                                                              #'.center(int(columns)))
     sleep(.1)
-    print('#                            v0.9.7                            #'.center(int(columns)))
+    print('#                            v1.0.0                            #'.center(int(columns)))
     sleep(.1)
     print('#                             LINUX                            #'.center(int(columns)))
     sleep(.1)
@@ -132,6 +88,7 @@ def quiz_select():
     global quizes_files
     global direct
     global txt
+    global file_len
 
     directory = (os.getcwd() + '/quiz_files')
     file_list = (os.listdir(directory))
@@ -149,6 +106,7 @@ def quiz_select():
         ans = input('Which quiz would you like to take? '.rjust(int(int(columns)/2 + 4)))
         if ans in quizes:
             txt = direct[ans]
+            file_len = ((linecache.getline(txt,2))[6:-1])
             break
         else:
             print('INVALID'.rjust(int(int(columns)/2 -24)))
@@ -158,7 +116,17 @@ def quiz_select():
 
 ###function to select the starting question
 def start_q():
+    global random_choice
+#    global ans_bank
     is_it_there = 0
+#    print(yesno_bank)
+    random_choice = input('Randomize Questions? Yes|No  '.rjust(int(int(columns)/2 - 2)))
+    while True:
+        if random_choice.upper() in yesno_bank:
+            break
+        else:
+            print('INVALID')
+            random_choice = input('Randomize Questions? Yes|No  '.rjust(int(int(columns)/2 - 2)))
     global resp
     resp = input('Starting question:  '.rjust(int(int(columns)/2 -11)))
     global q_num
@@ -171,7 +139,6 @@ def start_q():
                     print(line)
                     question_num = (num + 2)
                     is_it_there = 1
-        resp = int(resp) + 1
     clear()    
     return question_num
 
@@ -182,21 +149,31 @@ def pr_ques(num):
     global resp
     global question_num
     ###print the questions
-    print(num)
+##    print(str(num) + 'num')
+##    print(str(resp) + ' resp')
     is_it_there = 0
     while is_it_there != 1:
         lookup = ("QUESTION " + str(resp) + '\n')
         with open(txt, encoding='utf-8') as f:
             for i, line in enumerate(f, 1):
                 if lookup in line:
-                    #print(line)
-                    #print(i)
+##                    print(line + 'line')
+##                    print(str(i) + ' i')
                     question_num = (i + 2)
+                    num = question_num
                     is_it_there = 1
         resp = int(resp) + 1
 
-    print('\n' + linecache.getline(txt,int(num)))
-    num += 2
+    print('\n')
+    while True:
+        line = (linecache.getline(txt,int(num)))
+        if line == '\n':
+            num += 1
+            break
+        else:
+            print(line, end="")
+            num += 1
+    print('\n')
     while True:
     ###print off the answers
         line = linecache.getline(txt,int(num))
@@ -243,9 +220,8 @@ def check_answer():
     while True:
         while True:
             if len(my_ans) != len(correct):
-                #print(my_ans)
-                #print(correct)
                 my_ans = input("incorrect answer length\n    try again: ")
+                my_ans = list(my_ans.upper())
             else:
                 break
         for i in my_ans:
@@ -281,9 +257,15 @@ def check_answer():
 ################
 
 try:
+    yes_bank = ['YES', 'Y']
+    no_bank = ['NO', 'N']
+    yesno_bank = ['Y', 'N', 'YES', 'NO']
     rows = 0
     columns = 0
 
+    txt = ''
+    random_choice = ''
+    file_len = ''
     quizes = []
     quizes_files = []
     direct = {}
@@ -304,11 +286,11 @@ try:
     quiz_select()
     question_num = start_q()
 
-    while linecache.getline(txt,int(question_num)) != 'END\n':
+    while True:
         if (RANS + WANS) == 0:
-            print('Right/Wrong: ' + str(RANS) + '/' + str(WANS) + '   ---   TOTAL: ' + str(RANS + WANS) + '\n\nQUESTION ' + str(resp - 1))
+            print('Right/Wrong: ' + str(RANS) + '/' + str(WANS) + '   ---   TOTAL: ' + str(RANS + WANS) + '\n\nQUESTION ' + str(resp))
         else:
-            print('Right/Wrong: ' + str(RANS) + '/' + str(WANS) + '   ---   ' + str((RANS/(RANS + WANS))*100) + '%   ---   TOTAL: ' + str(RANS + WANS) + '\n\nQUESTION ' + str(resp - 1))
+            print('Right/Wrong: ' + str(RANS) + '/' + str(WANS) + '   ---   ' + str((RANS/(RANS + WANS))*100) + '%   ---   TOTAL: ' + str(RANS + WANS) + '\n\nQUESTION ' + str(resp))
         q_num += 1
         question_num = pr_ques(question_num)
         #print(question_num)
@@ -318,11 +300,10 @@ try:
         question_num = pr_ans(question_num)
         check_answer()
         input("ENTER to continue...")
+        if random_choice.upper() in yes_bank:
+            resp = random.randint(1,int(file_len))
         clear()
         ans_bank = []
-        if linecache.getline(txt,int(question_num)) == 'END\n':
-            question_num = 3
-            q_num = 1
     print('\n\n\nALL DONE')
     clear()
 
@@ -331,7 +312,7 @@ try:
 except KeyboardInterrupt:
     print("\n\nexiting......")
     sleep(1.5)
-    clear()
+#    clear()
 
 
 except UnboundLocalError:
