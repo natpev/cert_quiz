@@ -13,11 +13,6 @@
 ################################################################
 
 
-### Change this line to the file path to properly formated .txt file that you wish to be quized on. ####
-txt = 'quiz_files/Network+_questions.txt'
-######################################
-
-
 import linecache
 from time import sleep
 from os import system, name
@@ -118,6 +113,7 @@ def quiz_select():
 
 ###function to select the starting question
 def start_q():
+    global random
     is_it_there = 0
     global resp
     resp = input('Starting question:  '.rjust(int(int(columns)/2 -11)))
@@ -252,6 +248,8 @@ try:
     rows = 0
     columns = 0
 
+    txt = ''
+    random = ''
     quizes = []
     quizes_files = []
     direct = {}
