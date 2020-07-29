@@ -474,7 +474,7 @@ QUESTION 39
 A technician is connecting a router directly to a PC using the G1/0/1 interface. Without the use of auto-sensing ports, which ofthe following cables should be used?
 
 A.Straight-through
-B.Console
+B.ConsoleYou have been tasked with testing a CAT5e cable. A summary of the test results can be found on the screen
 C.Rollover
 D.Crossover
 
@@ -5088,9 +5088,22 @@ Correct Answer: A
 
 QUESTION 414
 
-HOTSPOTYou have been tasked with testing a CAT5e cable. A summary of the test results can be found on the screen.InstructionsStep 1: Select the tool that was used to create the cable test results.Step 2: Interpret the test results and select the option that explains the results. After you are done with your analysis, click the‚Submit™ button.If at any time you would like to bring back the initial state of the simulation, please click the Reset All button.Hot Area:
+You have been tasked with testing a CAT5e cable. A summary of the test results can be found below.
+1.2     open    7ft
+3.6     short   7ft
+4.5     open    7ft
+7.8     open    7ft
+Select the tool that was used to create the cable test results and the explination for the results. (Choose Two)
 
-Correct Answer: 
+A. cable certifier
+B. punch down tool
+C. crimper
+D. tonerprobe
+E. OTDR
+F. correctly crimped cable
+G. incorrectly crimped cable
+
+Correct Answer: AG
 
 
 QUESTION 415
