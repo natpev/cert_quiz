@@ -1,5 +1,5 @@
 QUIZ:CySA+
-TOTAL:20
+TOTAL:59
 
 QUESTION 1
 
@@ -281,3 +281,627 @@ D. Strong, secure encryption provides no protection against data exposed via eav
 Correct Answer: AB
 
 Explination: A is correct because promiscuous mode, if supported by the wireless card, is what allows the card to process all 802.11 activity, not just traffic targeted to that card. B is correct because monitor mode allows the same visibility to all activity, even without being connected to an access point.
+
+
+QUESTION 21
+
+Which of the following data sources would offer the least diverse, most precise kind of information?
+
+A. Syslogs
+B. Firewalls logs
+C. Packet captures
+D. Nmap results
+
+Correct Answer: D
+
+Explination: Nmap results are particularly focused as port scans and only contain the information asked for, depending on the command-line switches the operator uses.
+
+
+QUESTION 22
+
+What device combines the functionality of a traditional firewall and an IPS?
+
+A. Next-Generation Firewall
+B. DSN firewall
+C. Enterprise firewall
+D. Discovery firewall
+
+Correct Answer: A
+
+Explination: Next-Generation Firewall combines a traditional firewall with intrusion detection and prevention.
+
+
+QUESTION 23
+
+Which of the following are the two types of approaches to analyzing data?
+
+A. Compare and contrast
+B. Correlation
+C. Patterned
+D. Point-in-time
+
+Correct Answer: BD
+
+Explination: Point-in-time analysis describes examining data around a snapshot in time, whereas correlation analysis focuses on anomalies or changes over time, whether you’re searching for abnormal behavior, some outlier, or a trend.
+
+
+QUESTION 24
+
+In an IP packet header, what field value is decremented with each interface the packet goes through?
+
+A. Fragment offset
+B. ToS
+C. TTL
+D. IHL
+
+Correct Answer: C
+
+Explination: TTL stands for Time To Live, the value set for how many hops a packet has to go through before ending and expiring. The starting value for TTL varies based on operating system, but the more popular OSs use a value of either 255 or 128.
+
+
+QUESTION 25
+
+Which of the following is an example of point-in-time analysis?
+
+A. Anomaly analysis
+B. Behavioral analysis
+C. Availability analysis
+D. Traffic analysis
+
+Correct Answer: D
+
+Explination: Traffic analysis is an example of point-in-time analysis.
+
+
+QUESTION 26
+
+Recently, a few users have been complaining that their workstations are exhibiting some strange behavior. However, you find no obvious events showing up in system logs, and the application logs show nothing out of the ordinary. You suspect the issue could be new malware and decide to delve deeper.
+-
+You inspect logs from multiple sources. Your hope is to find some odd behavior. What type of analysis are you performing now?
+
+A. Trend
+B. Heuristics
+C. Packet capture
+D. Spatial trend
+
+Correct Answer: B
+
+Explination: The scenario portrays a new, unknown behavior. From that, you know you cannot rely on known threats. This will require heuristics analysis.
+
+
+QUESTION 27
+
+Recently, a few users have been complaining that their workstations are exhibiting some strange behavior. However, you find no obvious events showing up in system logs, and the application logs show nothing out of the ordinary. You suspect the issue could be new malware and decide to delve deeper.
+-
+Based on your assumptions, how will you likely discover the malware?
+
+A. The packet trace will reveal a port famous for malware.
+B. The IDS log will show a matched signature.
+C. Your experience will guide your analysis.
+D. The long-term degradation in availability.
+
+Correct Answer: C
+
+Explination: Heuristic analysis can’t rely on a signature or known behavior. Instead, experience best guides your analysis.
+
+
+QUESTION 28
+
+Recently, a few users have been complaining that their workstations are exhibiting some strange behavior. However, you find no obvious events showing up in system logs, and the application logs show nothing out of the ordinary. You suspect the issue could be new malware and decide to delve deeper.
+-
+Select the most valuable data sources in this analysis. (Choose two.)
+
+A. IDS/IPS
+B. Router logs
+C. Security logs of affected servers
+D. Next-Generation Firewall
+
+Correct Answer: AD
+
+Explination: The intrusion detection/prevention system very likely logged information relevant for your analysis. Similarly, the firewall might show if or when malicious traffic passed through to the affected systems.
+
+
+QUESTION 29
+
+Recently, a few users have been complaining that their workstations are exhibiting some strange behavior. However, you find no obvious events showing up in system logs, and the application logs show nothing out of the ordinary. You suspect the issue could be new malware and decide to delve deeper.
+-
+Which of the following would be the most valued SIEM tool in this scenario?
+
+A. Bro
+B. Snort
+C. Splunk
+D. ELK
+
+Correct Answer: A
+
+Explination: Bro is both signature- and anomaly-based. Bro will watch sessions, monitoring for strange behavior. Bro is also able to extract executables from network traffic, retaining them for forensic analysis.
+
+
+QUESTION 30
+
+Your company has used Splunk over many years, during a large growth in infrastructure. Lately, network engineers are complaining that Splunk requires a significant share of the network bandwidth. What might be the best course of action to resolve the network issue?
+
+A. Eliminate the “noisy” SIEM.
+B. Make use of heavy forwarders to index data at the source.
+C. Have the network engineer run a separate path for the Splunk data.
+D. Make the indexers fault tolerant.
+
+Correct Answer: B
+
+Explination: Splunk normally sends raw data onto the universal forwarder to be indexed. Using heavy forwarders instead at each source can accomplish preprocessing, before the event data is forwarded.
+
+
+QUESTION 31
+
+Given an IP address a security analyst seeks to identify and locate a system. Comparing the outputs below what is the most relevent difference between the two scans.
+###############
+nmap -O 192.168.2.19
+Nmap scan report for 192.168.2.19
+Not shown: 993 filtered ports
+PORT        STATE   SERVICE
+135/TCP     open    msrpc
+139/TCP     open    netbios-ssn
+445/TCP     open    microsoft-ds
+554/TCP     open    rtsp
+2869/TCP    open    icslap
+5357/TCP    open    wsdapi
+10243/TCP   open    unknown
+###############
+nmap -O 192.168.2.19
+Not shown: 988 closed ports
+PORT        STATE   SERVICE
+135/TCP     open    msrpc
+139/TCP     open    netbios-ssn
+445/TCP     open    microsoft-ds
+554/TCP     open    rtsp
+2869/TCP    open    icslap
+5357/TCP    open    wsdapi
+10243/TCP   open    unknown
+49152/TCP   open    unknown
+49153/TCP   open    unknown
+49154/TCP   open    unknown
+49155/TCP   open    unknown
+49156/TCP   open    unknown
+###############
+
+A. The system represented in Figure 2-1 has several unknown services listening on dynamic ports.
+B. The system represented in Figure 2-2 is behind a firewall.
+C. The system represented in Figure 2-1 is behind a firewall.
+D. The scan shown in Figure 2-1 positively identifies the OS.
+
+Correct Answer: C
+
+Explination: the first scan shows a system that’s likely behind a firewall. This is determined by noticing that the ports are reported as “filtered,” as compared to “closed” in the second scan
+
+
+QUESTION 32
+
+Which of the following is not a valid Event Log category in Windows desktop systems?
+
+A. Application
+B. System
+C. Security
+D. Storage
+E. Audit
+
+Correct Answer: D
+
+Explination: Storage is not an actual Event Log category.
+
+
+QUESTION 33
+
+A cybersecurity analyst scans the network for servers with TCP port 636 open. What other port can the analyst expect to find open on each of those servers?
+
+A. 22
+B. 111
+C. 53
+D. 389
+E. 5000
+
+Correct Answer: D
+
+Explination: Port 636 is open for LDAP over SSL (LDAPS). Any server that has port 636 listening very likely also has LDAP listening on port 389.
+
+
+QUESTION 34
+
+What tool presents a graphical user interface for nmap?
+
+A. Nessus
+B. Zenmap
+C. TShark
+D. Qualys
+
+Correct Answer: B
+
+Explination: Zenmap is the GUI version of nmap.
+
+
+QUESTION 35
+
+An analyst is having trouble viewing the logs of a Cisco ASA firewall. What should the analyst type at the command line to verify what logging is enabled?
+
+A. # show running-config logging
+B. # log full show
+C. # log show all
+D. # show run all logging
+
+Correct Answer: A
+
+Explination: The command show running-config logging is the proper one to start with, in order to continue with a specific command for logging onto a Cisco ASA firewall.
+
+QUESTION 36
+
+After running tcpdump, an analyst reviews the output, which includes the following line:
+######
+16:35:39.834754 > badguy.org.1289 > target.net.8008: FP 2921:4105(1184) ack 1 win 32120 (DF)
+#######
+  What does the “FP” represent?
+
+A. Final Packet
+B. First Packet
+C. Fin Push
+D. Forward Packet
+
+Correct Answer: C
+
+Explination: The “F” stands for Fin, and the “P” for Push. The words Fin and Push denote what TCP flags were set (for example, Fin, Push, Urg, Syn, Reset, or Ack).
+
+
+QUESTION 37
+
+The director of technology has decided that the company requires an IDS. As the senior security analyst, you recommend Snort. The director requests that you flag any SSH request traffic coming from a known competitor’s network. Examine the following rules and select the one that alerts if traffic originates from the network at 12.34.56.x/24 and is destined for the company’s own web server (IP address 210.67.79.89).
+
+A. alert tcp 210.67.78.89 -> 12.34.56.0/24 80
+B. alert tcp 12.34.56.0 24 -> 210.67.79.89 21
+C. alert tcp 210.67.78.89 80 -> 12.34.56.0/24 any
+D. alert tcp 12.34.56.0 24 -> 210.67.79.89 22
+
+Correct Answer: D
+
+Explination: The Snort rule correctly alerts if an SSH request (over 22/TCP) comes from the network 12.34.56.0/24 to the company web server at 210.67.79.89.
+
+
+QUESTION 38
+
+Users inform a security analyst that network performance is poor. The security analyst takes a quick look at a packet capture to determine if anything is obvious. Based on the capture below what should be the security analyst’s first impression?
+#########################################################
+No. Time        Source      Destination     Info                                Protocal
+1   0.000000    Cisco251    Broadcast       Who has x.x.x.x? tell 24.166.172.1  ARP
+2   0.098598    Cisco251    Broadcast       Who has x.x.x.x? tell 24.166.172.1  ARP
+3   0.110617    Cisco251    Broadcast       Who has x.x.x.x? tell 24.166.172.1  ARP
+4   0.211791    Cisco251    Broadcast       Who has x.x.x.x? tell 24.166.172.1  ARP
+5   0.216744    Cisco251    Broadcast       Who has x.x.x.x? tell 24.166.172.1  ARP
+6   0.307909    Cisco251    Broadcast       Who has x.x.x.x? tell 24.166.172.1  ARP
+7   0.330433    Cisco251    Broadcast       Who has x.x.x.x? tell 24.166.172.1  ARP
+8   0.408556    Cisco251    Broadcast       Who has x.x.x.x? tell 24.166.172.1  ARP
+9   0.455104    Cisco251    Broadcast       Who has x.x.x.x? tell 24.166.172.1  ARP
+10  0.486666    Cisco251    Broadcast       Who has x.x.x.x? tell 24.166.172.1  ARP
+11  0.504694    Cisco251    Broadcast       Who has x.x.x.x? tell 24.166.172.1  ARP
+12  0.510684    Cisco251    Broadcast       Who has x.x.x.x? tell 24.166.172.1  ARP
+13  0.540733    Cisco251    Broadcast       Who has x.x.x.x? tell 24.166.172.1  ARP
+14  0.587308    Cisco251    Broadcast       Who has x.x.x.x? tell 24.166.172.1  ARP
+15  0.662937    Cisco251    Broadcast       Who has x.x.x.x? tell 24.166.172.1  ARP
+
+A. ARP storm
+B. DDoS
+C. DoS
+D. Broadcast storm
+
+Correct Answer: A
+
+Explination: The displayed packet list reveals a barrage of ARP packets. The ARP protocol resolves the hardware or MAC address to an IP address. ARP storms can be caused by malicious tools or by misconfigured network connections (for example, a bridging loop).
+
+
+QUESTION 39
+
+What would be an appropriate tool for analyzing bandwidth consumption on the network?
+
+A. Wireshark
+B. TShark
+C. NetFlow
+D. IDS
+
+Correct Answer: C
+
+Explination: NetFlow Analyzer shows network bandwidth consumption, along with other metrics concerning the network utilization and health.
+
+
+QUESTION 40
+
+Which of the following are key challenges to analyzing wireless networks? (Choose all that apply.)
+
+A. High confidence in the hardware addresses of wireless devices
+B. Recognizing what devices are authorized
+C. Having an inventory of all WAPs
+D. Determining whether the network is in ad-hoc or infrastructure mode
+
+Correct Answer: AB
+
+Explination: A is correct because the hardware or MAC addresses of wireless devices are fairly simple to modify. Most operating systems provide this ability without requiring special software. B is correct because wireless devices are so commonplace that the number of connected devices changes constantly—especially in an environment with a bring-your-own-device (BYOD) policy.
+
+
+QUESTION 41
+
+Currently a company web server is outside the company’s internal network. The web server needs to be available for public access, but the external exposure poses a large, continuous risk. What is the most relevant recommendation for the company to mitigate risk to the web server?
+
+A. Implement a triple-homed firewall.
+B. Utilize IDS on the web server.
+C. Segment the internal network.
+D. Isolate the web server from the network.
+
+Correct Answer: A
+
+Explination: A triple-homed firewall is a firewall with three distinct networks attached—typically the external, the internal, and a DMZ. The DMZ is where the web server would be placed, accessible from the outside but more protected.
+
+
+QUESTION 42
+
+Which of the following are benefits of network segmentation? (Choose 3.)
+
+A. Improving network traffic
+B. Mitigating risk from attackers
+C. Simpler network topology
+D. Preventing spillover of sensitive data
+E. Streamlining access to applications and services
+
+Correct Answer: ABD
+
+Explination: Network segmentation benefits include improving traffic, mitigating network risks, and preventing spillover of sensitive traffic from one network segment to another.
+
+
+QUESTION 43
+
+On occasion, the administrators for the company servers are offsite. However, when required, they need access to the servers on the internal network. What would be your recommendation?
+
+A. Implement a firewall with a port of which only administrators are aware.
+B. Allow administrators to bypass the firewall only if using their own mobile devices.
+C. Configure the web server on the DMZ as a jump server.
+D. Install and configure a stand-alone jump box just inside the firewall.
+
+Correct Answer: D
+
+Explination: A jump box would give administrators special access to the internal network. A jump box should be a stand-alone server, with no unnecessary services or ports open that an attacker could possibly exploit.
+
+
+QUESTION 44
+
+A “captive portal” is an example of which of the following?
+
+A. DAC
+B. In-band NAC
+C. Out-of-band NAC
+D. Role-based NAC
+
+Correct Answer: B
+
+Explination: A captive portal is a form of in-band network access control.
+
+
+QUESTION 45
+
+NAC solutions grant access based on which of the following? (Choose all that apply.)
+
+A. Roles
+B. Rules
+C. Rates
+D. Location
+E. System level patch
+F. Time of day
+
+Correct Answer: ABDEF
+
+Explination: Network access control types include role-based, rule-based, location-based, the system’s health, and the time of day.
+
+
+QUESTION 46
+
+To learn more about today’s threats, a cybersecurity analyst could install a system that appears as a typical server but is available only as a lure for attackers. What is such a system called?
+
+A. Jump server
+B. Intrusion detection system
+C. Honeypot
+D. RBAC box
+E. Micro-segmented server
+
+Correct Answer: C
+
+Explination: The administrator wants a honeypot to lure in attackers in order to learn from their activities.
+
+
+QUESTION 47
+
+Which of the following are direct impacts of employing ACLs? (Choose two.)
+
+A. Controlling access
+B. Restricting malware from spreading
+C. Filtering specific traffic
+D. Enabling direct network routes
+
+Correct Answer: AC
+
+Explination: A is correct because an access control list is primarily for controlling access. C is correct because using ACLs is a primary means of filtering traffic.
+
+
+QUESTION 48
+
+The following text is an example of a what?
+#############
+deny icmp 172.16.0.0 0.15.255.255 192.168.50.0 0.0.0.255
+
+A. Spam filter
+B. Access control list
+C. VPN tunnel setup
+D. IGMP setup
+
+Correct Answer: B
+
+Explination: The string “deny icmp 192.168.50.0 0.0.0.255 172.16.0.0 0.15.255.255” is an access control list that denies ICMP traffic originating from the 192.168.50.0 subnet targeting any addresses between 172.16.0.0 and 172.31.255.255.
+
+
+QUESTION 49
+
+In the following ACL, what does “10.235.235.235” represent?
+##############
+permit tcp 10.15.0.0 0.255.255.255 10.235.235.235 0.255.255.255
+
+A. Subnet mask
+B. Source address
+C. Destination address
+D. The filtered port
+
+Correct Answer: C
+
+Explination: The 10.235.235.235 in the ACL is the destination address.
+
+
+QUESTION 50
+
+When needing a new server, a company administrator starts with installing a pre-built server image. The image has most services running and applications already installed to make the task as easy as possible. As the cybersecurity analyst, what would be your bestrecommendation for the administrator?
+
+A. Rebuild the server image with as few services and applications as possible.\
+B. Rebuild the server image with all services and applications installed but not running.
+C. Create several server images depending on the subnet.
+D. Run a vulnerability scanner on the already-deployed servers.
+
+Correct Answer: A
+
+Explination: Certainly the best recommendation is to rebuild the image to have enabled only the minimum number of services and applications running. Then the administrator would enable or install only what is needed for the particular target system
+
+
+QUESTION 51
+
+Which of the following are the method and purpose of a DNS sinkhole? (Choose two.)
+
+A. Redirecting DNS queries away from a known-malicious server
+B. Providing no DNS resolution responses
+C. Logging DNS resolution requests to determine infected hosts
+D. Logging DNS redirects to determine the infected domain
+
+Correct Answer: AC
+
+Explination: The method of a DNS sinkhole is to redirect DNS queries by infected machines away from a known malware server. The purpose of a DNS sinkhole is to log DNS resolution requests to help identify what other machines are likely infected
+
+
+QUESTION 52
+
+A company has a significant investment in network intrusion detection systems, which are able to inspect traffic with significant speed and reasonable effectiveness. However, a recent incident reveals that employees could use point-to-point encryption to mask data exfiltration. What would be the best recommendation for the company?
+
+A. Upgrade the IDS to an IPS.
+B. Employ endpoint security controls.
+C. Prohibit all uses of encryption.
+D. Replace the suspected employees.
+
+Correct Answer: B
+
+Explination: Endpoint security is a necessary complement to network security. In this case, endpoint security controls would allow inspection of network traffic before it is encrypted
+
+
+QUESTION 53
+
+What type of network access control is being demonstrated below
+####################################################
+device              mac address                 allowed days        allowed time
+Office Printer      00:25:96:FF:FE:12           mon,tue,wed,thu,fri 9am-7pm
+Bills-iphone        0C:0C:0B:14:CD:98           mon,wed,fri         8am-5pm
+Bills-ipad          0C:0C:0B:23:FA:99           mon                 8am-8:15pm
+Beverlys-iphone     0C:0C:0B:14:CD:E7           mon,tue,wed,thu,fri 8am-5pm
+
+A. Role-based
+B. Rule_basedd
+C. Time of day
+D. Loction
+
+Correct Answer: C
+
+Explination: The device restrictions are shown to be based on the allowed days and times.
+
+
+QUESTION 54
+
+Ensuring patches are properly tested and deployed can be a challenging but necessary task. Which of the following statements are true regarding patching? (Choose all that apply.)
+
+A. Patch testing should be done very soon after vendor release.
+B. Before patches are deployed, patches should be carefully tested, staged, and finally rolled out to production.
+C. If done carefully, patches can be tested, staged, and sent to production at the same time.
+D. If time is critical, patches can be tested and staged at the same time.
+
+Correct Answer: ABD
+
+Explination: A is correct because patches should be tested within a short time after their release. B is correct because patches should be tested before being installed on production systems. D is correct because, if time is critical, testing and staging could be done in parallel, but before a patch goes on live production systems.
+
+
+Correct Answer: ABD
+
+Explination: A is correct because patches should be tested within a short time after their release. B is correct because patches should be tested before being installed on production systems. D is correct because, if time is critical, testing and staging could be done in parallel, but before a patch goes on live production systems
+
+
+QUESTION 55
+
+A cybersecurity analyst has identified a significant vulnerability to the company’s payroll server application. The analyst’s recommendation is to immediately patch the vulnerability. Unfortunately, because the application was developed internally and its developer has since left, the application cannot be patched. Without a patch, the analyst has to use other options to lessen the risk. Such options include using a host-based IDS on the application server and additional logging on upstream network devices. What is the term to describe the analyst’s options?
+
+A. Network isolation
+B. Location-based access control
+C. Mandatory access control
+D. Compensating controls
+
+Correct Answer: D
+
+Explination: The options cited are compensating controls, meaning controls put in place because the primary recommendation (patching) was not available or feasible
+
+
+QUESTION 56
+
+What hardening technique can be described as “minimizing the attack surface”?
+
+A. Blocking unused ports and services
+B. Endpoint security
+C. Compensating controls
+D. Role-based access control
+
+Correct Answer: A
+
+Explination: Having fewer running services and open ports means fewer possible vectors for attack. Blocking unused or unnecessary ports and services minimizes the area for potential attack and exploitation.
+
+
+QUESTION 57
+
+What access control model involves granting explicit authorization for a given object, per a given user?
+
+A. Group policies
+B. RBAC
+C. MAC
+D. Role-based
+
+Correct Answer: C
+
+Explination: Mandatory access control requires giving explicit authorization to a given user for a given object. Used rarely outside of military and highly sensitive organizations, the MAC model includes labels for creating levels of access, using the terms Unclassified, Confidential, Secret, and Top Secret.
+
+
+QUESTION 58
+
+What is a technique that allows system administrators to apply configuration changes to several systems at once?
+
+A. NAC
+B. GPO
+C. ACL
+D. IDS
+
+Correct Answer: B
+
+Explination: Group Policy Objects allow Windows system admins to push system changes to several machines at once.
+
+
+QUESTION 59
+
+A company would like for access only to be granted if the employee’s laptop meets a number of criteria. Specific conditions that each laptop must meet include only the approved version of Windows, mail application v2.5 or higher, web browser v8.0, and database application v1.18. Also, each laptop must have no unauthorized storage attached. What access control model would you recommend the company use?
+
+A. Location-based
+B. Rule-based
+C. Role-based
+D. Mandatory access control
+
+Correct Answer: B
+
+Explination: Rule-based access control allows for granting access based on all those criteria. Rules are created to identify and determine all the system health and configuration criteria mentioned
