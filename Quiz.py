@@ -5,7 +5,7 @@
 #                    Created by Nathan P.                      #
 #   Free for all but dont be a dick and remove the credit.     #
 #                                                              #
-#                         v1.0.0                               #
+#                         v1.0.2                               #
 #                          LINUX                               #
 #                                                              #
 #             Now on Malware I mean Windows 10                 #
@@ -33,7 +33,7 @@ def credits():
     sleep(.1)
     print('#                                                              #'.center(int(columns)))
     sleep(.1)
-    print('#                            v1.0.0                            #'.center(int(columns)))
+    print('#                            v1.0.2                            #'.center(int(columns)))
     sleep(.1)
     print('#                             LINUX                            #'.center(int(columns)))
     sleep(.1)
@@ -85,6 +85,7 @@ def enter():
 ##quiz_select
 def quiz_select():
     global quizes
+    global quizes_long
     global quizes_files
     global direct
     global txt
@@ -96,11 +97,13 @@ def quiz_select():
     for i in file_list:
         quizes_files = (directory + '/' +  i)
         titleline = (linecache.getline(quizes_files,int(1))[5:-1])
+        totalline = ('  ' + linecache.getline(quizes_files,int(2))[6:-1])
+        quizes_long.append(titleline + '  ' + totalline.rjust(61 - len(titleline), '-') + 'Q')
         quizes.append(titleline)
         direct[titleline] = quizes_files
 
     while True:
-        for i in quizes:
+        for i in quizes_long:
             print(i.rjust(int(int(columns)/2 - 31 + len(i))))
         print('\n')
         ans = input('Which quiz would you like to take? '.rjust(int(int(columns)/2 + 4)))
@@ -117,6 +120,7 @@ def quiz_select():
 ###function to select the starting question
 def start_q():
     global random_choice
+    global file_len
 #    global ans_bank
     is_it_there = 0
 #    print(yesno_bank)
@@ -128,7 +132,19 @@ def start_q():
             print('INVALID')
             random_choice = input('Randomize Questions? Yes|No  '.rjust(int(int(columns)/2 - 2)))
     global resp
-    resp = input('Starting question:  '.rjust(int(int(columns)/2 -11)))
+    while True:
+        try:
+            resp = int(input('Starting question:  '.rjust(int(int(columns)/2 -11))))
+            if resp < 1:
+                raise ValueError('value too low')
+            elif resp > int(file_len):
+                raise ValueError('value too high')
+            else:
+                break
+        except KeyboardInterrupt:
+            raise
+        except:
+            print('INVALID'.rjust(int(int(columns)/2 -24)))
     global q_num
     q_num = int(resp)
     while is_it_there != 1:
@@ -267,6 +283,7 @@ try:
     random_choice = ''
     file_len = ''
     quizes = []
+    quizes_long = []
     quizes_files = []
     direct = {}
 

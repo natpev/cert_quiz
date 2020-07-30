@@ -1,7 +1,7 @@
 #!/bin/python3
 from os import system
 
-quiz = 'CySA+_questions.txt'
+quiz = 'quiz_files/CySA+_questions.txt'
 resp_bank = ['A','B','C','D','E','F','G','H','I','J','K','L','M','N','O','P','Q','R','S','T','U','V','W','X','Y','Z']
 resp_num = 0
 ans_bank = ['Y','N']
