@@ -1,5 +1,5 @@
 QUIZ:CySA+
-TOTAL:59
+TOTAL:116
 
 QUESTION 1
 
@@ -905,3 +905,860 @@ D. Mandatory access control
 Correct Answer: B
 
 Explination: Rule-based access control allows for granting access based on all those criteria. Rules are created to identify and determine all the system health and configuration criteria mentioned
+
+
+QUESTION 60
+
+At the company where you lead the cybersecurity team, a junior analyst misunderstands risk evaluation. You begin explaining how risk evaluation is performed by assessing probability and impact. You end with explaining the main purpose of risk evaluation as a balance between which of the following factors? (Choose two.)
+
+A. Value of a risk
+B. Potential cost of a risk
+C. Cost of the control to mitigate the risk
+D. Potential annual revenue lost
+E. Probability of a risk occurring
+
+Correct Answer: AC
+
+Explination: The purpose of risk evaluation is to strike a balance between the determined value of a risk and the determined cost of whatever control is used to mitigate the risk.
+
+
+QUESTION 61
+
+What levels of company management can provide authorization to conduct penetration testing? (Choose all that apply.)
+
+A. Director of IT security.
+B. Chief executive officer or a similar senior executive.
+C. Owner(s) of the data.
+D. Most senior cybersecurity analyst.
+E. Approval is optional until testing results show a need for further analysis.
+
+Correct Answer: BC
+
+Explination: Typically in a medium- to large-sized company, a senior executive or the CEO would be aware of and sanction the penetration testing. In much smaller or private environments, the owner of the data, as the most senior person, can make the decision. In any case, strict rules of engagement would be key to approval.
+
+
+QUESTION 62
+
+Guidelines are to be drawn up prior any penetration testing can begin, and they determine the exact nature and scope of the testing. What are these guidelines called?
+
+A. Penetration TTP (Tactics, Techniques, and Procedures) document
+B. ROE (rules of engagement)
+C. Scope and Invoicing document
+D. Discovery
+
+Correct Answer: B
+
+Explination: Having the rules of engagement (ROE) is an absolute necessity before beginning any phase of a penetration test. The ROE determine what is within bounds, out of bounds, with whom to communicate, and so on. Most importantly, the approved rules of engagement function as your “get out of jail free” card, considering that without them, the penetration test is likely illegal.
+
+
+QUESTION 63
+
+The company CEO recently came back from a conference about cybersecurity. He learned that operational control reviews are important to conduct from time to time. The CEO even offered the following answers as ideas to review. Select from the following ideas which are applicable for an operational control review. (Choose all that apply.)
+
+A. Intrusion detection system
+B. RADIUS authentication server
+C. Security awareness training
+D. Acceptable use policy
+
+Correct Answer: CD
+
+Explination: Both the security awareness training and the acceptable use policy (AUP) are examples of operational controls. Operational controls, also called administrative or policy controls, are security controls put into practice from business processes or policies and standards.
+
+
+QUESTION 64
+
+The company has employed the same encryption methods for a considerably long time. As a new security analyst, you question the effectiveness and strength of the encryption.
+What is the best recommendation for how to proceed?
+
+A. Conduct a technical control review of encryption as a technical control.
+B. Conduct an operational control review of encryption as an operational control.
+C. Perform a risk assessment of the encryption strength.
+D. Perform a vulnerability assessment of a server and the data now encrypted.
+
+Correct Answer: A
+
+Explination: Encryption is a technical control. Conducting a technical control review is the best course of action when the long-term effectiveness of a technical control comes into question.
+
+
+QUESTION 65
+
+The idea of examining a finished product in order to determine what its parts are and how they work together is called what?
+
+A. Process isolation
+B. Sandboxing
+C. Reverse engineering
+D. Risk evaluation
+
+Correct Answer: C
+
+Explination: Taking a finished product apart in order to determine what its parts are and how they work is called reverse engineering.
+
+
+QUESTION 66
+
+A company hires an outside penetration testing team. A scope is agreed upon, dictating what systems may be involved and what systems may not. The penetration team proceeds with its tasks, all the way up to exploitation, when suddenly a production server is knocked offline. With the possible exception of the authorization, what aspect of penetration testing is now the most critical?
+
+A. Reconnaissance
+B. Exploitation
+C. Communication
+D. Reporting
+
+Correct Answer: C
+
+Explination: Communication is critically important for a penetration test, especially during a crisis, as described.
+
+
+QUESTION 67
+
+The act of using a one-way function to create a unique, fixed-length value from a variable-length file or string of data is called what?
+
+A. Fingerprinting or hashing
+B. Decomposition
+C. Qualitative analysis
+D. Reverse engineering
+
+Correct Answer: A
+
+Explination: The process to take a string of data or any file of any length through a one-way function to produce a unique fixed-length value is called fingerprinting or hashing.
+
+
+QUESTION 68
+
+Reverse engineering is done on counterfeit hardware, but what is far more often the object being taken apart?
+
+A. OEM hardware
+B. Software or malware
+C. Applications developed in-house 
+D. Sandboxed network devices
+
+Correct Answer: B
+
+Explination: The typical object being reverse engineered is a piece of software that’s suspected to be or identified as malware
+
+
+QUESTION 69
+
+During an extensive review of military assets, a cybersecurity analyst discovered that at least one piece of hardware was counterfeit. Although there were no issues that made the counterfeit hardware seem suspicious, there remains a question about expected quality and unknown hidden “features.” It was later revealed that the hardware was purchased from a different manufacturer than the one normally used. What is the primary issue at fault here?
+
+A. OEM documentation
+B. Trusted foundry
+C. Poorly executed technical control review
+D. Source authenticity
+
+Correct Answer: D
+
+Explination: The primary issue is an absence of source authenticity, or assurance that the source of the asset is reputable and authentic.
+
+
+QUESTION 70
+
+At the conclusion of a penetration test, what phase involves communicating to management about the results and lessons learned?
+
+A. Exploitation
+B. Reporting
+C. Authorization
+D. Lateral movement
+
+Correct Answer: B
+
+Explination: The phase of penetration testing that involves communicating results and lessons learned to management is called reporting.
+
+
+QUESTION 71
+
+On what type (or types) of training exercises do red, blue, and white teams perform?
+
+A. Tabletop exercises
+B. Tabletop and live-fire exercises
+C. Live-fire exercises and Tactics, Techniques, and Procedural
+D. Live-fire exercises
+
+Correct Answer: B
+
+Explination: The teams referred to as “red,” “blue,” and “white” are used during both live-fire exercises and table-top exercises.
+
+
+QUESTION 72
+
+In live-fire exercises, three teams play different roles. The first team performs as the exercise moderator, documenting and evaluating the progress of the other two teams. The second team functions as attackers, reconnoitering and exploiting the corporate environment. Finally, the third team is composed of the “good guys,” protecting the environment and countering the activities of the second team. When these teams perform together, this exercise can produce a great deal of lessons learned and actions (hopefully) to better protect the network. From the following answers, select the team color order associated with the respective teams described.
+
+A. White, blue, red
+B. Red, blue, white
+C. Blue, white, red
+D. White, red, blue
+E. Red, white, blue
+F. Blue, red, white
+
+Correct Answer: D
+
+Explination: The correct team color order is white, red, and blue (that is, the moderators, attackers, and defenders, respectively).
+
+
+QUESTION 73
+
+When a company is ready to challenge its cybersecurity team in order to determine its strengths and weaknesses, as well as to identify through a “live-fire” exercise what risks should be addressed next, the company would sanction a what?
+
+A. Penetration testing
+B. Security awareness training
+C. Risk evaluation
+D. Hardware review
+
+Correct Answer: A
+
+Explination: Penetration testing is the process whereby a company seeks to test and challenge its cybersecurity team with a simulated attack.
+
+
+QUESTION 74
+
+Both qualitative analysis and quantitative analysis are approaches to evaluate what aspects of a risk? (Choose two.)
+
+A. Potential monetary loss to the company
+B. Likelihood of the risk occurring
+C. Severity of impact of the realized risk
+D. Material exposure
+
+Correct Answer: BC
+
+Explination: The likelihood of a risk occurring and the impact severity are the two aspects of any risk.
+
+
+QUESTION 75
+
+Which of the following are valid concerns when considering the timing of penetration testing? (Choose 3.)
+
+A. Availability of the defenders to react to attacks
+B. Impact on business operations during normal hours
+C. Availability of executive management for reporting
+D. Size and scope of the penetration test
+
+Correct Answer: ABD
+
+Explination: The timing of a penetration test is guided by several factors. The most important of those factors are the size and scope of the test, the availability of the cybersecurity staff, and the potential impact on production systems.
+
+
+QUESTION 76
+
+An organization owns systems that are to be probed during a penetration test. Some of the systems intended for testing are production systems containing protected health information (PHI). What aspect of penetration testing is most in jeopardy of breaking the law due to regulatory compliance?
+
+A. Timing
+B. Scope
+C. Exploitation
+D. Reconnaissance
+
+Correct Answer: B
+
+Explination: The scope of the penetration testing is largely defined by which systems are to be tested, and which systems are not to be tested. The system containing PHI cannot be included within the scope of to-be-tested systems. If penetration testers were to successfully probe for and exfiltrate healthcare information, it would be in violation of federal law.
+
+
+QUESTION 77
+
+From all the penetration testing phases listed, select the phase that can be described as the riskiest and one where the situation can turn into a crisis most quickly.
+
+A. Reconnaissance
+B. Exploitation
+C. Timing
+D. Report to management
+E. Scope
+
+Correct Answer: B
+
+Explination: The process of exploitation during a penetration test can be and often is quite risky. Penetration testers plan and prepare as much as possible for such events, but occasionally systems can give unanticipated responses. This is why authorization is of paramount importance.
+
+
+QUESTION 78
+
+A company needs a vulnerability scan performed on its internal network. After the company consults with an external cybersecurity analyst, the analyst immediately begins drafting a contract to outline conditions to be met for the scan. These conditions include limiting who is allowed to view the results, specifying what servers and data must not be accessed under any circumstances, and satisfying the company’s need for two types of scans to be done quarterly. Which of the following is the most likely reason behind these conditions?
+
+A. Regulatory requirements
+B. Security policy
+C. Analyst’s recommendation
+D. Past experience deems the contract prudent
+
+Correct Answer: A
+
+Explination: Regulatory requirements are by far the most likely driver of the contract. The conditions stated are examples of regulatory requirements.
+
+
+QUESTION 79
+
+Regulatory requirements can specify the need for vulnerability scanning when a company is in the financial or health industry. However, what best specifies vulnerability scanning as a requirement without regulatory requirement?
+
+A. CISO mandate
+B. Local and/or national legislation
+C. Corporate policy
+D. NIST 800-53
+
+Corrrect Answer: C
+
+Explination: Corporate policy is the most likely internal source of such requirements
+
+
+QUESTION 80
+
+What is a technique that allows a company to vary resources spent toward protecting data according to a set value?
+
+A. Data encryption
+B. Data classification
+C. Data criticality
+D. Data storage location
+
+Correct Answer: B
+
+Explination: Data classification provides a method of allocating resources in varying amounts based on the criticality or sensitivity of the data.
+
+
+QUESTION 81
+
+With regard to asset inventory, how would a cybersecurity analyst classify assets such as financial systems, intellectual property, and a customer-facing ordering system?
+
+A. Noncritical
+B. Sensitive
+C. Credentialed
+D. Critical
+
+Correct Answer: D
+
+Explination: Those asset examples should be deemed critical, versus noncritical.
+
+
+QUESTION 82
+
+When a company is developing a vulnerability management plan, its assets must be inventoried. Which of the following asset types would be included? (Choose all that apply.)
+
+A. Noncritical
+B. Critical
+C. Critical only
+D. On-site and assets of partners and suppliers
+
+Correct Answer: AB
+
+Explination: Critical and noncritical assets both should be inventoried when developing a vulnerability management plan
+
+
+QUESTION 83
+
+The frequency with which a company performs vulnerability scanning is dependent upon which of the following criteria? (Choose all that apply.)
+
+A. Scanning policy
+B. Vulnerability management planning
+C. Risk appetite
+D. Regulatory requirements
+E. Limitations of time, tools, and personnel
+
+Correct Answer: ABCDE
+
+Explination: All of those criteria are important factors in determining vulnerability scanning frequency.
+
+
+QUESTION 84
+
+The cybersecurity analyst must consider several factors when determining vulnerability scanning frequency. Criteria such as network bandwidth, systems’ CPU capacity, and number of qualified personnel are examples of which of the following?
+
+A. Soft restrictions
+B. Regulatory requirements
+C. Technical constraints
+D. Budgetary limitations
+
+Correct Answer: C
+
+Explination: These are examples of technical constraints
+
+
+QUESTION 85
+
+Apart from policies and regulatory requirements, what creates the largest impact on establishing an effective vulnerability scanning process?
+
+A. Regular routine and workflow of personnel
+B. Management style of the IT director or head of security
+C. Mandates from the chief of information security
+D. Personal whims of the CEO
+
+Correct Answer: A
+
+Explination: The regular routine of personnel has a huge enabling impact on vulnerability scanning and management.
+
+
+QUESTION 86
+
+When a company is configuring tools to perform vulnerability scans, which of the following would be the earliest step?
+
+A. Choosing the tool plug-ins
+B. Generating reports
+C. Establishing permissions and scanning credentials
+D. Establishing scanning criteria
+
+Correct Answer: D
+
+Explination: Establishing scanning criteria would come before the other options.
+
+
+QUESTION 87
+
+A cybersecurity analyst is performing a vulnerability scan of a few systems, including a server processing protected health information (PHI). The scan of all servers completed successfully, with no interruption of service. To demonstrate proof of weaknesses found during the vulnerability scan, the analyst manages to exfiltrate documents from each server. Which of the following specifications of vulnerability scanning did the analyst likely breach?
+
+A. Using credentials when a noncredentialed scan would suffice.
+B. No vulnerability feed was evidenced.
+C. Permissions set incorrectly.
+D. Considering the sensitivity of the data on the scanned systems.
+E. Using agents when a server-based scan would suffice.
+
+Correct Answer: D
+
+Explination: The sensitivity of the data, particularly the PHI, means no exfiltration can happen.
+
+
+QUESTION 88
+
+Which of the following reasons are valid arguments for using server-based vulnerability scanning instead of agent-based scanning? (Choose 2.)
+
+A. Erratic connectivity to remote and mobile devices
+B. Limited bandwidth
+C. Limited personnel availability for maintenance
+D. Occasional rogue device connecting to the network
+
+Correct Answer: CD
+
+Explination: Less availability of security staff to maintain the scanning agents would be a vote in favor of server-based scanning. Also, a server-based architecture would scan the entire network space and thus be able to detect rogue devices without an agent being installed.
+
+
+QUESTION 89
+
+When it comes time to execute a vulnerability scan, what are optional tools you might use to launch it? (Choose 2)
+
+A. Nessus
+B. Burp Suite
+C. OpenVAS
+D. Vega
+E. FTK
+F. Nikto
+
+Correct Answer: ACF
+
+Explination: Nessus, Open Vulnerability Scanner, and Nikto are all top-rate vulnerability scanning tools, with varying levels of options, detailed analysis, and reporting.
+
+
+QUESTION 90
+
+After you complete your vulnerability scan, creating heaps of output, you need to prepare a report. What are your options?
+
+A. As vulnerability tools rarely generate reports, there’s no need for a report.
+B. It’s common to pipe vulnerability tool output to a report generation tool.
+C. Nearly all vulnerability scanners generate standardized reports via XML.
+D. Every vulnerability tool generates some kind of report, but not using a standardized format.
+
+Correct Answer: D
+
+Explination: Essentially every vulnerability scanner has a way of reporting on the results. Whereas some send output to the screen, others can package results in a PDF, CSV, XML, or other format
+
+
+QUESTION 91
+
+It’s time to deliver a vulnerability report to the stakeholders. What are your options for distribution? (Choose 2)
+
+A. Automated delivery via the report generation component of the vulnerability scanner
+B. Delivered entirely via e-mail to all administrators
+C. Delivered manually, through face-to-face meetings
+D. E-mailing only the portions immediately relevant to the individual
+
+Correct Answer: AC
+
+Explination: There are two ways to distribute scan results: automated and manual distribution. Some vulnerability tools possess the means to automatically distribute reporting. Still, for the sake of confidentiality, delivering via a face-to-face meeting is preferred, if practical.
+
+
+QUESTION 92
+
+What remediation step requires careful discussion concerning the scan results, with the goal of satisfying both the concerns of technical staff and the organization’s business objectives?
+
+A. Validation of the results
+B. Prioritization of the results
+C. Distribution of the results
+D. Categorization of the results
+
+Correct Answer: B
+
+Explination: Prioritization is the goal—that is, to discuss the results and decide on the next steps in remediation. Far too often results can be overwhelming if the focus is to “fix everything now.”
+
+
+QUESTION 93
+
+The chief information security officer is among many at a meeting about the vulnerability scan results. Everyone has the same table, shown below.The discussion is focused on how to order the findings to remediate. The cybersecurity analyst focuses on criticality, wanting to fix the findings in the order shown: A, B, C, then D. The CISO instead wants the remediation order to be C, B, A, then D. What aspect caused the CISO to change the order of remediation?
+#################################################
+Finding:	Risk:		Effort to Fix:		Cost:
+A			High		7 Months			$4500
+B			Medium		2 Weeks				$1000
+c			Medium		1 Week				$8500
+D			Low			1 Month				$6000
+#################################################
+
+A. Criticality
+B. Cost
+C. Effort to fix
+D. Alphabetical
+
+Correct Answer: C
+
+Explination: Based on the order the CISO prefers (C, B, A, D), it seems difficulty of implementation is the guiding factor. A good strategy is to follow up on the “low-hanging fruit,” or perform fairly simple remediation first.
+
+
+QUESTION 94
+
+Patching is an important preventative control in ensuring a system’s security. Patches generally improve the stability of a system and, in the case of security patches, remediate a vulnerability. However, on the rare occasion a patch gets released that opens up a different vulnerability, perhaps more severe than the weakness the patch originally aimed to strengthen. What is the suggested method for mitigating the risk of an errant patch?
+
+A. Communicate directly with the patch vendor.
+B. Wait for others to install the patch, in case of bad news.
+C. Have a safe environment as a sandbox for testing patched systems.
+D. Don’t install patches.
+
+Correct Answer: C
+
+Explination: Patching is necessary, but there are rare times when patching goes bad. Always have a sandbox or testing stage for monitoring the effect of patches on systems.
+
+
+QUESTION 95
+
+After the results of a vulnerability scan were prioritized into remediation steps, a company’s cybersecurity team began working on implementing those steps. All systems that were affected by the remediation team continued operating as expected, except for one. One server’s application stopped functioning, no longer able to reach others systems. The system owner could not figure out why or how the system just stopped working. What overall process seems most at fault here?
+
+A. Communication/change control
+B. Patching/remediation
+C. Business continuity
+D. Systems administration
+
+Correct Answer: A
+
+Explination: Communication and practicing proper change control are very likely the cause for the unexpected application disconnect. Whether a previously open network port was closed or a service deemed unnecessary was shut down is in the past. Change control, if done correctly, should have alerted the systems owner to changes impacting the application.
+
+
+QUESTION 96
+
+A cybersecurity analyst is hired by a company to conduct a vulnerability scan on its servers. In the process of scanning a particular server, the analyst comes across evidence that suggests the system has a great many open vulnerabilities. What should the analyst do to properly respond to this?
+
+A. Speak to the CISO in confidence about the server.
+B. Speak to the internal information security team.
+C. Consult the MOU or ROE.
+D. Write up a formal SLA specific that that server.
+
+Correct Answer: C
+
+Explination: The memorandum of understanding (MOU), or scope of the vulnerability scan, would include details on how to respond to finding evidence. The rules of engagement (ROE) should also specify detailed expectations on interacting with systems. The MOU and ROE contain the answers to questions such as “What do we do now?”
+
+
+QUESTION 97
+
+Soon after prioritizing remediation steps, the team receives an unexpected memo from executive management. The chief information officer now expresses concerns that remediation will have unforeseen effects on operations, and therefore would like the team to delay its efforts and further discuss evaluating the risks. Which terms describe the source of the memo as well as the source of the problem? (Choose two.)
+
+A. Business process interruption
+B. Corporate governance
+C. Continuous monitoring
+D. Service level agreement
+
+Correct Answer: AB
+
+Explination: This issue hits on corporate governance and its influence on the remediation team, as well as on business process interruption, or the tendency of upper management to be a drag on remediation efforts based on fear of instability in operations.
+
+
+QUESTION 98
+
+What term is used to describe a contract made between units within an organization (for example, between IT and HR) to outline the service expectations, including roles and responsibilities?
+
+A. MOU
+B. SLA
+C. IOU
+D. ROE
+
+Correct Answer: B
+
+Explination: A service level agreement (SLA) is a contract between units within an organization, or even between an organization and third party, to specify the service’s availability, response, and other expectations.
+
+
+QUESTION 99
+
+For years, vulnerability scanning tools output their findings with no standardization, resulting in an array of reporting styles, inconsistent levels of detail, and no guarantee a particular element was included. This was tolerated until the demand for policy compliance pushed vendors and NIST to form a solution to this problem. What was the result?
+
+A. FISMA
+B. NIST 800-53
+C. SCAP
+D. ARF
+E. CVE
+
+Correct Answer: C
+
+Explination: SCAP, or Security Content Automation Protocol, is a product of NIST and industry leaders that provides some standardization around how vulnerability reporting is presented and managed
+
+
+QUESTION 100
+
+When you’re configuring vulnerability scanners, what most influences the types of data you will gather? (Choose 3)
+
+A. The tool’s capabilities
+B. Regulatory requirements
+C. Scope
+D. SCAP
+
+Correct Answer: ABC
+
+Explination: A is correct because a vulnerability scanner’s capabilities by definition influence what the tool can do and gather. B is correct because the regulatory requirements of the company to be scanned would influence what data you seek to collect, in order to determine compliance. C is correct because what the company deems “in scope” will impact what types of data are gathered
+
+
+QUESTION 101
+
+A company is starting the process of remediating issues discovered in a vulnerability scan. One of the more severe vulnerabilities was found on a server that happens to contain highly sensitive data and is business critical. The vulnerability would permit exfiltration of the sensitive data across the network. A possible remediation would be implementing DLP. However, being such an important system, its remediation was halted by the chief information officer. In the context of degrading functionality, what might be a good course of action?
+
+A. Do not implement DLP, but do place a sniffer upstream to monitor for exfiltration. Inform the CIO.
+B. Cease and desist remediation.
+C. Resume remediation after the CIO goes home for the day.
+D. Discuss with the CEO.
+E. Check to confirm that the CIO is not on the ROE and then proceed with the original remediation.
+
+Correct Answer: A
+
+Explination: Just because the CIO demands that remediation stop, this does not erase the responsibility to mitigate the risk. If the original steps are called off due to impacting the server’s operation, then compensating controls such as implementing data loss prevention (DLP) and/or an intrusion detection system (IDS) would lessen the exposure
+
+
+QUESTION 102
+
+The terms “ongoing scanning” and “continuous monitoring” refer to what in the context of vulnerability scanning?
+
+A. Simultaneous scanning and monitoring during a scheduled vulnerability scan
+B. Scanning occurring regularly, such as daily
+C. Agent-based scanning, instead of server-based, to provide continual availability
+D. Full-time staff available to perform vulnerability scanning as needed
+
+Correct Answer: B
+
+Explination: Ongoing scanning and continuous monitoring refer to having scanning being a part of the company’s routine operation. Daily is suggested as an optimal frequency, if it can be noninvasive to the environment, because it’s very responsive to newly discovered vulnerabilities
+
+
+QUESTION 103
+
+What vulnerability scanner provides its own scripting language with which to customize plug-ins?
+
+A. Klaatu
+B. Barada
+C. Necturn
+D. Nikto
+E. Nessus
+
+Correct Answer: E
+
+Explination: Okay then, that’s it—Nessus has NASL, the Nessus Attack Scripting Language. Nessus plug-ins are written in NASL. This allows you to configure Nessus to perform the scan exactly as your specifications require
+
+
+QUESTION 104
+
+Which of the following would be an inhibitor to remediation?
+
+A. Organizational governance
+B. NASL
+C. SCAP
+D. CSF
+
+Correct Answer: A
+
+Explination: Organizational governance can sometimes impede remediation efforts, based on senior management wanting to ensure operations suffer no unexpected outages
+
+
+QUESTION 105
+
+Which of the following is a well-known framework for quantifying severity or the criticality of vulnerabilities?
+
+A. OpenVAS
+B. CVE
+C. CVSS
+D. CSV
+
+Correct Answer: C
+
+Explination: The CVSS, or Common Vulnerability Scoring System, is a framework for standardizing ratings for vulnerabilities, including severity.
+
+
+QUESTION 106
+
+What aspect about performing a noncredentialed vulnerability scan is not as common as when performing a credentialed vulnerability scan?
+
+A. Higher level of detail
+B. Higher number of false positives
+C. Higher number of true negatives
+D. Higher number of verifiable results
+
+Correct Answer: B
+
+Explination: A noncredential scan produces more false positives, takes more network bandwidth, and would produce fewer verifiable results.
+
+
+QUESTION 107
+
+When configuring a vulnerability scanning tool, you may utilize at least one additional vulnerability feed beyond the product’s own source. Selecting a feed that matches your needs is important. Which of the following will most influence your selection of vulnerability feed?
+
+A. Scanning frequency
+B. Company policy
+C. Regulatory requirements
+D. Senior management risk appetite
+
+Correct Answer: A
+
+Explination: The scanning frequency most affects your vulnerability feed needs. Vulnerability feeds differ in a number of ways, such as providing only analyzed vulnerabilities versus vulnerabilities as they are discovered, or vulnerabilities every few hours versus within minutes
+
+
+QUESTION 108
+
+A B2B health information exchange provider has hired a new cybersecurity team to perform a vulnerability scan. A junior analyst eager to make a good impression raises the point that PCI DSS standard requirement 11.2 directly affects vulnerability scanning. What specific aspect of this scan will the analyst’s reference affect?
+
+A. Scope
+B. Frequency
+C. Sensitivity
+D. DAR encryption
+E. None of the above
+
+Correct Answer: E
+
+Explination: Being a health information exchange, operating between businesses, it’s very unlikely to be operating as a credit card merchant on any level. Therefore, there’s no issue with maintaining PCI DSS compliance. (Sorry for the trick question.)
+
+
+QUESTION 109
+
+At the earliest stages of a vulnerability scan, which of the following would be the first step?
+
+A. Draft the ROE.
+B. Identify the requirements.
+C. Sign the MOU.
+D. Configure the scanning tool.
+
+Correct Answer: B
+
+Explination: The first step is to identify requirements. From there, a memorandum of understanding can be signed. Upon further detailing the engagement expectations, the rules of engagement can be established. Then it’s tool-configuration time
+
+
+QUESTION 110
+
+A hospital is interested in having an external ASV perform a vulnerability scan, from the perspective of an attacker. What is the scanning criteria that most satisfies the hospital’s needs?
+
+A. Agent-based, instead of server-based
+B. Minimum of two vulnerability feeds
+C. Extreme care for scope to avoid accessing PHI
+D. Noncredentialed scan, instead of credentialed
+
+Correct Answer: D
+
+Explination: Choosing to run a noncredentialed scan causes the vulnerability scan to report with results that most closely resemble what an attacker would see
+
+
+QUESTION 111
+
+What is the most important reason why vulnerability tools require feeds and updates?
+
+A. If the tool is unaware of a vulnerability, it cannot detect the vulnerability.
+B. Without updates, the tool reports more false negatives.
+C. Vulnerability tools come with a vendor-provided feed. No extra feed is required.
+D. If a tool receives no updates, regulatory compliance scans may be outdated.
+
+Correct Answer: A
+
+Explination: Similar to other signature-based products like antivirus and intrusion detection systems, a vulnerability scanning tool is only capable of scanning for what it’s aware of.
+
+
+QUESTION 112
+
+A security team was hired to conduct a large-scale vulnerability scan at multiple sites. The team begins at the smallest facility. In the process of launching the vulnerability scanner, an analyst soon gets word that users are starting to complain the network seems slow or unreliable. What might likely be the cause of the problem?
+
+A. Sensitivity level
+B. Risk appetite
+C. Permissions
+D. Technical constraints
+
+Correct Answer: D
+
+Explination: Experiencing a sluggish network given a large vulnerability scan launched at a small facility seems to point to technical constraints.
+
+
+QUESTION 113
+
+What is a benefit of utilizing a cloud-based web application security scanner, versus scanning at the site?
+
+A. Less network perimeter traffic.
+B. More control on the hardware.
+C. Less operations and maintenance.
+D. Frequency can be half as often when launched from the cloud.
+
+Correct Answer: C
+
+Explination: Cloud-based scanning also transfers maintenance to the scanning provider.
+
+
+QUESTION 114
+
+Prioritizing vulnerabilities is made standard and fair given the Common Vulnerability Scoring System (CVSS). The CVSS ranks vulnerabilities on a 10-point scale using an equation based on several metrics. Which of the following is not a group of metrics used in scoring vulnerabilities?
+
+A. Attack Complexity/Attack Vector/Privileges Required/User Interaction
+B. Confidentiality Impact/Integrity Impact/Availability Impact
+C. Exploit Code Maturity/Remediation Level/Report Confidence
+D. Exploit Age/Attack Speed/Ease of Exploitation
+
+Correct Answer: D
+
+Explination: Exploit age, attack speed, and ease of exploitation not actual named factors
+
+
+QUESTION 115
+
+In the process of working with a vulnerability scanning tool, which of the following shows the correct order of steps?
+
+A. Requirements identification, scan execution, report distribution, report generation
+B. Requirements identification, scan execution, report generation, report distribution
+C. Requirements identification, scan execution, report distribution, report generation
+D. Requirements identification, report generation, scan execution, report distribution
+
+Correct Answer: B
+
+Explination: The correct order is, of course, requirements identification, scan execution, report generation, report distribution.
+
+
+QUESTION 116
+
+At the retailer S-Mart, a security analyst named Ash is familiar with dealing with local nefarious characters trying to exploit the point-of-sale (POS) machines. The POS machines are required for the retailer to operate. Further, data in the POS systems includes financial transaction information. Ash is now developing a data classification system and asset inventory. How should Ash classify S-Mart’s POS machines and the data held inside them?
+
+A. Information: private, Asset: critical
+B. Information: private, Asset: noncritical
+C. Information: public, Asset: critical
+D. Information: proprietary, Asset: noncritical
+
+Correct Answer: A
+
+Explination: The data should be classified as private, meaning its disclosure could cause privacy issues. The POS system is required for the business to operate, so it is a critical asset.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+left off at chapter 6
+
