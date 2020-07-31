@@ -1,5 +1,9 @@
 #!/bin/python3
+import signal
 from os import system
+
+signal.signal(signal.SIGINT, signal.SIG_IGN)
+signal.signal(signal.SIGTSTP, signal.SIG_IGN)
 
 quiz = 'quiz_files/CySA+_questions.txt'
 resp_bank = ['A','B','C','D','E','F','G','H','I','J','K','L','M','N','O','P','Q','R','S','T','U','V','W','X','Y','Z']
@@ -73,4 +77,4 @@ try:
                 myfile.write('\n\nExplination: ' + expl)
             clear()
 except:
-    print('\n\n\nSTOPED')
+    pass

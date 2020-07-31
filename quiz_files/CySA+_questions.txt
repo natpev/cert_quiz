@@ -1,5 +1,5 @@
 QUIZ:CySA+
-TOTAL:116
+TOTAL:152
 
 QUESTION 1
 
@@ -1726,39 +1726,510 @@ Correct Answer: A
 Explination: The data should be classified as private, meaning its disclosure could cause privacy issues. The POS system is required for the business to operate, so it is a critical asset.
 
 
+QUESTION 117
+
+What are the most important types of results to identify from a vulnerability scan report? (Choose two.)
+
+A. False positives
+B. False negatives
+C. Policy validation
+D. Exceptions to policy
+
+Correct Answer: AD
+
+Explination: The two early results to identify in a scan report are false positives and policy exceptions. After factoring out false positives (those that seem like a vulnerability but are not) and policy exceptions (those that are authorized), then the remaining vulnerabilities need responses.
 
 
+QUESTION 118
+
+What is the main purpose of the report after a vulnerability scan is complete?
+
+A. It is to be analyzed by the cybersecurity team responsible for the scan.
+B. It is used to evaluate the team responsible for the target environment.
+C. It is included in the full report given to executive management.
+D. It is used as a baseline for future vulnerability scans.
+
+Correct Answer: A
+
+Explination: The first goal is to analyze the report. That is done by the team responsible for the scan
 
 
+QUESTION 119
+
+A report outcome that at first seems suspicious but later proves to be neutral is called a what?
+
+A. False negative
+B. True positive
+C. True negative
+D. False positive
+
+Correct Answer: D
+
+Explination: A false positive is a result that seems suspicious or valid at first, but when later investigated is deemed not an issue. 
 
 
+QUESTION 120
+
+When it comes to prioritizing report outcomes, which of the following would you consider when deciding on response actions? (Select 2)
+
+A. True negatives
+B. False positives
+C. Policy exceptions
+D. Validated vulnerabilities
+
+Correct Answer: AD
+
+Explination: True negatives (genuine, reported vulnerabilities) will be evaluated for responses. The same goes for validated vulnerabilities.
 
 
+QUESTION 121
+
+Vulnerability scanning does not always return reliable and accurate results. The results depend heavily on the systems being scanned. Which of the following systems would be the least likely to be identified and return genuine scan results? (Choose two.)
+
+A. CCTV camera, web-enabled with embedded Apache
+B. An open source firewall, customized by the scan target client
+C. Windows 2012 server, missing three months of patches and the latest Service Pack
+D. Novell NetWare 6.5
+
+Correct Answer: AB
+
+Explination: Devices with embedded Apache server or lightweight versions of Linux tend to be especially challenging targets. Likewise, the firewall, customized by the customer, might present a unique profile to the scanner.
 
 
+QUESTION 122
+
+Alongside results in the scan report, it’s common to see references to external sources such as OSVDB and NVD. What is the reason for vulnerability scanners to include information from those databases?
+
+A. The sources provide validation to the scan results.
+B. The sources offer additional information and possibly mitigating actions.
+C. The sources provide links to upload sanitized data from the scan.
+D. The sources specify whether a result is a false positive or a genuine vulnerability.
+
+Correct Answer: B
+
+Explination: These databases provide additional information and sometimes even mitigating solutions.
 
 
+QUESTION 123
+
+What is primary value of STIGs and NSA guides?
+
+A. They are a source of “best practice” principles.
+B. They are a proven source of vulnerability validation steps.
+C. They provide checklists detailing regulatory compliance.
+D. They specify configuration steps for secure networking.
+
+Correct Answer: A
+
+Explination: The STIGs (Security Technical Implementation Guides) and NSA guides are configuration guides on how to harden government information systems; hence, they provide excellent reference for “best practices.”
 
 
+QUESTION 124
+
+Which of the following are good sources of validating scan results? (Choose 2)
+
+A. Interviewing the system’s owner
+B. Reviewing the system’s event log
+C. Comparing against past vulnerability reports and results
+D. Examining system and network data such as open ports and services
+
+Correct Answer: DB
+
+Explination: Reviewing the system’s logs is a good way of actually validating results. Also, checking system- and network-related data such as what ports are open or what services are actually running is another method for validating report results.
 
 
+QUESTION 125
+
+What method allows the internal security team to tailor threat mitigation strategies, evaluate how effective those strategies are, and see the change of controls over time?
+
+A. Comparing a system against similar systems in the environment
+B. Comparing the current system against the original image, when available
+C. Comparing the system’s trend in reported vulnerabilities
+D. Comparing the results with the system’s logs
+
+Correct Answer: C
+
+Explination: Comparing the system over time, or how the vulnerabilities trend, is a likely feature in the vulnerability scanner.
 
 
+QUESTION 126
+
+What is best described as comparing a scan report against the personal and documented notes of the scan operator? Such notes would include scanning steps as well as observations around the scan devices’ configuration and operation.
+
+A. Trending the results
+B. Validating the results
+C. Reconciling the results
+D. Managing the results
+
+Correct Answer: C
+
+Explination: Reconciling results involves comparing the scan report findings with the scan operator’s notes and observations. It is critical to take detailed notes; these are invaluable for verifying and validating the report.
 
 
+QUESTION 127
+
+What type of scanning target would commonly have vulnerabilities due to the existence of unnecessary services and open ports?
+
+A. IDS
+B. SCADA device
+C. VPN
+D. Server
+
+Correct Answer: D
+
+Explination: A common vulnerability in servers is having unnecessary services running or open ports
 
 
+QUESTION 128
+
+For which type of scanning target is it particularly easy to show duplicate vulnerabilities?
+
+A. VPN
+B. Virtual infrastructure
+C. Mobile device
+D. SCADA device
+
+Correct Answer: B
+
+Explination: A virtual infrastructure such as a virtual machine (VM) starts with a VM image. VMs are far more easily copied and replicated. A vulnerability in the origin VM image is simply copied to the replicated VMs, making vulnerabilities easily duplicated across many machines.
 
 
+QUESTION 129
+
+A vulnerability found in a hypervisor threatens the security of what devices? (Choose two.)
+
+A. Endpoint
+B. Host server
+C. Virtual machine
+D. Network device
+
+Correct Answer: BC
+
+Explination: The hypervisor sits between a host server and the virtual machines. Therefore, a vulnerability in the hypervisor can potentially affect both host and guest machines.
 
 
+QUESTION 130
+
+A cybersecurity analyst is briefing the CEO on the encrypted nature of VPNs. The CEO, understanding how well VPNs protect confidentiality, asks what their primary vulnerability is. What should be the cybersecurity analyst’s response?
+
+A. VPNs connect external devices to the internal network.
+B. VPNs mask network traffic from monitoring.
+C. VPN encryption is difficult to configure.
+D. VPNs have no vulnerabilities.
+
+Correct Answer: A
+
+Explination: VPNs can introduce vulnerabilities because they connect unsecured devices to the protected, internal network
 
 
+QUESTION 131
+
+An attacker seeks to enter a protected corporate network. Fortunately, the company’s cybersecurity team has locked down the network well. Instead, the attacker discovers an open port in a maintenance-related network. Moving laterally, the attacker then moves onto the protected network. What is the source of the vulnerability overlooked by the cybersecurity team?
+
+A. VPN connection
+B. Virtualized switch
+C. No encryption on either network
+D. Interconnected networks
+
+Correct Answer: D
+
+Explination: Networks that are unrelated but connected can provide pathways for persistent attackers. Interconnected networks are an often-overlooked vulnerability
 
 
+QUESTION 132
+
+What type of scanning target would commonly have vulnerabilities due to limitations imposed by carriers?
+
+A. Mobile device
+B. Virtual network infrastructure
+C. Server
+D. Industrial control system
+
+Correct Answer: A
+
+Explination: Mobile device owners can find they are limited by their carrier in terms of upgrading or updating their operating systems
 
 
+QUESTION 133
+
+What is a source of vulnerabilities for essentially all devices?
+
+A. No encryption
+B. Patch updates and upgrades
+C. Low memory and/or storage space
+D. Policy exceptions
+
+Correct Answer: B
+
+Explination: Being slow to patch or update is a vulnerability common to nearly every device or platform.
 
 
-left off at chapter 6
+QUESTION 134
 
+Which term describes what permits a VM to connect to an outside network?
+
+A. Management interface
+B. Interconnected network
+C. Virtual private network
+D. Virtual network
+
+Correct Answer: D
+
+Explination: It is the virtual network that enables the VM to communicate with the outside world
+
+
+QUESTION 135
+
+What do the network protocols IPSec, L2TP, TLS, and DTLS have in common?
+
+A. They facilitate virtual private networks.
+B. All are Layer 2 protocols.
+C. They are used exclusively for virtual networks.
+D. They build interconnections between protected and peripheral networks.
+
+Correct Answer: A
+
+Explination: These protocols all can be found when you’re setting up a VPN. 
+
+
+QUESTION 136
+
+Which of the following characteristics is prominent in Supervisory Control and Data Acquisition systems?
+
+A. They typically cover a wide geographical area.
+B. They contain several types of control systems, including ICS (industry control systems).
+C. They are common, with only one person operating them locally.
+D. They rely on obscure networking protocols such as IPX/SPX.
+
+Correct Answer: A
+
+Explination: SCADA systems are known for covering a large geographical area
+
+
+QUESTION 137
+
+After creating several virtual machines, a system administrator took great effort to harden the virtual systems. When finished, the administrator sought approval from the security team and asked the cybersecurity analyst to try to compromise any one of the machines. Within a short amount of time, the administrator noticed that all the machines were running with great difficulty. A little investigation revealed the virtual systems were running with only one-fourth of the original memory. The host system was operating normally. When asked, the administrator claimed no machine was accessed. Where was the likely vulnerability?
+
+A. Virtual network
+B. Management interface
+C. Host system physical memory
+D. WAP
+
+Correct Answer: B
+
+Explination: The cybersecurity analyst accessed the unprotected management interface, then reduced the memory of the VMs to demonstrate access to the interface.
+
+
+QUESTION 138
+
+What is the term used to describe when an attacker is able to leap from a virtual machine to the host machine?
+
+A. Lateral move
+B. Virtual interruption
+C. Escape
+D. Sandbox jump
+
+Correct Answer: C
+
+Explination: Leaving the VM and accessing the host system is called an escape
+
+
+QUESTION 139
+
+What are the most common vulnerabilities found in a network infrastructure? (Select two)
+
+A. Misconfiguration
+B. Broadcast storms
+C. WAP
+D. Enabled COM port
+
+Correct Answer: AC
+
+Explination: The misconfiguration of network devices and the wireless access point are the biggest vulnerabilities
+
+
+QUESTION 140
+
+In terms of mitigating vulnerabilities, network appliances should be treated as specialized forms of what type of device?
+
+A. WAP
+B. Endpoint
+C. Server
+D. Virtual host
+
+Correct Answer: C
+
+Explination: A network appliance is essentially a customized server, performing some specialized function, such as web proxy or caching server
+
+
+QUESTION 141
+
+Stuxnet, which targeted the uranium enrichment centrifuges run in Iran, was an example of malware targeting what type of system?
+
+A. VM
+B. ICS
+C. HMI
+D. NAC
+
+Correct Answer: B
+
+Explination: The malware Stuxnet, written solely to attack the uranium enrichment program in Iran, specifically targeted the industry control system (ICS) running within the facility.
+
+
+QUESTION 142
+
+What type of system presents a unique challenge in updating due to how critical its uptime is?
+
+A. HVAC
+B. Finance server
+C. SCADA
+D. Perimeter network protection
+
+Correct Answer: C
+
+Explination: SCADA systems typically allow for no downtime because they provide critical services. No allowable downtime means no maintenance for updates or patching.
+
+
+QUESTION 143
+
+On “Bring Your Daughter to Work Day,” cybersecurity analyst Elizabeth brings her daughter Paige to the data center. Paige is curious why analysts across different companies and countries take the same steps to harden their infrastructures. What is Elizabeth’s likely explanation?
+
+A. Requirements are forced by regulatory compliance.
+B. Policy is dictated by trends.
+C. All analysts trust each other’s good judgment.
+D. Best practices are being widely adopted.
+
+Correct Answer: D
+
+Explination: A general adoption of best practices means similar implementation of steps toward hardening the environment, regardless of location and industry
+
+
+QUESTION 144
+
+A company is experiencing a substantial increase in incidents since allowing employees to connect their own mobile devices to the internal network. What is the key vulnerability behind this scenario?
+
+A. Mobile devices are being allowed without any corporate policies.
+B. Mobile devices are being used without a VPN connection.
+C. Mobile devices are allowed to be plugged into USB ports on desktop PCs
+D. The network infrastructure is burdened with additional traffic.
+
+Correct Answer: A
+
+Explination: The main vulnerability with starting a BYOD policy is the unknown status of all those personally managed devices. Some will not be adequately patched or updated. Some will have malware already installed. And some may be compromised
+
+
+QUESTION 145
+
+Using the Windows registry editor, a security analyst navigates to the following key:
+-
+HKLM\Software\Policies\Microsoft\Windows\CurrentVersion\Internet Settings
+-
+  At that key, the analyst sets the value PreventIgnoreCertErrors to REG_DWORD = 1. What is the key vulnerability that encouraged this setting?
+
+A. The Certificate Authority is employing too weak a cryptographic cipher.
+B. Users are ignoring certificate errors.
+C. The Certificate Authority is untrusted.
+D. Users’ devices are unable to send an OSCP status request.
+
+Correct Answer: B
+
+Explination: This registry entry, when set to 1, stops users from bypassing certificate errors. A certificate error could be due to any number of issues, such as a name mismatch on the certificate, the certificate having expired, or the certificate having an inadequate cryptographic strength.
+
+
+QUESTION 146
+
+You’ve just learned of a new, critical vulnerability that was discovered late last night. You suspect your infrastructure is particularly vulnerable. You need to perform an immediate scan to identify all the affected servers that will require action. What has your attention first?
+
+A. SIEM
+B. VM management interface
+C. Vulnerability feed
+D. CVSS
+
+Correct Answer: C
+
+Explination: You first need to find out if your vulnerability feed already has the ability to scan for and identify this vulnerability. Regardless of whether your external AVS (authorized vulnerability scanner) or in-house scanner is used, it is not guaranteed the scan will be up to date on the most recent vulnerabilities.
+
+
+QUESTION 147
+
+The Authentication metric, the Access Complexity metric, and the Access Vector metric are all scoring factors used for what system?
+
+A. NVD
+B. PCI DSS
+C. Nessus
+D. CVSS
+
+Correct Answer: D
+
+Explination: The Common Vulnerability Scoring System uses these metrics, among others, to calculate a rating for every vulnerability
+
+
+QUESTION 148
+
+Soon after completing a vulnerability scan, you review the most critical findings on your Nginx web server. From the following list, which is the likely false positive?
+
+A. CVE-2016-1247 Nginx Root Privilege Escalation
+B. CVE-2017-0278 Windows SMB Remote Code Execution
+C. CVE-2017-7529 Nginx Remote Integer Overflow
+D. CVE-2018-7584 PHP Stack Buffer Overflow
+E. CVE-2017-14176 Bazaar with Subprocess SSH, allows Remote Execution
+
+Correct Answer: B
+
+Explination: This is the lone Windows vulnerability and therefore the likely false positive.
+
+
+QUESTION 149
+
+A vulnerability scan reports a web service running on a server. However, you only know of an application developed in-house running on that server. Additionally, the server is not external facing, and you’re fairly confident there is no web service running. What is the likely port of that internally developed application?
+
+A. 445
+B. 69
+C. 110
+D. 80
+
+Correct Answer: D
+
+Explination: If a scanner reports a web service running, it might have only detected port 80 as open and listening
+
+
+QUESTION 150
+
+A vulnerability scan reports a web service running on a server, but you were unaware of any web service or anything running on port 80. What might be your next step?
+
+A. Scan the server with a port scanner to see if port 80 is listening.
+B. Write a policy that web services must be approved before an installation.
+C. E-mail employees to find out the website’s administrator.
+D. Re-run the vulnerability scan.
+
+Correct Answer: A
+
+Explination: The next step would be to scan the server, paying particular attention to port 80. If port 80 is open, perhaps a web service is listening
+
+
+QUESTION 151
+
+A specialized web proxy device has been flagged by a vulnerability scanner for several scanning periods for the same vulnerability. The cybersecurity team is asked why this vulnerability persists. What are the likely causes? (Choose two.)
+
+A. Being a vendor-specific network appliance, its patch management was overlooked.
+B. This network appliance is on the DMZ and therefore left unmanaged.
+C. The vendor is responsible for patching, but for reasons unknown has been unable to do so.
+D. The network appliance is compromised.
+
+Correct Answer: AC
+
+Explination: What tends to happen with a specialized network appliance is that the responsibility for the appliance is overlooked by internal security or it is transferred to a third-party vendor. In this case, its patching requirement might have been overlooked or the vendor has recently lost connectivity to the appliance.
+
+
+QUESTION 152
+
+After a vulnerability scan is completed, what’s the “best practice” for prioritizing response actions?
+
+A. Absolutely start with the highest CVSS rating and work toward the lower-rated vulnerabilities.
+B. Start with the response with the shortest implementation time and work toward the more involved responses.
+C. All scan reports are unique, but in general you should balance least disruption with risk mitigation.
+D. First validate and reconcile all vulnerabilities and then start to remediate.
+
+Correct Answer: C
+
+Explination: Scan report findings are unique, ranging from the most critical to more informative findings. Responses will range from quite involved remediations to “quick fixes.” Therefore, it’s a case-by-case situation of balancing time, budget, and risk mitigation.
