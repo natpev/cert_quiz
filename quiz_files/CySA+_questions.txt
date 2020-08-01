@@ -1,5 +1,5 @@
 QUIZ:CySA+
-TOTAL:152
+TOTAL:280
 
 QUESTION 1
 
@@ -2233,3 +2233,1865 @@ D. First validate and reconcile all vulnerabilities and then start to remediate.
 Correct Answer: C
 
 Explination: Scan report findings are unique, ranging from the most critical to more informative findings. Responses will range from quite involved remediations to “quick fixes.” Therefore, it’s a case-by-case situation of balancing time, budget, and risk mitigation.
+
+
+QUESTION 153
+
+Which of the following is not considered an important stakeholder during incident response?
+
+A. The organization’s legal department.
+B. Human resources.
+C. Marketing
+D. Management.
+E. All are important stakeholders in incident response.
+
+Correct Answer: E
+
+Explination: All of the named stakeholders are important and should be involved during the incident response process.
+
+
+QUESTION 154
+
+In the course of incident response, what phase strives to prevent or reduce the spread of the incident?
+
+A. Containment
+B. Sanitization
+C. Detection
+D. Patching
+
+Correct Answer: A
+
+Explination: Containment, the first phase of incident response, includes reducing the spread of the incident.
+
+
+QUESTION 155
+
+During incident response, what phase seeks to return all systems to a known-good state?
+
+A. Eradication
+B. Segmentation
+C. Removal
+D. Scanning
+
+Correct Answer: A
+
+Explination: Eradication is the phase where you strive to return the system to a known-good state.
+
+
+QUESTION 156
+
+During incident response, what phase requires understanding how the incident took place in order to implement countermeasures or controls to prevent the attack from happening again?
+
+A. Reverse engineering
+B. Sanitization
+C. Reconstruction
+D. Validation
+
+Correct Answer: D
+
+Explination: Validation is done to verify the attack vectors and to implement countermeasures.
+
+
+QUESTION 157
+
+Which of the following terms refers to a containment technique to permit cybersecurity analysts to still monitor the system’s activity without jeopardizing the whole network?
+
+A. Removal
+B. Secure disposal
+C. Verifying logging/communication
+D. Isolation
+E. Patching
+
+Correct Answer: D
+
+Explination: Isolation means to segregate the system (or systems) but not completely remove it from communicating with others. It’s more an exercise of drawing a perimeter around the problem system, rather than removing it entirely.
+
+
+QUESTION 158
+
+The cybersecurity team just finished recovering from an incident, but within a few days, similar indicators of compromise appear. The cybersecurity team determined that an attacker hijacked an account with elevated privileges. After the team investigated further, it seemed both incidents took advantage of the same attack vector. What was the root cause of the incident that the team failed to address in the earlier incident?
+
+A. Eradication
+B. Permissions
+C. Patching
+D. Containment
+
+Correct Answer: B
+
+Explination: Permissions is the corrective action that was missed in the first incident recovery. Seems an account with elevated privileges was compromised and abused, but after the first incident that risk was not adequately mitigated.
+
+
+QUESTION 159
+
+In what phase of incident response do cybersecurity team members discuss with stakeholders their experience and understanding of the incident?
+
+A. During the containment phase through the eradication phase
+B. The validation phase
+C. As the team completes the corrective action phase
+D. Throughout all phases
+
+Correct Answer: D
+
+Explination: Communication is critical in all phases.
+
+
+QUESTION 160
+
+How is any experience gained as a result of the incident being shared among management?
+
+A. Via constant communication, from start to finish
+B. Through a change control process report
+C. Through a lessons learned report
+D. In the executive summary to the response plan update
+
+Correct Answer: C
+
+Explination: Concluding the incident response is the “lessons learned” report, where input from everyone involved in the event is used to summarize how the incident response went and how the incident could have been handled better.
+
+
+QUESTION 161
+
+Performing corrective actions as incident recovery concludes is a vital phase of incident response. What corrective step helps ensure that any procedural gaps identified during the response are fixed in preparation for the next response?
+
+A. Reviewing the change control process
+B. Publishing a summary report
+C. Updating the incident response plan
+D. Securely disposing of the compromised systems
+
+Correct Answer: C
+
+Explination: Updating the incident response plan helps improve the process for when (not if ) an incident happens again.
+
+
+QUESTION 162
+
+Post-incident, after all corrective actions have been performed, including compiling a full lessons learned report, what is the final documentation step?
+
+A. New incident response plan
+B. Reverse engineering report
+C. Validation scan and report
+D. Incident summary report
+
+Correct Answer: D
+
+Explination: An incident summary report is the final documentation created directly as a result of the incident. Its length and audience vary, depending on the organization.
+
+
+QUESTION 163
+
+A company is dealing with an incident that required involvement with a law enforcement agency (LEA). Cooperation between the cybersecurity team and the LEA was very difficult, given how much the goals and perspectives of the LEA, management, and the cybersecurity team differed. What was the likely reason for this bad experience?
+
+A. The incident response plan didn’t include law enforcement.
+B. The LEA demanded to retain hardware as evidence.
+C. The cybersecurity team had no prior incident practice with the LEA.
+D. Management was unable to lead alongside the LEA.
+
+Correct Answer: C
+
+Explination: It is good practice to involve law enforcement when performing incident response practice runs. Only by running through the exercise (or actual incident) can the divergent goals and motivations of different groups be determined.
+
+
+QUESTION 164
+
+The company Major League Manifolds, Ltd., had an incident, with three main stakeholders involved. Referring to the list of roles and employees, shown in the table below, you see that Phelps, Brown, and Hayes were the employees involved. From the following possible incidents, which is the probable incident that’s occurring.
+############################
+Major League Manifolds, Ltd.
+Roles			Name
+Owner			R. Phelps
+General Manager	L. Brown
+Legal			R. Vaughn
+HR				J. Jobu
+Marketing/PR	P. Cerrano
+Analyst			W. Haynes
+############################
+
+A. A senior-level employee’s e-mail account was hacked.
+B. The external payroll provider’s database server was compromised.
+C. An HR employee was discovered working for a competitor.
+D. An undocumented exception to the patching policy was discovered.
+
+Correct Answer: A
+
+Explination: Considering the roles involved (owner, general manager, and analyst), it was a “straightforward” incident
+
+
+QUESTION 165
+
+refering to the figure below. consider the roles that should be involved when the company’s server for handling payment transactions is compromised by an external hacker. Which of the following list of names includes all the stakeholders?
+############################
+Major League Manifolds, Ltd.
+Roles			Name
+Owner			R. Phelps
+General Manager	L. Brown
+Legal			R. Vaughn
+HR				J. Jobu
+Marketing/PR	P. Cerrano
+Analyst			W. Haynes
+############################
+
+A. Brown, Vaughn, Jobu, Cerrano, Hays
+B. Phelps, Brown, Jobu, Hays
+C. Phelps, Brown, Vaughn, Hays
+D. Phelps, Brown, Vaughn, Cerrano, Hays
+
+Correct Answer: D
+
+Explination: Given that the server for handling payment transactions had unauthorized access, this likely means regulatory noncompliance, involving legal and the public-facing marketing department. The other roles should be obvious.
+
+
+QUESTION 166
+
+A company recently finished responding to a serious incident of attempted sabotage. The attack seemed suspiciously like it was caused by a current employee. Although the investigation to identify the precise employee is still ongoing, the internal cybersecurity analysts are certain the attack originated from accounts payable in the finance department. The incident summary report has been finished and was sent in encrypted format to the department heads and local managers of admin, HR, finance, manufacturing, and shipping. Select from the following list the one risk that could have been avoided.
+
+A. Communication disclosure based on regulatory requirements
+B. Extensive communication with management
+C. Insecure method of communication
+D. Inadvertent release of information to the public
+
+Correct Answer: B
+
+Explination: As the scenario explains, an employee within the finance department is suspected of causing the incident. However, the incident summary report went to multiple people in finance. This does not demonstrate properly limiting communication to trusted parties.
+
+
+QUESTION 167
+
+Allowing for budget, what option does a company have when its lack of technical expertise means the company doesn’t have its own internal CSIRT team?
+
+A. Retain an incident response provider.
+B. Cross-train all employees in incident response techniques.
+C. None. The company has no ability to respond to incidents.
+D. Empower the night security guard to watch over the data center.
+
+Correct Answer: A
+
+Explination: The choice the company has is to retain an external incident response provider.
+
+
+QUESTION 168
+
+What are the main challenges for the technical role of incident response? (Choose two.)
+
+A. Having the necessary technical expertise to address the incident
+B. Licensing the proper software tools
+C. Granting or delegating the authority for unforeseen decisions
+D. Overcoming personality differences and in-house rivalries
+
+Correct Answer: AC
+
+Explination: The two challenges are ensuring the technical expertise is at hand, for any reasonably likely incident (depending on what platforms and applications your environment is running) and delegating the authority to members of that team or to immediately accessible managers. Time cannot be wasted waiting for executives to allow a plug to be pulled.
+
+
+QUESTION 169
+
+A company that has grown quickly in size has not yet developed a proper communication escalation process in the event of a security incident. Instead, managers of the cybersecurity team post their analysis and findings on the company’s internal blog site. In an effort to maintain confidentiality, the blog posts are kept hidden, with no link on the front page. What is the shortcoming of this communication process?
+
+A. Disclosure based on legislative requirements
+B. Possible inadvertent release of information
+C. No encryption
+D. Little opportunity for discussion and questions
+
+Correct Answer: B
+
+Explination: Even though the blog posts are not widely published, their confidentiality is based on the false assurance of “security through obscurity.” Anyone who discovers the accessible posts is a potential leaker or abuser of that information
+
+
+QUESTION 170
+
+In terms of skill and determination, what type of adversary is regarded as the most capable and resourceful?
+
+A. Script kiddie
+B. Advanced persistent threat
+C. Haxor
+D. Zero-day
+
+Correct Answer: B
+
+Explination: The advanced persistent threat (APT) is by far the most skilled, most resourceful of threats
+
+
+QUESTION 171
+
+A company has recently installed an IDS that’s capable of detecting a broad set of malicious traffic and operates on signature-based identification. Which of the following types of threats will this IDS identify? (Choose 3)
+
+A. Zero-day
+B. Threats labeled by CVE
+C. Unknown threats
+D. EICAR file
+E. Known threats
+
+Correct Answer: BDE
+
+Explination: If an IDS is signature-based, you can assume it’s not capable of detecting unknown malware or detecting based on anomalous behavior. Threats with a CVE ID number very likely have a known signature assigned to them. The EICAR file is a well-known test file for malware detection. Known threats, as you can tell by the name, will have a signature.
+
+
+QUESTION 172
+
+A cybersecurity team is responding to an incident. To help prioritize their actions, an analyst requests a list of essential business processes from the CIO. Select from the following factors which one the analyst is most concerned with to help prioritize the team’s response.
+
+A. Downtime
+B. System process criticality
+C. Recovery time
+D. Economic
+
+Correct Answer: B
+
+Explination: System process criticality is the factor that defines whether or not business processes are essential
+
+
+QUESTION 173
+
+Of the following metrics, which ones rely on a company being able to endure a certain amount of downtime? (Choose 2)
+
+A. Designated acceptable downtime (DAD)
+B. Key performance indicators (KPIs)
+C. Maximum tolerable downtime (MTD)
+D. Recovery time objective (RTO)
+
+Correct Answer: CD
+
+Explination: Both the MTD and RTO presume a company can survive some downtime to some degree. The MTD is the maximum tolerable downtime before an organization’s essential systems suffer critically, while the recovery time objective (RTO) describes the period of time when a company strives to recover from a disaster before suffering significant damage.
+
+
+QUESTION 174
+
+Multiple factors can affect the severity of an incident. Which of the following factors does not necessarily impact an incident’s severity?
+
+A. Downtime
+B. Probability of corruption
+C. MTD
+D. System process criticality
+E. None of the above
+
+Correct Answer: B
+
+Explination: There is no direct correlation between measuring an incident’s severity and the probability of corruption.
+
+
+QUESTION 175
+
+Of the many factors that affect incident severity, which of the following takes the cybersecurity team the longest time to detect issues for or determine the scope of its impact?
+
+A. Data integrity
+B. System process criticality
+C. Recovery time
+D. Type of data
+
+Correct Answer: A
+
+Explination: Certainly in relation to the other answers, it takes much longer to determine whether data was or wasn’t altered by an attacker or incident.
+
+
+QUESTION 176
+
+What is the desired relationship when comparing RTO and MTD?
+
+A. The RTO should be longer than the MTD.
+B. The RTO should be shorter than the MTD.
+C. The MTD and RTO should be roughly the same length.
+D. The MTD should as close to zero as possible.
+E. The RTO needs to be twice the MTD.
+F. The MTD needs to be twice the RTO.
+
+Correct Answer: B
+
+Explination: The recovery time objective should be shorter than the maximum tolerable downtime.
+
+
+QUESTION 177
+
+The United States Privacy Act of 1974 created rules regarding the collection, storage, and use of what kind of data?
+
+A. Financial
+B. Intellectual property
+C. PII
+D. Payment card information
+
+Correct Answer: C
+
+Explination: Personally identifiable information (PII) is protected by the U.S. Privacy Act of 1974.
+
+
+QUESTION 178
+
+Which of the following is not a PCI DSS goal or requirement?
+
+A. Regularly monitor and test networks.
+B. Maintain an information security policy.
+C. Build and maintain a secure network and systems.
+D. Enforce employee security awareness training.
+E. Protect cardholder data.
+
+Correct Answer: D
+
+Explination: Security awareness training is not a PCI DSS requirement.
+
+
+QUESTION 179
+
+Select from the following the data types that fall under the term “intellectual property.” (choose 3)\
+
+A. The patent behind a company’s best-selling product
+B. Your favorite shoe company’s trademark
+C. The secret recipe of a chicken flavoring
+D. The details about a company’s marketing campaign
+
+Correct Answer: ABC
+
+Explination: A is correct because patents are intellectual property. B is correct because a trademark is intellectual property. Finally, C is correct because a secret recipe is a company’s trade secret, which is also intellectual property.
+
+
+QUESTION 180
+
+An analyst is reviewing DLP logs of sensitive documents attached to outgoing e-mails. The analyst discovers a sent document titled “Hilltop Organization Chart,” apparently titled after the analyst’s own company, Hilltop Cabinets. The document was sent to Hilltop’s primary competitor, a company called Sanctuary Sinks. What type of data does this incident cover?
+
+A. Mergers and acquisitions
+B. Accounting data
+C. Corporate confidential
+D. Intellectual property
+
+Correct Answer: C
+
+Explination: Given the nature of the document and the fact that it is considered “sensitive,” you can assume the e-mailed attachment about the organization chart was marked “corporate confidential.”
+
+
+QUESTION 181
+
+A new virus called MSB3417, dubbed “Wildfire,” is sweeping through organizations, infecting systems by exploiting a previously unknown vulnerability. Wildfire identifies and exfiltrates any spreadsheet documents with large dollar amounts. The documents are then covertly sent to a known and powerful adversarial country. What is this type of malware called?
+
+A. APT exploit
+B. Zero-day exploit
+C. Financial exfiltration malware
+D. Economic threat
+
+Correct Answer: B
+
+Explination: Malware that works based on exploiting a previously unknown vulnerability is called a zero-day exploit.
+
+
+QUESTION 182
+
+What is the particular criminal threat when data related to a company’s intent to integrate with another company is mishandled?
+
+A. Leaked information could lead to trading based on privileged knowledge.
+B. Shareholders of both companies could vote to stop the merger.
+C. Leaked trade secrets could lead to increased competition.
+D. Violations of HIPAA requirements.
+
+Correct Answer: A
+
+Explination: Leaked information about a merger in progress or even a desired merger could lead to a stockholder deciding to trade their shares. Trading based on that privileged information is a crime called insider trading.
+
+
+QUESTION 183
+
+Which of the following factors determines some noted event will be considered a security incident?
+
+A. Downtime
+B. Scope of impact
+C. Economic
+D. Types of data affected
+
+Correct Answer: B
+
+Explination: Scope of impact is the official determination that has an event crossing the boundary into being a defined security incident.
+
+
+QUESTION 184
+
+In the context of long-term effects from a security incident, particularly to a company’s reputation and ability to gain potential business, which factor is the most impactful on an incident’s severity?
+
+A. Recovery time
+B. Data integrity
+C. Economic
+D. System process criticality
+
+Correct Answer: C
+
+Explination: The economic factors of an incident affect a company over the long haul, often in terms of its reputation.
+
+
+QUESTION 185
+
+For which of the following types of data is it suggested that a company take additional steps, beyond policy and legal guidance, to protect the data’s confidentiality from unauthorized eyes? Not protecting the selected data type might jeopardize the company’s sustainability.
+
+A. HR personnel information
+B. PII
+C. Payment card information
+D. Accounting data
+
+Correct Answer: D
+
+Explination: The security of accounting data is more critical to a business’s sustainability, relative to the other answers.
+
+
+QUESTION 186
+
+Which of the following are possible consequences for unauthorized disclosure of PHI, depending on one’s involvement. (Choose 4)
+
+A. Documented record in employee file
+B. Suspension from employment
+C. Monetary fine
+D. Jail time
+E. Public execution
+
+Correct Answer: ABCD
+
+Explination: Depending on the employee’s involvement, the consequences can range from a record in the employee’s file to possible jail time.
+
+
+QUESTION 187
+
+What ensures accountability of evidence handling by documenting the handoff from person to person of important forensic material?
+
+A. Handoff form
+B. Analysis management form
+C. Evidence management log
+D. Chain of custody form
+
+Correct Answer: D
+
+Explination: The chain of custody form ensures accountability of evidence handling. This document lists the handoff from person to person of evidence to mitigate the risk of unauthorized tampering.
+
+
+QUESTION 188
+
+Which of the following is developed as part of an incident response plan, but also has practical value in a forensic kit?
+
+A. Rainbow tables
+B. Call/escalation list
+C. Network map
+D. Acceptable use policy
+
+Correct Answer: B
+
+Explination: The call list or escalation list documents who an analyst should call for particular cases. It’s originally part of any incident response plan, but it’s also a valuable asset in a forensic kit.
+
+
+QUESTION 189
+
+During a forensic investigation, you need to make a bit-for-bit copy of a hard drive called “ops” into a file. To accomplish this, you use the command-line utility dd to create the image file CaseCopy.img. The block size will be 2K, and any errors can be disregarded. Which of the following commands does what you need?
+
+A. dd if=/dev/ops of=CaseCopy.img bs=2048 conv=noerror
+B. dd if=/dev/ops of=casecopy.img bs=2048 conv=noerror
+C. dd if=/dev/casecopy of=ops bs=2048 conv=noerror
+D. dd if=/dev/CaseCopy.img of=ops bs=2048 conv=noerror
+
+Correct Answer: A
+
+Explination: This command line shows the correct syntax and spelling to perform the bit-for-bit copy.
+
+
+QUESTION 190
+
+A junior analyst has two files and needs to verify they are exact duplicates. To do this, the analyst knows to first create hashes from the two files and then compare them. Which of the following tools from the forensic kit is the best tool to use?
+
+A. dd
+B. sha1sum
+C. eventviewer
+D. BitLocker
+
+Correct Answer: B
+
+Explination: The program sha1sum will calculate and check a SHA-1 hash value. The hash value is also known as a message digest. The analyst will use sha1sum to calculate and compare message digests of these two files. 
+
+
+QUESTION 191
+
+Including crime tape in a forensic kit might be useful for what purpose?
+
+A. Securing the chain of custody form to the hard drive.
+B. Acting as a write block on 5 1/4" disks.
+C. Physically cordoning off an area if necessary to prevent tampering.
+D. There is no imaginable use for physical crime tape in a digital forensic investigation.
+
+Correct Answer: C
+
+Explination: It is suggested that you have crime tape on hand in case you need to provide a soft barrier around a physical area.
+
+
+QUESTION 192
+
+An internal cybersecurity analyst is asked to send a report via e-mail. The analyst plans to send the report from within the company’s network. In order to ensure the confidentiality of the report, what is a likely step for the analyst to take?
+
+A. Create a hash of the report file and send the hash in a second e-mail.
+B. Use the e-mail server, but then wipe it with a cloth or something.
+C. Using a cryptography tool to further protect the report.
+D. None of the above. E-mailing across an internal infrastructure is perfectly safe.
+
+Correct Answer: C
+
+Explination: Given that e-mail is open and insecure, encrypting the report first can help ensure the report’s confidentiality
+
+
+QUESTION 193
+
+An incident involves a legitimate user’s account being compromised. Although the company does employ some information security best practices, the analyst notes a few policies missing, including any account lockout policy. The analyst suspects brute-force password guessing was involved. Further, accounts of several machines might have been brute-forced. Which tool should the analyst consider using to gather more information?
+
+A. Mobile device viewer
+B. Group policy viewer
+C. Password cracker
+D. Log viewer
+
+Correct Answer: D
+
+Explination: Using a log viewer is the next step in gathering information on bad password attempts.
+
+
+QUESTION 194
+
+When you’re approaching a person’s desk or office as a crime scene, essentially everything is potential evidence. Every object’s position may be recognized as significant. What is the most likely first action an incident handler would perform before moving or handling any object?
+
+A. Sample the air quality.
+B. Photograph or video the scene.
+C. Dust the scene for fingerprints.
+D. Place obvious digital media in containers with a tamper-proof seal.
+
+Correct Answer: B
+
+Explination: A camera is a valuable addition to a forensic kit. The camera allows you to photograph or video a crime scene before anything is removed or touched. Although an item’s position might seem inconsequential at first, it might become significant later in the investigation.
+
+
+QUESTION 195
+
+What is the primary purpose of a notebook in a forensic bag?
+
+A. To draft a chain of custody
+B. To create an incident log
+C. To amend the incident response plan
+D. To list assets removed from the scene
+
+Correct Answer: B
+
+Explination: A notebook is critical to have in a forensic kit because the investigator or analyst will be taking constant notes. Those notes create an incident log for the investigator or anyone to refer back to at a later time
+
+
+QUESTION 196
+
+A cybersecurity analyst is investigating a Windows system registry, particularly for malware that might be persistent on reboots. Which of the following registry keys will likely reveal instances of malware? (Choose 2)
+
+A. HKLM\Software\Microsoft\Windows\CurrentVersion\Run
+B. HKLM\System\Microsoft\Windows\CurrentVersion\Run
+C. HKCU\Software\Microsoft\Windows\CurrentVersion\Run
+D. HKCU\System\Microsoft\Windows\CurrentVersion\Run
+
+Correct Answer: AC
+
+Explination: These two are valid registry keys where you will find values of applications loading. If malware has modified registry entries to maintain persistence, then these two entries will likely show the malware intending to run at OS/system startup
+
+
+QUESTION 197
+
+Which of the following devices burdens the forensics analyst with always having special cables and custom bootloaders with them?
+
+A. Linux Knoppix 8.1
+B. WOPR SecTran 9.4.3
+C. Asus ZenFone 5Z
+D. Windows Server 2016
+
+Correct Answer: C
+
+Explination: Mobile devices are a category of devices where the analyst should be prepared with various cables, connectors, and custom bootloaders. The Asus ZenFone 5Z is obviously just one example of a mobile device the analyst could come across.
+
+
+QUESTION 198
+
+FTK, EnCase, and The Sleuth Kit are all examples in what category of forensic applications?
+
+A. Cryptography tools
+B. Password crackers
+C. Hashing utilities
+D. Analysis utilities
+
+Correct Answer: D
+
+Explination: FTK, EnCase, and The Sleuth Kit are all analysis utilities.
+
+
+QUESTION 199
+
+Which of the following provides a similar benefit to a chain of custody form?
+
+A. Drive adapter
+B. Tamper-proof seal
+C. Cryptography tool
+D. Drive and media cables
+
+Correct Answer: B
+
+Explination: Tamper-proof seals provide protection against unauthorized tampering. Similarly, a chain of custody form helps maintain the integrity of evidence by ensuring accountability.
+
+
+QUESTION 200
+
+Joshua, a junior cybersecurity analyst, is performing his first forensic investigation. He photographs the surrounding scene and then employs tools to analyze the OS and any running processes. After shutting down the system, Joshua pulls the hard drive, attaches a USB drive adapter cable to it, and then connects the cable to his laptop’s USB port to start the copying operation. Joshua’s supervisor, Dr. Stephen Falken, enters the room. Seeing the hard-drive-copying efforts, Dr. Falken immediately shouts, “You think this is a game? We can’t trust what’s on that drive!” What did Dr. Falken notice?
+
+A. Joshua is not using a write blocker.
+B. Joshua should have connected the drive by SATA, not USB.
+C. Dr. Falken believed the system shut down improperly.
+D. Dr. Falken saw nothing wrong. He was playing a game.
+
+Correct Answer: A
+
+Explination: By connecting the hard drive directly to the laptop, and not using a write blocker, Joshua jeopardizes the integrity of the hard drive’s contents. Joshua should have placed a write blocker between the source and destination, to prevent any writes done to the source disk.
+
+
+QUESTION 201
+
+After the seizure and acquisition phases, where does the next step of a digital forensic investigation likely take place?
+
+A. The crime scene
+B. The digital forensic workstation
+C. The boardroom
+D. None of the above
+
+Correct Answer: B
+
+Explination: The next phase of forensic investigation after seizure and acquisition is analysis. The analysis phase wouldn’t be done in the crime scene or the boardroom. Analysis, if possible, should be done on a digital forensics workstation.
+
+
+QUESTION 202
+
+What’s the primary reason for a forensic investigator to wipe the removable media prior to needing it or entering the scene of an investigation?
+
+A. To save time formatting media
+B. To save on costs
+C. Because clean media is trustworthy media
+D. To comply with the data retention policy
+
+Correct Answer: A
+
+Explination: The main advantage of having wiped removable media is that it saves the investigator the time of having to thoroughly wipe the media when it’s needed. With the large-sized volumes the investigator may require, wiping the media takes a considerably long time.
+
+
+QUESTION 203
+
+Which of the following is a form or documentation that does not belong in a forensic kit? 
+
+A. Chain of custody
+B. Incident response plan
+C. Hash values of forensics application files
+D. Call/escalation list
+E. Incident notes log
+
+Correct Answer: C
+
+Explination: The hash values of your applications are the least likely thing to have in your forensics kit. 
+
+
+QUESTION 204
+
+Which of the following bandwidth-consumption behaviors strongly indicates something suspicious?
+
+A. Higher-than-normal bandwidth, every day, at the same time
+B. Higher-than-normal bandwidth once, during off-peak hours
+C. Lower-than-normal bandwidth used during peak hours
+D. Higher-than-normal bandwidth used during peak hours
+
+Correct Answer: B
+
+Explination: A single instance of higher-than-normal bandwidth consumption outside the “work day” is the most suspect. However, although it doesn’t necessarily guarantee suspicious behavior, such bandwidth consumption is worth investigating further.
+
+
+QUESTION 205
+
+Your SIEM alerts you to an unusual amount of ARP queries. This is indicative of what sort of behavior?
+
+A. Rogue device on the network
+B. Scan sweeps
+C. Unauthorized privileges
+D. Unauthorized software
+
+Correct Answer: B
+
+Explination: A spike in ARP queries would indicate someone or some process is conducting a scan. This would warrant additional action and investigation.
+
+
+QUESTION 206
+
+What is a property of network usage that suggests a rogue device on the network?
+
+A. Repeated failed remote logins
+B. Beaconing
+C. Failed connection attempts on the legitimate wireless access points
+D. Unrecognized MAC addresses logged on legitimate access points
+
+Correct Answer: D
+
+Explination: Unrecognized MAC addresses indicate unrecognized or unauthorized devices
+
+
+QUESTION 207
+
+With regard to peer-to-peer network communication, which of the following observations should a cybersecurity analyst be concerned with as abnormal? (Choose 2)
+
+A. Host-to-host connections using an unprivileged account
+B. Host-to-host connections using a privileged account
+C. Local user connecting to a print server on another subnet
+D. Client/server connections with high numbered client ports
+
+Correct Answer: AB
+
+Explination: Host-to-host connections are fairly uncommon. Such peer-to-peer communication can suggest an attacker moving laterally from one compromised system to another
+
+
+QUESTION 208
+
+A network engineer is responding to users complaining the network is slow. Looking at the blinking lights, the engineer notices considerable activity from the HR file server. What would be the network engineer’s next step?
+
+A. Unplug the network cable at the switch going to the file server.
+B. Monitor usage and compare it against the baseline.
+C. Alert the CIO to the traffic spike.
+D. Sample the traffic using a packet analyzer.
+
+Correct Answer: B
+
+Explination: The network engineer’s next step is to consider whether or not the activity is normal by monitoring usage and comparing it against the baseline
+
+
+QUESTION 209
+
+A cybersecurity analyst has a suspicion about a system’s behavior, but reviewing logs and baseline performance of that system has proven nothing. Finally, the analyst decides to investigate network traffic, based on a hunch. The analyst starts with an endpoint analysis. The analyst sorts the traffic log first by internal source address, then by destination address, and finally by time. What evidence is the analyst clearly searching for?
+
+A. Beaconing
+B. Anomalous activity.
+C. Network memory consumption.
+D. This is not a search; rather, the analyst is creating a new baseline.
+
+Correct Answer: A
+
+Explination: Judging by the analyst’s traffic analysis, the intention is to identify any beaconing.
+
+
+QUESTION 210
+
+A user notices the workstation seems louder than normal—not necessarily fan noise, but the hard drive is constantly “working” without the user installing or moving any files. When the analyst asks if any other system behavior is occurring, the user replies the system seems a bit slower as well. What might be an issue the system is experiencing?
+
+A. Processor consumption
+B. Drive capacity consumption
+C. Memory consumption
+D. Network bandwidth consumption
+
+Correct Answer: C
+
+Explination: The scenario is evidence of disk paging, a sign of extreme memory consumption.
+
+
+QUESTION 211
+
+The cybersecurity analyst hears of recent news about a new worm traveling through the company network, installing a bot that mines digital currency. Because the mining software is installed under a random name, running as a random process, there are few known signatures to search for. What might be a likely symptom that could point to infected systems?
+
+A. Processor consumption
+B. Unexpected output
+C. Unusual traffic spikes
+D. Introduction of new accounts
+
+Correct Answer: A
+
+Explination: Because the executable and process names are random, the worm is difficult to locate by name. However, mining software tends to be processor intensive, so that’s a good place for the analyst to start.
+
+
+QUESTION 212
+
+In regard to stopping unauthorized software from being installed on a system, which approach is the most effective?
+
+A. Software blacklisting
+B. Standardized desktop images and privileges
+C. Software whitelisting
+D. Host-based intrusion detection and antivirus
+
+Correct Answer: C
+
+Explination: Whitelisting, or allowing only explicitly listed applications, is the most restrictive method.
+
+
+QUESTION 213
+
+An application is experiencing apparent memory issues. The symptoms are fairly straightforward, resulting in the application terminating. Occasionally an error pop-up appears with a vague message about a buffer address. From what you see, what is the next course of action?
+
+A. Perform a memory dump
+B. Back up the disk
+C. Ensure drivers are up to date
+D. Capture a packet sample 
+
+Correct Answer: A
+
+Explination: In a case where an application is experiencing memory issues, possibly memory overflow, performing a memory dump is a prudent measure. Memory overflow is symptomatic of a malicious attempt at exploiting the application or system.
+
+
+QUESTION 214
+
+After recovering from an incident, a company decides to invest in a data loss prevention (DLP) solution as well as printers to subtly watermark documents from certain workstations. What do you think was the host-related issue the company experienced during the incident?
+
+A. Unauthorized privileges
+B. Service interruption
+C. Unusual traffic spikes
+D. Data exfiltration
+
+Correct Answer: D
+
+Explination: Given the mention of DLP and watermarks, you can assume there was an incident of sensitive information being removed or exfiltrated.
+
+
+QUESTION 215
+
+A new file server is made available to employees. The server’s capacity is expected to be sufficient for three years. Within two weeks, users complain the file server isn’t as responsive as it used to be. What’s more, a file called MB2TB.exe has been spotted in every folder. What might be a likely issue?
+
+A. Bandwidth consumption
+B. Processor consumption
+C. Drive capacity consumption
+D. Memory consumption
+
+Correct Answer: C
+
+Explination: The performance and mysterious file “MB2TB” suggests malware, which greatly consumes drive space
+
+
+QUESTION 216
+
+A contractor has borrowed an older company laptop and has been using it with no issues for months. Recently the contractor came in, asking for a new laptop because his is “acting weird.” When asked for specifics, the contractor mentioned his application sometimes freezes, the browser goes to different websites, and other strange things start happening. What might be the best course of action?
+
+A. Ensure the OS and applications are patched.
+B. Increase the size of the hard drive; add more memory.
+C. Create the contractor a new account.
+D. Back up his data and perform a fresh, updated system install.
+
+Correct Answer: D
+
+Explination: Given the older system was probably poorly managed and behind on patch management, the system might have been compromised. Best approach is to wipe it and start with a new, up-to-date install if the system has the resources.
+
+
+QUESTION 217
+
+A security team member alerts you that a new domain account has been created, but there is no documented account request. Further, there is no legitimate way the account could be created without you or the team member’s assistance. In fact, a quick look shows you the new user account has a session active now on a local host. What is your first step?
+
+A. Fire the team member.
+B. Log off the user session.
+C. Isolate the host.
+D. Reset the account password.
+
+Correct Answer: D
+
+Explination: Your first step is to reset that account’s password, quickly followed by logging off the session
+
+
+QUESTION 218
+
+An important file that lists numbered bank accounts is tightly controlled, including a process for making any changes to that file. Although the file has no documented changes made in months, an analyst has determined its hashed value was changed sometime between today and last week. What would cause a different hash?
+
+A. New account added
+B. Unauthorized changes made
+C. Different hash generator used
+D. Drive capacity increased
+
+Correct Answer: B
+
+Explination: Whether the contextual change in the file was due to a new account being added or the account being changed, the file was changed. That change, given the process, was unauthorized and creates a different hash value when calculated.
+
+
+QUESTION 219
+
+The Cyber Security Framework published by NIST includes the CSF Core. The Core organizes cybersecurity activities into five main functions. Which of the following answers lists these five functions in the correct order?
+
+A. Identify, Protect, Detect, Respond, Recover
+B. Detect, Identify, Respond, Recover, Protect
+C. Identify, Detect, Respond, Recover, Protect
+D. Detect, Identify, Recover, Respond, Protect
+
+Correct Answer: A
+
+Explination: The five main functions of the CSF Core are Identify, Protect, Detect, Respond, and Recover
+
+
+QUESTION 220
+
+Which of the following frameworks is an architectural framework that defines business requirements from a security perspective, and then continues building levels of detail for the practical implementation?
+
+A. ITL
+B. TOGAF
+C. SABSA
+D. COBIT
+
+Correct Answer: C
+
+Explination: The Sherwood Applied Business Security Architecture (SABSA) is a layered model where business requirements from a security perspective make up the first and most abstract layer. Each subsequent layer is more detailed, ending with the sixth layer detailing practical implementation.
+
+
+QUESTION 221
+
+A company wants to protect its information according to the varied levels of how sensitive the information is as well as the potential for damage if that information is lost. What sort of policy would most benefit the company?
+
+A. Data classification
+B. Data backup
+C. Data ownership
+D. Data retention
+
+Correct Answer: A
+
+Explination: A data classification policy is the formal document to define and enforce how information is protected by levels of sensitivity.
+
+
+QUESTION 222
+
+Which of the following requirements would you not expect to find in a password policy?
+
+A. Prohibited types of words
+B. Minimum password age
+C. Technology solution
+D. Types of characters to be used
+
+Correct Answer: C
+
+Explination: A password policy, or any policy, would not specify the technology to be used for enacting its requirements.
+
+
+QUESTION 223
+
+Which of the following comprises and presents the Information Security Management System (ISMS) standards?
+
+A. The Open Group Architecture Framework
+B. IT Governance Institute
+C. NIST Cyber Security Framework
+D. ISO/IEC 27000 series
+
+Correct Answer: D
+
+Explination: The ISMS is a set of global information security standards, developed by the International Organization for Standardization (ISO) and the International Electrotechnical Commission (IEC).
+
+
+QUESTION 224
+
+Which type of procedure is considered synonymous with the term e-discovery?
+
+A. Evidence production
+B. Continuous monitoring
+C. Control-testing procedures
+D. E-mail and fax discovery
+
+Correct Answer: A
+
+Explination: Evidence production is a legal term describing the production of electronic evidence, also known as “e-discovery.”
+
+
+QUESTION 225
+
+A company is experiencing several unrelated cases of misused user accounts. The user accounts are either created new as privileged accounts or created as new accounts and then elevated to privileged accounts. In either case, the creation of unauthorized accounts must be stopped. After ensuring policy and procedures are being properly carried out, the company determines that the abuse points to a shortcoming in the policy. Which policy most likely needs to be updated to stop this misuse of accounts?
+
+A. Acceptable use policy
+B. Account management policy
+C. Data ownership policy
+D. Password policy
+
+Correct Answer: B
+
+Explination: The account management policy would include requirements about the creation, modification, and deletion of user accounts, as well as how to handle the misuse of accounts.
+
+
+QUESTION 226
+
+After a routine vulnerability scan of their servers, the Bushwood Country Club discovers 18 holes to be patched. Carl, a junior analyst, asks to perform the patching. However, he seems confused on how move forward with the patching. What is the highest authority and proper documentation for Carl to follow?
+
+A. The organization’s patch management procedures
+B. ISO 27002
+C. NIST SP 800-53
+D. ITIL
+
+Correct Answer: A
+
+Explination: Several best practice standards exist, but because every organization has different needs, manages a different environment, and has a different risk tolerance, the overruling procedure is the organization’s own patch management procedure
+
+
+QUESTION 227
+
+Companies make use of security controls with different parameters. Which of the following would not influence the choice of security controls and how those controls are implemented?
+
+A. Local or federal law
+B. Regulatory requirements
+C. Technical expertise to implement
+D. The organization’s risk appetite
+
+Correct Answer: C
+
+Explination: Technical expertise might be a requirement for implementing a security control, but it would not generally dissuade a company from using a needed control
+
+
+QUESTION 228
+
+What type of control is a hardware-based firewall?
+
+A. Administrative control
+B. Physical control
+C. Test control
+D. Logical control
+
+Correct Answer: D
+
+Explination: A firewall is an example of a logical or technical control
+
+
+QUESTION 229
+
+Carnegie Mellon University developed the Capability Maturity Model Integration, a set of guidelines for establishing a maturity level as well as evaluating security engineering practices. Maturity levels are defined from the Initial level to the most mature, the Optimizing level. Which of the following is the level at which an organization has formal processes in place to collect and analyze quantitative data, and metrics are defined and fed into the process-improvement program?
+
+A. Repeatable
+B. Defined
+C. Managed
+D. Optimizing
+
+Correct Answer: C
+
+Explination: The fourth of five levels, “Managed,” is defined as when an organization has formal processes in place to collect and analyze quantitative data, and metrics are defined and fed into the process-improvement program.
+
+
+QUESTION 230
+
+Which of the following describes a comprehensive technical evaluation of a system’s security components, with regard to applicable regulations? In some cases, if formal assurance of the system meeting all requirements is needed, management or some responsible entity grants accreditation.
+
+A. Certification
+B. Assessment
+C. Audit
+D. Evaluation
+
+Correct Answer: A
+
+Explination: Certification is the technical evaluation and verification that security components are meeting requirements, often in the context of a regulation or law.
+
+
+QUESTION 231
+
+On occasion, a system has a vulnerability that cannot be closed because the fix is either too costly or there is no feasible way to fix it directly. At such times, a security control could still be implemented to mitigate the vulnerability, at least partially. Risk assessment combined with additional requirements set by law, regulations, and a company’s policy would govern the control choice. What sort of documentation would an analyst consult to implement such a control?
+
+A. Control-testing procedures
+B. Evidence production procedures
+C. Remediation plan procedures
+D. Compensating control development procedures
+
+Correct Answer: D
+
+Explination: In the case where employing a compensating control is the best action to take, having compensating control development procedures will help guide the decisions to be made
+
+
+QUESTION 232
+
+Which of the following is not an essential element of exception management procedures?
+
+A. Involving the correct people
+B. Listing all stakeholders
+C. Ensuring access to the necessary information
+D. Documenting steps on how to handle decision disagreements
+
+Correct Answer: B
+
+Explination: The listing of all stakeholders would likely change too often to be feasibly maintained in the procedure. Even a listing of all the potential roles cannot be reasonably managed. Instead, the stakeholders must be identified when an exception is raised.
+
+QUESTION 233
+
+Which of the following context-based authentication methods is the most difficult to forge or falsify?
+
+A. Time
+B. Frequency
+C. Location
+D. Behavior
+
+Correct Answer: C
+
+Explination: Location is understood to be the most difficult techniques to falsify of the four context-based approaches to authentication. Context-based authentication by location means using someone physical location, presumably via GPS, to determine whether that person should be authenticated
+
+
+QUESTION 234
+
+Your company plans to employ single sign-on for services and web-based applications. It needs to choose a federated identity technology for authorization and, if possible, authentication. Which of the following technologies satisfy the company’s needs? (Choose 3)
+
+A. SAML
+B. Active Directory Federated Services
+C. OAuth2
+D. OpenID
+
+Correct Answer: ABC
+
+Explination: Security Assertion Markup Language (SAML) is commonly used for both authentication and authorization. AD Federated Services is used for both authentication and authorization, primarily in Windows environments. The OAuth2 protocol is used generally for authorization, commonly for services. Although OAuth2 is used inside of authentication protocols, it’s technically not a standalone replacement. In any case, the company requires authorization, not authentication.
+
+
+QUESTION 235
+
+When you’re securing endpoints, what is their main vulnerability in comparison to other identities with regard to authentication?
+
+A. Relative to servers, securing the endpoints is difficult to scale.
+B. Compared to applications, endpoints can only rely on token-based authentication.
+C. Relative to services, endpoints are vulnerable to replay attacks.
+D. Compared to personnel, endpoints are more difficult to lock down.
+
+Correct Answer: C
+
+Explination: In terms of authentication, endpoints are particularly vulnerable to replay attacks.
+
+
+QUESTION 236
+
+Which of the following context-based authentication methods is likely to reveal someone attempting to brute-force an account using an automated script?
+
+A. Time
+B. Frequency
+C. Location
+D. Behavior
+
+Correct Answer: B
+
+Explination: If someone is using an automated script to guess someone’s credentials via brute force, the frequency of attempts will be far greater than a person could reasonably perform.
+
+
+QUESTION 237
+
+A company utilizes a resource for storing employee credentials, otherwise known as an identity repository. In general, all employees have their network access validated by a central server. Although most employees work in the headquarters building, a small set of users work in locations that provide all their needed productivity services locally, except for the authentication. Communications between headquarters and these other locations either rely on a dedicated but unreliable low-bandwidth connection or occur across the Internet. All of the following identity repositories, except one, would be acceptable as a solution. Which repository must use a fully reliable and secure network?
+
+A. RADIUS
+B. TACAS+
+C. LDAP
+D. XTACACS
+
+Correct Answer: A
+
+Explination: The Remote Authentication Dial-In User Service (RADIUS) uses UDP, not TCP. Additionally, RADIUS allows the use of a “shared secret” across the network. For both these reasons, using an unreliable or untrusted network is highly discouraged if the company is wanting to use RADIUS
+
+
+QUESTION 238
+
+What type of identity is unique in that its authorizations can vary in multiple ways?
+
+A. Services
+B. Roles
+C. Endpoints
+D. Applications
+
+Correct Answer: B
+
+Explination: Roles are unique in that there is often a many-to-one relationship between roles and users. A user can have multiple roles, and so the challenge to administrators is to grant access according to the task fitting the role at the time.
+
+
+QUESTION 239
+
+A few employees have fallen victim to having their passwords compromised. The users claim it is happening after visiting the company’s own internal hourly billing website. The cybersecurity analyst verifies the website code and web server as clean. However, you witness the attack yourself after watching a user click through a text message that reminds them to update their timesheet. What sort of attack seems to be happening here?
+
+A. Man-in-the-middle
+B. Cross-site scripting
+C. Rootkit
+D. Privilege escalation
+
+Correct Answer: B
+
+Explination: Considering that the problem might be originating from a link provided by text, which is extra difficult for users to scrutinize, and that the web server was verified as clean, then cross-site scripting is the likely attack method.
+
+
+QUESTION 240
+
+A vice president’s workstation is acting erratically, so you investigate the laptop personally. You carefully review the system’s application and security logs. You confirm the antivirus is running and nothing is quarantined. You evaluate the running processes and find nothing out of the ordinary. After using command-line utilities to confirm no strange network connections, you feel somewhat frustrated to find nothing to report. What action should you take next?
+
+A. Return the laptop to the vice president and report that all is fine.
+B. Reinstall and update the antivirus to rescan the system.
+C. Assume the laptop has a rootkit and wipe the system immediately.
+D. Use tools external to the laptop to explore the suspicion of a rootkit.
+
+Correct Answer: D
+
+Explination: Despite suspicious behavior, local tools reporting nothing wrong is a strong suggestion to explore deeper with offline tools. Using tools stored on media outside the system, and if possible without the OS running, can improve visibility without allowing the potential rootkit to mask itself.
+
+
+QUESTION 241
+
+Manual provisioning of accounts takes considerable time, but still allows a genuine person to exercise due diligence. With regard to auto-provisioning accounts, what is the most critical piece in the identity and access request process never to be compromised?
+
+A. Consumer
+B. Identity provider
+C. Service provider
+D. Network access
+
+Correct Answer: B
+
+Explination: Because auto-provisioning means creating an account on the fly, the service provider (SP) is completely trusting the identity provider’s assertion that the user is allowed to hold an account. Therefore, the identity provider (IDP) cannot be compromised; otherwise, that trust is easily abused.
+
+
+QUESTION 242
+
+A company recently implemented a self-service password reset mechanism. Although this saves the administrators hours of time dealing with forgotten passwords, a new problem has started. Administrators have noticed brute-force attacks on the password reset page. Even though the password reset page is visible outside the company, the attacks are always against valid e-mails only, so the administrator suspects an insider is responsible. What might be the source of the problem on the reset page?
+
+A. Error messages for invalid input
+B. Website source code
+C. Constant availability
+D. Instructions on reset page usage
+
+Correct Answer: A
+
+Explination: Having different error messages for an invalid username and invalid password only serves to ensure a username is valid. Confirming for the attacker that a username is valid means they can spend more time brute-forcing the password.
+
+
+QUESTION 243
+
+Knowing the root cause and mechanics behind session hijacking, what is the most effective way to mitigate this specific attack?
+
+A. Employing extremely long session keys
+B. Using special character sets within sessions
+C. Encrypting the session key
+D. Ensuring sessions have a very short timeout
+
+Correct Answer: C
+
+Explination: Encrypting the session keys would certainly stop the keys from being captured or stolen.
+
+
+QUESTION 244
+
+Because the user appreciates how important security is when banking online, they carefully type the bank’s website address, beginning with HTTPS. However, when the browser resolves the address, the user sees a puzzling pop-up message about a certificate server. Moving past the message, the user is at a website that appears familiar, so they feel safe enough to enter their credentials. Unfortunately, the account funds are emptied shortly thereafter. What was the likely attack used, even though the user tried hard to avoid it?
+
+A. Privilege escalation
+B. Rootkit
+C. Cross-site scripting
+D. Man-in-the-middle
+
+Correct Answer: D
+
+Explination: The user likely typed in HTTPS correctly but might have accidentally visited a malicious website designed to appear like their bank. The certificate error was warning of an invalid or untrusted certificate server
+
+
+QUESTION 245
+
+You’re the manager of a small team of information security specialists. The team recently ended a challenging period of a few incidents and one forensic investigation involving law enforcement. Given that the incidents and investigation are finished, the team seems to be struggling considerably. In fact, you notice that the patch rollout cycle is inconsistent, occasionally taking twice as long as it should. What might you consider to be most helpful to the team?
+
+A. Succession planning
+B. Awarding team members for dedication
+C. Mandatory vacation
+D. Cross-training
+
+Correct Answer: C
+
+Explination: After the described recent workload, the team is likely tired and weary. Further, as the narrative explained about the inconsistent patch management cycle, the team has grown complacent. In this case, mandatory vacation is required to ensure team members get the needed rest.
+
+
+QUESTION 246
+
+Over time, the specific needs on systems, applications, and business processes will change. How an organization approaches and accomplishes these changes depends on the maturity of the organization. In the context of continual changes, what distinguishes a mature organization from other organizations?
+
+A. Process improvement
+B. Process definition
+C. Process documentation
+D. Process management
+
+Correct Answer: A
+
+Explination: Continual process improvement is a defining characteristic of a mature organization.
+
+
+QUESTION 247
+
+An incoming CIO starts their first day on the job by reading and becoming familiar with the company’s security policies. The CIO dusts off policies about the management of pagers, fax machines, and CRT monitors, among other policies that seem to apply to technology no longer applicable to the business’s goals and operations today. What might the incoming CIO add to their to-do list to address this issue?
+
+A. Retirement of processes
+B. Automated reporting
+C. Deputy CIO
+D. Scheduled reviews
+
+Correct Answer: D
+
+Explination: Given the outdated policies, it seems the organization is lacking any review of security policies. Holding regularly or periodically scheduled security reviews helps validate policies as effective and relevant.
+
+
+QUESTION 248
+
+What software approach can ensure that the security and management functions of an organization can operate and cooperate together?
+
+A. Cross-training
+B. Custom APIs
+C. Security suites
+D. Security appliances
+
+Correct Answer: C
+
+Explination: Security suites are a type of software that offers multiple security and management-related functions. Also called “multilayered security,” security suites ensure a level of consistency and interoperability that having several disparate, single-function applications cannot offer.
+
+
+QUESTION 249
+
+A company has recently implemented Elasticsearch, Logstash, and Kibana (ELK) as a central part of its SIEM. Which features has the company gained in their SIEM that were likely missing before? (Select two.)
+
+A. Data outsourcing
+B. Data aggregation
+C. Data correlation
+D. Data automation
+
+Correct Answer: BC
+
+Explination: The aggregation and correlation of data are both well handled by ELK, or the three applications known fully as Elasticsearch, Logstash, and Kibana. With so many varied types of data, from a myriad of source applications and devices, it becomes quickly overwhelming to a person to collect, review, and analyze all this data to glean actionable information from it.
+
+
+QUESTION 250
+
+Which of the following is not a key concern for organizations relying on an outsourcing firm?
+
+A. Sufficient vetting
+B. Access to sensitive data by non-employees
+C. Redundancy of efforts
+D. Agreement on incident-handling responsibilities and decision-making
+
+Correct Answer: C
+
+Explination: When you’re dealing with outsourcing, the redundancy of efforts is not the problem.
+
+
+QUESTION 251
+
+A recent incident at a company revealed that a normal employee has been using special network-analyzing software to capture and read internal e-mails. What control could be put in place to immediately stop this?
+
+A. E-mail signatures
+B. Cryptography
+C. Two-factor login authentication
+D. Network segmentation between departments
+
+Correct Answer: B
+
+Explination: If cryptography were in place to protect e-mail while in transit, attempts to capture and read it would prove futile
+
+
+QUESTION 252
+
+Compensating controls are available from both personnel and technology categories. Which of the following are technology-based controls? (Choose 3)
+
+A. Automated log review and reporting
+B. Load balancers
+C. Dual control
+D. Cross-training
+E. Network design
+
+Correct Answer: ABE
+
+Explination: Automated log review and reporting, load balancers, and network design are technology-based compensating controls. Technology-based controls provide the speed, automation, and opportunities to minimize the impact of human error and complacency
+
+
+QUESTION 253
+
+The government bureau of Urban Development and Enrichment (UDE) has three information security personnel: two analysts and a director. The analysts, Donnie and Walter, divide up the typical  information  security  responsibilities  for  the  bureau.  Today’s  duties  include  reviewing  several  logs  and  creating  a  few  accounts.  Regarding  the  review  of  logs,  an  analyst  reviews  only  the logs of systems that once belonged to internal departments the analyst has been qualified by (a procedure dating back before all departments were merged). The procedure for creating a new account begins with an analyst filling in account information in the directory service and then submitting the account request to the director. The Director of UDE will log in to approve and activate the new account.
+#############################################
+On this particular day, Walter has invited a vendor to come demonstrate a log review tool. At the last minute, the vendor mentions he will need a specially named account. Walter assures the vendor that the account will be ready in time for their 3:00 p.m.appointment. Walter informs the Director of UDE (DUDE) that the account is needed urgently and thus requests that he handle both steps of filling in the account info and the account approval. The DUDE abides. What particular security control is Walter breaking by circumventing the change request?
+
+A. Dual control
+B. Outsourcing
+C. Succession planning
+D. Separation of duties
+
+Correct Answer: D
+
+Explination: Separation of duties means it takes two people to perform a task, each performing their own part, to mitigate the risk of abuse of power. In this case, Walter has assumed the responsibility, given no technical restraint or control, to both create and approve a new account. Therefore, he has circumvented the separation of duties
+
+
+QUESTION 254
+
+The government bureau of Urban Development and Enrichment (UDE) has three information security personnel: two analysts and a director. The analysts, Donnie and Walter, divide up the typical  information  security  responsibilities  for  the  bureau.  Today’s  duties  include  reviewing  several  logs  and  creating  a  few  accounts.  Regarding  the  review  of  logs,  an  analyst  reviews  only  the logs of systems that once belonged to internal departments the analyst has been qualified by (a procedure dating back before all departments were merged). The procedure for creating a new account begins with an analyst filling in account information in the directory service and then submitting the account request to the director. The Director of UDE will log in to approve and activate the new account.
+#############################################
+Donnie regularly reviews the event logs on the Windows desktop systems. However, a few Linux systems are missed because Donnie is not familiar with them. What similar feature on the Linux systems is he missing?
+
+A. L.Event log
+B. Linux logs
+C. Messages
+D. Syslogs
+
+Correct Answer: D
+
+Explination: As Donnie knows, the Windows Event log reports an assortment of system-related messages for the administrator. The logging feature synonymous with the Windows Event log on Linux systems is syslog. Syslog is the common system message protocol used by most network devices, appliances, and UNIX/Linux systems
+
+
+QUESTION 255
+
+The government bureau of Urban Development and Enrichment (UDE) has three information security personnel: two analysts and a director. The analysts, Donnie and Walter, divide up the typical  information  security  responsibilities  for  the  bureau.  Today’s  duties  include  reviewing  several  logs  and  creating  a  few  accounts.  Regarding  the  review  of  logs,  an  analyst  reviews  only  the logs of systems that once belonged to internal departments the analyst has been qualified by (a procedure dating back before all departments were merged). The procedure for creating a new account begins with an analyst filling in account information in the directory service and then submitting the account request to the director. The Director of UDE will log in to approve and activate the new account.
+#############################################
+Some network perimeter devices have been experiencing denial of service attempts over the past several months. Even though the attempts are increasing, Donnie is confident the firewall can handle the added load for the immediate future. However, by Walter’s analysis, the bureau should consider purchasing a more robust firewall soon. What type of analysis is Walter performing to come to this conclusion
+
+A. Firewall log analysis
+B. Historical analysis
+C. Trend analysis
+D. Data correlation
+
+Correct Answer: C
+
+Explination: Trend analysis is the process of analyzing what has been happening, in order to foresee what will happen. Trend analysis is similar to historical analysis but should be considered forward-looking analysis
+
+
+QUESTION 256
+
+The government bureau of Urban Development and Enrichment (UDE) has three information security personnel: two analysts and a director. The analysts, Donnie and Walter, divide up the typical  information  security  responsibilities  for  the  bureau.  Today’s  duties  include  reviewing  several  logs  and  creating  a  few  accounts.  Regarding  the  review  of  logs,  an  analyst  reviews  only  the logs of systems that once belonged to internal departments the analyst has been qualified by (a procedure dating back before all departments were merged). The procedure for creating a new account begins with an analyst filling in account information in the directory service and then submitting the account request to the director. The Director of UDE will log in to approve and activate the new account.
+#############################################
+As mentioned earlier, Walter and Donnie need to be “qualified” to review logs of particular departmental systems, even though all of the bureau’s departments are now merged together. This causes added administrative overhead for each new system brought online. What change control process is failing?
+
+A. Retirement of process
+B. Separation of duties
+C. Procedural training
+D. Scheduled reviews
+
+Correct Answer: A
+
+Explination: Because the reasoning behind the process is outdated, and the process serves little value today, that process should be retired. This activity of reviewing and removing obsolete processes is called “retirement of process.”
+
+
+QUESTION 257
+
+The government bureau of Urban Development and Enrichment (UDE) has three information security personnel: two analysts and a director. The analysts, Donnie and Walter, divide up the typical  information  security  responsibilities  for  the  bureau.  Today’s  duties  include  reviewing  several  logs  and  creating  a  few  accounts.  Regarding  the  review  of  logs,  an  analyst  reviews  only  the logs of systems that once belonged to internal departments the analyst has been qualified by (a procedure dating back before all departments were merged). The procedure for creating a new account begins with an analyst filling in account information in the directory service and then submitting the account request to the director. The Director of UDE will log in to approve and activate the new account.
+#############################################
+The bureau has procured the new log review application. However, the task of integrating this application in with current systems is apparently quite challenging and specialized. Integration requires a high level of experience in database optimization, which only Walter possesses, at an intermediate level. The integration process is described by the vendor as “quick and painless” because all their sales engineers are both skilled and experienced in the requisite knowledge. What might be the best action to take, and who will be involved?
+
+A. Training (vendor trains Donnie)
+B. Dual control (vendor and Walter)
+C. Separation of duties (Donnie and Walter)
+D. Consultant (vendor)
+
+Correct Answer: D
+
+Explination: Hiring the application vendor as a consultant for the purpose of integrating the application is the correct solution. Hiring a consultant is often done because they possess specialized knowledge. In this case, the vendor knows how to integrate the software far more easily than the bureau’s own staff does. This makes the software vendor a third party, in service to the bureau for the time period necessary to install the application. In this temporary role, no doubt the vendor will need to sign an NDA to mitigate the risk of sensitive information being exposed during their service.
+
+
+QUESTION 258
+
+Recent news articles on hacker sites mention a new type of scanning seen in the wild in recent weeks. The articles say the only way to confirm such a scan is occurring is to collect data from devices already aware of a particular packet signature and compare those events to the logs of the network perimeter gateway for the internal network. Besides the IDS, where else could you look?
+
+A. Syslog
+B. Firewall log
+C. Switch log
+D. IPS log
+
+Correct Answer: B
+
+Explination: You need to collect logs from your IDS and the firewall, according to the articles. The benefit of having multiple protective devices, such as a firewall and an IDS/IPS, is to provide defense in depth, or a layered approach to security
+
+
+QUESTION 259
+
+A developer has just finished modifying an application—specifically, how input is processed. As part of the development cycle, their application must go through testing to determine what, if any, security vulnerabilities might exist as a result. What technique should a tester use to find any flaws in the developer’s changes?
+
+A. Web application vulnerability scanning
+B. SQL injection
+C. User acceptance
+D. Fuzzing
+
+Correct Answer: D
+
+Explination: Fuzzing, or fuzz testing, is specifically intended to create invalid input or unexpected amounts of input, hoping to trigger an unexpected response. Given a way to monitor that response, security testers can explore how that response could be leveraged into an exploit
+
+
+QUESTION 260
+
+The finance application seems to operate fine, so long as only a few people are connected to it. However, at the end of the month, when nearly everyone in the company connects to this application, it actually freezes. Even after people stop trying, the application is locked up until an administrator resets it. What type of software testing should have caught this problem?
+
+A. Input validation testing
+B. Fuzzing
+C. Regression testing
+D. Stress testing
+
+Correct Answer: D
+
+Explination: From the narrative, it sounds like the application functions so long as it is not under too much demand. Stress testing would have caught that issue, had it been done.
+
+
+QUESTION 261
+
+What organization, best known for its Top Ten list, specializes in web security issues?
+
+A. SANS Institute
+B. CMMI
+C. OWASP
+D. CIS
+
+Correct Answer: C
+
+Explination: The Open Web Application Security Project is an organization that specifically addresses web security issues. What most people know OWASP from is its Top Ten common web application security concerns, published almost every year
+
+
+QUESTION 262
+
+To reduce the number of modifications soon after an application’s release, what practice is done to verify the application will be used as developers expected?
+
+A. Stress testing
+B. Static code analysis
+C. User acceptance testing
+D. Manual peer review
+
+Correct Answer: C
+
+Explination: Before an application gets released, it’s common to have it tested by a handful of users. These early users will report on what should be changed before the application goes to a wider audience. This is called user acceptance testing
+
+
+QUESTION 263
+
+Tywin is the CEO of a factory where most employees are paid hourly. Employees must submit on paper all their expected hours for the week by Tuesday to get paid on Friday. Jon, the factory floor manager, shares with Tywin that every week he hears the same complaints from employees: “How do I know by Tuesday that my schedule won’t change by Friday?” Understanding the need for  a  quicker  way  to  submit  hours,  Tywin  remembers  that  his  neighbor’s  son,  Sam,  has  been  taking web development courses at a university for a few semesters. Therefore, Tywin offers Sam an opportunity to help. After  a  few  weeks  of  development,  Sam  launches  a  web  application.  Employees  are  told  to  authenticate  and  enter  their  hours  using  this  application.  The  application  then  submits  the  hours to the Finance department and tells employees how much they can expect to get paid on Friday. Hours can be submitted as late as Thursday night. Jon reports to Tywin that employees are happy with the web application and it seems to be the subject of a constant buzz around the break room.
+############
+A very honest user tells Jon that if a user enters a single quote, followed by “OR 1=1” in the password field, they can make the application reply with the hours of any employee. What part of software development did Sam likely overlook?
+
+A. Parameter validation
+B. Input validation
+C. Stress testing
+D. Session tokens not randomized
+
+Correct Answer: B
+
+Explination: Input validation is the coding practice of verifying that a user’s input falls within the expected range in size, character types, and format
+
+
+QUESTION 264
+
+Tywin is the CEO of a factory where most employees are paid hourly. Employees must submit on paper all their expected hours for the week by Tuesday to get paid on Friday. Jon, the factory floor manager, shares with Tywin that every week he hears the same complaints from employees: “How do I know by Tuesday that my schedule won’t change by Friday?” Understanding the need for  a  quicker  way  to  submit  hours,  Tywin  remembers  that  his  neighbor’s  son,  Sam,  has  been  taking web development courses at a university for a few semesters. Therefore, Tywin offers Sam an opportunity to help. After  a  few  weeks  of  development,  Sam  launches  a  web  application.  Employees  are  told  to  authenticate  and  enter  their  hours  using  this  application.  The  application  then  submits  the  hours to the Finance department and tells employees how much they can expect to get paid on Friday. Hours can be submitted as late as Thursday night. Jon reports to Tywin that employees are happy with the web application and it seems to be the subject of a constant buzz around the break room.
+############
+Another honest user, Arya, reports that if she changes the user ID in the URL to someone else’s ID number, she can get the paycheck total for that other person’s week. The same user claims by changing other parameters in the URL, she can make the server reveal much information about itself and the application. If you could hire this Arya to perform security analysis work, what type of work does her experience seem to match?
+
+A. Regression testing
+B. Interception proxy
+C. User acceptance testing
+D. Vulnerability scanning
+
+Correct Answer: D
+
+Explination: Arya seems determined to find vulnerabilities in this web application. She successfully attempted URL manipulation as well as found information leaks. In this case, URL manipulation was able to make the application return another person’s paycheck amount. Web application vulnerability scanning would encompass these and many other checks, including cross-site scripting (XSS), improper use of HTTPS, improper user authentication, and more
+
+
+QUESTION 265
+
+Tywin is the CEO of a factory where most employees are paid hourly. Employees must submit on paper all their expected hours for the week by Tuesday to get paid on Friday. Jon, the factory floor manager, shares with Tywin that every week he hears the same complaints from employees: “How do I know by Tuesday that my schedule won’t change by Friday?” Understanding the need for  a  quicker  way  to  submit  hours,  Tywin  remembers  that  his  neighbor’s  son,  Sam,  has  been  taking web development courses at a university for a few semesters. Therefore, Tywin offers Sam an opportunity to help. After  a  few  weeks  of  development,  Sam  launches  a  web  application.  Employees  are  told  to  authenticate  and  enter  their  hours  using  this  application.  The  application  then  submits  the  hours to the Finance department and tells employees how much they can expect to get paid on Friday. Hours can be submitted as late as Thursday night. Jon reports to Tywin that employees are happy with the web application and it seems to be the subject of a constant buzz around the break room.
+############
+A very honest user tells Jon that if a user enters a single quote, followed by “OR 1=1” in the password field, they can make the application reply with the hours of any employee. Arya, reports that if she changes the user ID in the URL to someone else’s ID number, she can get the paycheck total for that other person’s week. The same user claims by changing other parameters in the URL, she can make the server reveal much information about itself and the application.
+############
+Considering the issues discovered to date, what phase of software development was likely missing during the application lifecycle?
+
+A. Security requirements definition
+B. Stress testing
+C. Security regression testing
+D. Operations and Maintenance
+E. User acceptance testing
+
+Correct Answer: A
+
+Explination: It seems the developer did very little security testing prior to the application’s release. If security requirements had been submitted and followed closely over the course of development, many of these issues could have been avoided. Truly, these are dark times
+
+
+QUESTION 266
+
+What detailed guides published by the CIS are equivalent to the Security Technical Implementation Guides published by the Defense Information System Agency and other government entities?
+
+A. Regression reports
+B. Benchmarks
+C. Security requirements definitions
+D. Secure coding best practice guides
+
+Correct Answer: B
+
+Explination: The Center for Internet Security Benchmarks are detailed configuration guides that are comparable to the STIGs published by the DISA and other government agencies. These guides are free to download, are available for desktop, mobile, server, and network devices, and cover both hardware and virtual platforms. They are highly recommended for anyone to review and understand
+
+
+QUESTION 267
+
+The Center for Internet Security has organized focus groups and built consensus to formulate a group of 20 “CIS Controls.” These controls are separated in groups of Basic, Foundational, and Organizational. What is the intended aim of these controls?
+
+A. Employee-controlled access
+B. Software development best practices
+C. Wireless access control
+D. System design recommendations
+
+Correct Answer: D
+
+Explination: The CIS Controls are system design recommendations, grouped into three categories: Basic, Foundational, and Organizational. These consensus-based best practices provide a set of actionable recommendations, intended for anyone responsible for information security
+
+
+QUESTION 268
+
+Which of the follow tools are considered exploit tools? (Choose 2)
+
+A. Nagios
+B. Splunk
+C. OSSIM
+D. Burp Suite
+E. Metasploit
+
+Correct Answer: DE
+
+Explination: Both Burp Suite and Metasploit are exploitative tools. Burp Suite is a web application testing platform, able to provide analysis of a web application’s vulnerabilities. The Metasploit Framework is an exploit tool that includes a large array of modular-like exploit code that a user can execute against a target
+
+
+QUESTION 269
+
+According to firewall logs, an external, known malware server has tried communicating with a few workstations. A relevant sample log entry is shown below. You quickly determine those workstations are beaconing to that server. Quick assessment shows the workstations are infected by a popular Trojan. After you isolate those workstations, your concern is what other workstations might be infected. What tool should you use to identify other workstations?
+################################################################################################################
+date:		priority:	description:	scource:		S.port:	destination:	D.port:		protocal:	event: #
+2018-10-31	2			Orca Response	72.247.244.88	25278	192.168.175.10	5297		udp			Alert  #
+2018-10-31	2			Orca Response	72.247.244.88	25278	192.168.175.27	5297		udp			Alert  #
+2018-10-31	2			Orca Response	72.247.244.88	25278	192.168.175.18	5297		udp			Alert  #
+2018-10-31	2			Orca Response	72.247.244.88	25278	192.168.175.83	5297		udp			Alert  #
+################################################################################################################
+
+A. Nessus
+B. MRTG
+C. nmap
+D. netstat
+E. QRadar
+
+Correct Answer: C
+
+Explination: Given that the port number is known from the firewall log, it would be best to scan the network for workstations listening on port 5297. This can be done quickly and easily with the port scanner utility nmap
+
+
+QUESTION 270
+
+Which of the following vulnerability scanners is the open source and free version of the commercially licensed scanner Nessus?
+
+A. Nikto
+B. OpenVAS
+C. Nexpose
+D. Qualys
+
+Correct Answer: B
+
+Explination: OpenVAS is open source and free to use. Originally forked from the Nessus project, OpenVAS is similarly structured and capable
+
+
+QUESTION 271
+
+A recent incident has led to law enforcement (LE) taking several employees’ mobile devices. LE requires data extraction from these devices, while ensuring no changes to the data can be made during extraction. Given the scope of their effort, and how it’s done on company-managed devices, LE asks for your suggestion on the proper forensic tool for the job. What forensic tool suite would you recommend?
+
+A. EnCase
+B. FTK Imager
+C. Sysinternals
+D. Cellebrite
+E. Helix
+
+Correct Answer: D
+
+Explination: Cellebrite’s flagship product, the Universal Forensic Extraction Device (UFED), is a handheld device for facilitating data extraction while also employing write blocking
+
+
+QUESTION 272
+
+As a safety measure, a finance manager has been archiving the small company’s finance folder every evening, keeping the backup off the server. One early morning, the manager asks you if there is any way to ensure that the files have not changed since they were archived the night before. What tools can you use to demonstrate no changes have been made? (Choose 2)
+
+A. md5sum
+B. tcpdump
+C. shasum
+D. Vega
+E. ZAP
+
+Correct Answer: AC
+
+Explination: To verify the collection of files remain the same as the archive, the finance manager should archive the files again and then compare hashes made from the two archives. A hash is a value computed from the precise structure of a file. Only if the archives are exactly alike will the two hash values be exactly alike. The two utilities shown that create such hash values are md5sum and shasum
+
+
+QUESTION 273
+
+The in-house development team is proud of their newest XML application. They claim that if you can break the application just by entering data in it like a user would, they will buy you lunch. Seeing how you are quite hungry, what tool do you reach for?
+
+A. ModSecurity
+B. Kiwi Syslog
+C. Cain & Abel
+D. Untidy
+
+Correct Answer: D
+
+Explination: Untidy is a fuzzing tool, meaning its purpose is to send unexpected input to an application with the intent of breaking or crashing it. Input varies in type and size, from slightly “off ” to vastly different from what the application expects. Untidy works with XML and modifies it before inputting it. Currently, Untidy is part of the Peach Fuzzer project. Peach Fuzzer is a suite of fuzzing tools that rely on XML-based modules, which their designers call “pits.” The pits are what configure the tool concerning how to conduct the test.
+
+
+QUESTION 274
+
+Your CEO recently read an article titled “Security Information and Event Management—How You Can Know Everything.” The CEO has always been interested in alerts you receive from the company’s vast array of systems, but he now is willing to invest in real-time analysis of those alerts. Which tool would you suggest the CEO invest in?
+
+A. ArcSight
+B. Bro
+C. Cacti
+D. tcpdump
+
+Correct Answer: A
+
+Explination: ArcSight is a powerful trio of platforms, intended for medium to large companies. Its correlation and analytics engines are mature and well-respected in the field of SIEM solutions. The CEO would be quite proud and pleased with ArcSight integrated into the current fold of alert management systems
+
+
+QUESTION 275
+
+In the Department of Research and Development, one of the Windows servers goes offline once or twice a day. Each outage lasts only three to five minutes. The server drops offline and restores connectivity  with  no  apparent  cause  or  pattern.  Every  outage  is  temporary,  but  it’s  disruptive  enough  that  the  department  manager  has  finally  demanded  an  investigation.  After  a  network  engineer diagnosed the routing table and wiring as fine and a system admin was unable to repli-cate the problem, they then turn to security.
+#################
+Although the networking and routing have been determined to be good, there could still be a networking issue to detect on the system. What command-line utility could be used to display open sockets and network connections?
+
+A. nslookup
+B. nmap
+C. netstat
+D. tracert
+
+Correct Answer: C
+
+Explination: The command-line utility netstat will display current sockets and network connections
+
+
+QUESTION 276
+
+In the Department of Research and Development, one of the Windows servers goes offline once or twice a day. Each outage lasts only three to five minutes. The server drops offline and restores connectivity  with  no  apparent  cause  or  pattern.  Every  outage  is  temporary,  but  it’s  disruptive  enough  that  the  department  manager  has  finally  demanded  an  investigation.  After  a  network  engineer diagnosed the routing table and wiring as fine and a system admin was unable to repli-cate the problem, they then turn to security.
+###################
+The networking connections display one external, foreign IP address with an active connection. What device or application would be the first choice to corroborate this finding as well as to stop it?
+
+A. Antivirus
+B. Firewall
+C. Antimalware
+D. IPS
+
+Correct Answer: B
+
+Explination: If there is a connection between an internal system and an external system, the connection passes through the firewall. The firewall is a network perimeter device that will either deny or allow a connection to take place, depending on the rules you instruct the firewall to follow
+
+
+QUESTION 277
+
+What Next-Generation Firewall (NGFW) company released “Wildfire,” a cloud-based malware-detection service?
+
+A. Cisco
+B. Check Point
+C. Palo Alto
+D. Sourcefire
+
+Correct Answer: C
+
+Explination: Wildfire is a subscription service from Palo Alto. With Wildfire, Palo Alto moves malware detection to the cloud
+
+
+QUESTION 278
+
+A special-purpose workstation connects with several external hosts during the normal workday. On  the  rare  occasion,  a  connection  triggers  an  alert  on  a  network  intrusion  detection  system  or  some  other  security  device  because  malicious  traffic  is  detected.  This  is  because  none  of  the  external nodes are under the company’s control or security policy. Because this is a necessary func-tion of this particular workstation, the potential for malicious traffic is an acceptable risk.
+##################
+What should be the first line of defense to protect the workstation from a security incident?
+
+A. Antivirus
+B. Firewall
+C. HIDS
+D. Network-based IDS
+
+Correct Answer: A
+
+Explination: Antivirus (AV) on the host should be an obvious first line of defense. AV should be already present, at a minimum
+
+
+QUESTION 279
+
+A special-purpose workstation connects with several external hosts during the normal workday. On  the  rare  occasion,  a  connection  triggers  an  alert  on  a  network  intrusion  detection  system  or  some  other  security  device  because  malicious  traffic  is  detected.  This  is  because  none  of  the  external nodes are under the company’s control or security policy. Because this is a necessary func-tion of this particular workstation, the potential for malicious traffic is an acceptable risk.
+##################
+The new CISO has decided the workstation must connect via VPN to improve security. What, if any, change in controls should be considered?
+
+A. Adding an HIPS
+B. Ensuring the CA is up to date
+C. Capturing packet headers
+D. No change in controls needed
+
+Correct Answer: A
+
+Explination: If a VPN is used between the workstation and a foreign node (which is a very dangerous idea, by the way), then all traffic is now encrypted and unviewable by the company’s own network security devices. Only a host-based IDS or IPS can view the traffic as it leaves or enters the endpoint. Therefore, adding an HIPS is the correct choice
+
+
+QUESTION 280
+
+What network-monitoring application is the following rule useful for?
+--------------------------
+alert tcp $ $EXTERNAL_NET any -> $HOME_NET any (msg: "You're gonna need a bigger boat"; content: "dun_dun"; depth:5; nocase; detection_filter: track by_src, count 3, seconds 2;)
+
+A. Metasploit
+B. Web proxy
+C. Network General
+D. Snort
+E. Most firewalls
+
+Correct Answer: D
+
+Explination: The provided example is a Snort rule. Functionally, the rule will detect and alert on packets containing “dun_dun” in their content at a depth of five octets, and sensing three such packets within two seconds from a single source. (Although this rule is likely not practical in the real world, I think coastal data centers should include it in their Snort rule set.) Snort installations come with close to 2000 stock rules in various readable text files. Various sets of rules are available for use depending on your environment, OS platform, or applications running
