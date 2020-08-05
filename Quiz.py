@@ -18,6 +18,7 @@ from time import sleep
 from os import system, name
 import os
 import random
+import shutil
 
 
 
@@ -54,8 +55,12 @@ def term_size():
     if name == 'nt':
         rows = os.get_terminal_size().lines
         columns = os.get_terminal_size().columns
+    elif name == 'posix':
+        #rows, columns = os.popen('stty size', 'r').read().split()
+        columns, rows = shutil.get_terminal_size((30, 30))
     else:
-        rows, columns = os.popen('stty size', 'r').read().split()
+        rows = 30
+        columns = 65
     
     
 
