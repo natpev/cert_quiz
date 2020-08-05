@@ -317,6 +317,8 @@ try:
         question_num = pr_ans(question_num)
         check_answer()
         input("ENTER to continue...")
+        if resp > int(file_len):
+            resp = 1
         if random_choice.upper() in yes_bank:
             resp = random.randint(1,int(file_len))
         clear()
