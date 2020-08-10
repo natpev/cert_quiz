@@ -55,14 +55,14 @@ async def on_ready():
 async def on_message(message):
     if message.content == '$credits':
         await message.channel.send(
-            '################################################################\n'
-            '#                                                              #\n'
-            '#                     Created by Nathan P.                     #\n'
-            '#    Free for all but dont be a dick and remove the credit.    #\n'
-            '#                                                              #\n'
-            '#                            v0.0.1                            #\n'
-            '#                           DISCORD                            #\n'
-            '################################################################')
+                "#######################################\n"
+                "#                                                                                                          #\n"
+                "#                                 Created by Nathan P.                                  #\n"
+                "#     Free for all but don't be a dick and remove the credit.     #\n"
+                "#                                                                                                          #\n"
+                "#                                            v0.0.1                                                   #\n"
+                "#                                        DISCORD                                                #\n"
+                "#######################################")
 
 
 

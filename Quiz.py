@@ -57,7 +57,7 @@ def term_size():
         columns = os.get_terminal_size().columns
     elif name == 'posix':
         #rows, columns = os.popen('stty size', 'r').read().split()
-        columns, rows = shutil.get_terminal_size((30, 30))
+        columns, rows = shutil.get_terminal_size((65, 30))
     else:
         rows = 30
         columns = 65
