@@ -137,19 +137,22 @@ def start_q():
             print('INVALID')
             random_choice = input('Randomize Questions? Yes|No  '.rjust(int(int(columns)/2 - 2)))
     global resp
-    while True:
-        try:
-            resp = int(input('Starting question:  '.rjust(int(int(columns)/2 -11))))
-            if resp < 1:
-                raise ValueError('value too low')
-            elif resp > int(file_len):
-                raise ValueError('value too high')
-            else:
-                break
-        except KeyboardInterrupt:
-            raise
-        except:
-            print('INVALID'.rjust(int(int(columns)/2 -24)))
+    if random_choice.upper() in no_bank:
+        while True:
+            try:
+                resp = int(input('Starting question:  '.rjust(int(int(columns)/2 -11))))
+                if resp < 1:
+                    raise ValueError('value too low')
+                elif resp > int(file_len):
+                    raise ValueError('value too high')
+                else:
+                    break
+            except KeyboardInterrupt:
+                raise
+            except:
+                print('INVALID'.rjust(int(int(columns)/2 -24)))
+    else:
+        resp = random.randint(1,int(file_len))
     global q_num
     q_num = int(resp)
     while is_it_there != 1:
