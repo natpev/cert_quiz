@@ -3,7 +3,10 @@ a quizing program that uses a .txt file (UTF-8 encoding) for questions and answe
 
 
 ####################################################################################################################################
+QUIZ:Some Questions
 TOTAL:2
+
+
 
 QUESTION 1
 
