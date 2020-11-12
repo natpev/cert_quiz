@@ -15,8 +15,8 @@ char = ['','\n']
 first = 0
 
 def clear():
-    pass
-#    _ = system('clear')
+#    pass
+    _ = system('clear')
 
 
 new = input('New quiz? Y|N  ')
