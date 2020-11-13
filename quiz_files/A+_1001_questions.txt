@@ -12,7 +12,7 @@ B. Distended capacitors
 C. Continuous reboots
 D. Wrong BIOS time
 
-Answer: C
+Correct Answer: C
 
 Explanation:
 
@@ -27,7 +27,7 @@ C. Search the Internet for repair tutorials.
 D. Consult colleagues for advice.
 E. Place the device in rice for a few days.
 
-Answer: AB
+Correct Answer: AB
 
 Explanation:
 
@@ -43,7 +43,7 @@ D. KVM switch
 E. NFC device
 F. Flatted scanner
 
-Answer: AC
+Correct Answer: AC
 
 Explanation:
 
@@ -57,7 +57,7 @@ B. Orientation
 C. Duplex
 D. Transparency
 
-Answer: C
+Correct Answer: C
 
 Explanation:
 
@@ -73,7 +73,7 @@ D. Verify the settings in IPConfig.
 E. Research the problem based on symptoms.
 F. Run a virus scan.
 
-Answer: AF
+Correct Answer: AF
 
 Explanation:
 
@@ -87,7 +87,7 @@ B.ipconfig /flushdns
 C.ipconfig /release
 D.ipconfig /setclassid
 
-Answer: B
+Correct Answer: B
 
 Explanation:
 
@@ -101,7 +101,7 @@ B. Efficiency rating
 C. 12V rail amperage
 D. Number of SATA connectors
 
-Answer: A
+Correct Answer: A
 
 Explanation:
 
@@ -115,7 +115,7 @@ B. Set the laptop configuration to DHCP to prevent conflicts.
 C. Replace the network card in the laptop, as it may be defective.
 D. Bridge the LAN connection between the laptop and the desktop.
 
-Answer: B
+Correct Answer: B
 
 Explanation:
 
@@ -131,7 +131,7 @@ D. 16GB DDR2 memory
 E. Dual monitors
 F. Encrypted hard drive
 
-Answer: B
+Correct Answer: B
 
 Explanation:
 
@@ -145,7 +145,7 @@ B. Coaxial
 C. USB
 D. Ethernet
 
-Answer: D
+Correct Answer: D
 
 Explanation:
 
@@ -159,7 +159,7 @@ B. 17
 C. 802
 D. 8080
 
-Answer: A
+Correct Answer: A
 
 Explanation:
 
@@ -173,7 +173,7 @@ B. Check the event log any cache issues.
 C. Clear the RAID configuration file and restart the PC.
 D. Replace the RAID controller write cache module.
 
-Answer: B
+Correct Answer: B
 
 Explanation:
 
@@ -187,7 +187,7 @@ B. Port replicator
 C. Thunderbolt
 D. USB hub
 
-Answer: A
+Correct Answer: A
 
 Explanation:
 
@@ -201,7 +201,7 @@ B. There is a low RFID signal.
 C. SSID is not found.
 D. It is out of range.
 
-Answer: A
+Correct Answer: A
 
 Explanation:
 
@@ -215,7 +215,7 @@ B. Fitness monitor
 C. Global positioning sensor
 D. Portable hot-spot
 
-Answer: A
+Correct Answer: A
 
 Explanation:
 
@@ -229,7 +229,7 @@ B. Replace the screen with a non-OEM.
 C. Update the firmware on the device before repairing it.
 D. Wait for the vendor to provide more information.
 
-Answer: A
+Correct Answer: A
 
 Explanation:
 
@@ -243,7 +243,7 @@ B. Built-in battery case
 C. Extra charging cords
 D. Airplane mode
 
-Answer: A
+Correct Answer: A
 
 Explanation:
 
@@ -257,7 +257,7 @@ B. Mini-USB
 C. USB-A
 D. USB-C
 
-Answer: D
+Correct Answer: D
 
 Explanation:
 
@@ -271,7 +271,7 @@ B. Tethering
 C. Disabled hot-spot
 D. VPN
 
-Answer: A
+Correct Answer: A
 
 Explanation:
 
@@ -285,7 +285,7 @@ B. Cat 5
 C. Cat 5e
 D. Cat 6
 
-Answer: C
+Correct Answer: C
 
 Explanation:
 
@@ -301,7 +301,7 @@ D. PAN
 E. SAN
 F. WLAN
 
-Answer: AB
+Correct Answer: AB
 
 Explanation:
 
@@ -315,7 +315,7 @@ B. RJ45
 C. RG-59
 D. RS-232
 
-Answer: C
+Correct Answer: C
 
 Explanation:
 
@@ -331,7 +331,7 @@ D. Hypervisor
 E. Docking station
 F. NAS
 
-Answer: AB
+Correct Answer: AB
 
 Explanation:
 
@@ -345,7 +345,7 @@ B. Use the Fn and function key combination
 C. Adjust the monitor display settings.
 D. Enable DisplayPort.
 
-Answer: C
+Correct Answer: C
 
 Explanation:
 
@@ -359,7 +359,7 @@ B. Inverter
 C. Video card
 D. Digitizer
 
-Answer: B
+Correct Answer: B
 
 Explanation:
 
@@ -375,7 +375,7 @@ D. Change the aspect ratio on the projector.
 E. Replace the bulb in the projector.
 F. Modify the laptop's display resolution.
 
-Answer: BD
+Correct Answer: BD
 
 Explanation:
 
@@ -389,7 +389,7 @@ B. Reinstall the drivers on users' PCs.
 C. have users restart their PCs.
 D. Clear the print queue.
 
-Answer: D
+Correct Answer: D
 
 Explanation:
 
@@ -403,7 +403,7 @@ B. Confirm that the laptop is in range for the access point.
 C. Confirm that the correct wireless network is selected.
 D. Confirm the user's network login ID and password.
 
-Answer: A
+Correct Answer: A
 
 Explanation:
 
@@ -417,7 +417,7 @@ B. Enable multifactor authentication.
 C. Configure biometric authentication.
 D. Remove complex password requirements.
 
-Answer: A
+Correct Answer: A
 
 Explanation:
 
@@ -431,7 +431,7 @@ B. Metered
 C. Rapid elasticity
 D. Resource pooling
 
-Answer: C
+Correct Answer: C
 
 Explanation:
 
@@ -445,7 +445,7 @@ B. Cable tester
 C. Tone generator
 D. Voltmeter
 
-Answer: A
+Correct Answer: A
 
 Explanation:
 
@@ -460,7 +460,7 @@ C. Do a System Restore.
 D. Perform a full data backup.
 E. Scan the system for viruses.
 
-Answer: D
+Correct Answer: D
 
 Explanation:
 
@@ -474,7 +474,7 @@ B. Create a Bluetooth connection between Joe's devices, and copy his contacts an
 C. Back up the old mobile device to a PC, and import the contacts and schedule from the PC.
 D. Use NFC to transfer all compatible data from one device to the other.
 
-Answer: A
+Correct Answer: A
 
 Explanation:
 
@@ -488,7 +488,7 @@ B. Change the paper feed rate.
 C. Clean the transfer roller.
 D. Replace the toner cartridge.
 
-Answer: A
+Correct Answer: A
 
 Explanation:
 
@@ -503,7 +503,7 @@ C. Distended capacitors
 D. Loose battery connection
 E. CMOS battery failure
 
-Answer: D
+Correct Answer: D
 
 Explanation:
 
@@ -517,7 +517,7 @@ B. SaaS
 C. PaaS
 D.laaS
 
-Answer: B
+Correct Answer: B
 
 Explanation:
 
@@ -533,7 +533,7 @@ D. Disable wireless access on the thermostat to make it unshakable.
 E. Upgrade the customer's router to the latest version to improve network security.
 F. Upgrade the customer's wireless network encryption to WPA.
 
-Answer: AC
+Correct Answer: AC
 
 Explanation:
 
@@ -547,7 +547,7 @@ B. 23
 C. 80
 D. 443
 
-Answer: B
+Correct Answer: B
 
 Explanation:
 
@@ -561,7 +561,7 @@ B. Get authorization from the manager.
 C. Delete proprietary data before leaving the building.
 D. Remove the HDD and send the device for repair.
 
-Answer: A
+Correct Answer: A
 
 Explanation:
 
@@ -575,7 +575,7 @@ B. Verify the Windows Firewall is turned off.
 C. Configure the wireless network's SSID to be hidden.
 D. Enable file and printer sharing in the OS.
 
-Answer: A
+Correct Answer: A
 
 Explanation:
 
@@ -589,7 +589,7 @@ B. Configure the printer to use the Internet printing protocol.
 C. Ensure the user's computer is set to DHCP.
 D. Connect the printer to the company wireless network.
 
-Answer: D
+Correct Answer: D
 
 Explanation:
 
@@ -603,7 +603,7 @@ B. Verify the user is sending the document to the correct printer queue.
 C. Have each user send the same document to the correct printer queue.
 D. Stop and restart the print server queues, and then have the user resend the document.
 
-Answer: B
+Correct Answer: B
 
 Explanation:
 
@@ -617,7 +617,7 @@ B. DDR4
 C. Single channel
 D. ECC
 
-Answer: B
+Correct Answer: B
 
 Explanation:
 
@@ -631,7 +631,7 @@ B. 50GB NAS
 C. 500TB SAN
 D. 512GB SSD
 
-Answer: A
+Correct Answer: A
 
 Explanation:
 
@@ -645,7 +645,7 @@ B. resource pool
 C. synchronization application
 D. shared resources
 
-Answer: A
+Correct Answer: A
 
 Explanation:
 
@@ -660,7 +660,7 @@ B. Check each wireless adapter switch
 C. Check the group's network switch.
 D. Check the DHCP server.
 
-Answer: D
+Correct Answer: D
 
 Explanation:
 
@@ -674,7 +674,7 @@ B. Battery
 C. DC jack
 D. Hard drive
 
-Answer: C
+Correct Answer: C
 
 Explanation:
 
@@ -689,7 +689,7 @@ C. Terminal services
 D. Device Manager
 E. Virtual LAN
 
-Answer: A
+Correct Answer: A
 
 Explanation:
 
@@ -703,7 +703,7 @@ B. IDS
 C. Proxy server
 D. Authentication server.
 
-Answer: A
+Correct Answer: A
 
 Explanation:
 
@@ -717,7 +717,7 @@ B. Hub
 C. Firewall
 D. Cable modern
 
-Answer: A
+Correct Answer: A
 
 Explanation:
 
@@ -731,7 +731,7 @@ B. Increase the resolution.
 C. Use haptic feedback.
 D. Utilize text-to-speech.
 
-Answer: A
+Correct Answer: A
 
 Explanation:
 
@@ -746,7 +746,7 @@ C. Virtual CPU
 D. Virtual switch
 E. Virtual RAM
 
-Answer: C
+Correct Answer: C
 
 Explanation:
 
@@ -760,7 +760,7 @@ B. Check the connectivity of the power cable.
 C. Change the aspect ratio on the laptop.
 D. Change the settings of the projector
 
-Answer: A
+Correct Answer: A
 
 Explanation:
 
@@ -775,7 +775,7 @@ B. The memory has too many ECC errors and is shutting down
 C. The server is overheating when all of the memory is installed.
 D. The server needs DDR4 memory, and DDR3 is installed.
 
-Answer: D
+Correct Answer: D
 
 Explanation:
 
@@ -789,7 +789,7 @@ B. RAID 2
 C. RAID 6
 D. RAID 10
 
-Answer: D
+Correct Answer: D
 
 Explanation:
 
@@ -803,7 +803,7 @@ B. Laser
 C. 3-D
 D. Thermal
 
-Answer: C
+Correct Answer: C
 
 Explanation:
 
@@ -819,7 +819,7 @@ D. Cellular
 E. Bluetooth
 F. Fingerprint reader
 
-Answer: DE
+Correct Answer: DE
 
 Explanation:
 
@@ -833,7 +833,7 @@ B. Bluetooth
 C. IR
 D. LTE
 
-Answer: A
+Correct Answer: A
 
 Explanation:
 
@@ -847,7 +847,7 @@ B. A single-processor motherboard with hyper threaded eight cores.
 C. A dual-processor motherboard with eight overclocked cores each.
 D. A single-processor motherboard with ten overclocked cores.
 
-Answer: D
+Correct Answer: D
 
 Explanation:
 
@@ -861,7 +861,7 @@ B. Install the printer on the users' desktops and point it to the IP address of 
 C. Purchase a wireless printer so the users can access the printer via network.
 D. Provide flash drives to the users so they can transfer data to the manager's computer for printing.
 
-Answer: C
+Correct Answer: C
 
 Explanation:
 
@@ -875,7 +875,7 @@ B. Performance Monitor
 C. System configuration
 D. Digitizer settings
 
-Answer: D
+Correct Answer: D
 
 Explanation:
 
@@ -889,7 +889,7 @@ B. DNS resolution
 C. Duplicate IP address
 D. Cleared ARP cache
 
-Answer: A
+Correct Answer: A
 
 Explanation:
 
@@ -905,7 +905,7 @@ D. Create a Linux LiveBoot CD.
 E. Repartition the hard drive.
 F. Install Linux on a new ext3 partition.
 
-Answer: EF
+Correct Answer: EF
 
 Explanation:
 
@@ -919,7 +919,7 @@ B. DHCP server.
 C. Proxy server
 D. RADIUS server
 
-Answer: B
+Correct Answer: B
 
 Explanation:
 
@@ -933,7 +933,7 @@ B. managed switch
 C. Repeater
 D. Gateway
 
-Answer: A
+Correct Answer: A
 
 Explanation:
 
@@ -947,7 +947,7 @@ B. Mouse
 C. Monitor
 D. Optical drive
 
-Answer: B
+Correct Answer: B
 
 Explanation:
 
@@ -964,7 +964,7 @@ E. The replacement part is dead-on-arrival.
 F. The LCD panel firmware must be updated.
 G. The grounding screws are not securely attached.
 
-Answer: ACD
+Correct Answer: ACD
 
 Explanation:
 
@@ -978,7 +978,7 @@ B. Measured service
 C. Virtual application streaming
 D. Synchronization
 
-Answer: A
+Correct Answer: A
 
 Explanation:
 
@@ -992,7 +992,7 @@ B. Purchase a high-end system meeting the hardware requirements for all of the i
 C. Purchase one computer and create images for each computer configuration and OS. Re-image themachine for each testing environment.
 D. Purchase a number of computers, installing a VM on each one. Configure each VM with an OS forthe testing environment.
 
-Answer: B
+Correct Answer: B
 
 Explanation:
 
@@ -1007,7 +1007,7 @@ C. Change the firewall security settings.
 D. Change the email proxy settings.
 E. Change the trusted sites in the browser settings.
 
-Answer: B
+Correct Answer: B
 
 Explanation:
 
@@ -1021,7 +1021,7 @@ B. I/O bandwidth
 C. RAM utilization
 D. CPU utilization
 
-Answer: B
+Correct Answer: B
 
 Explanation:
 
@@ -1035,7 +1035,7 @@ B. The user has set a static IP address.
 C. The user has moved to a different office.
 D. The user has wireless and wired connections.
 
-Answer: B
+Correct Answer: B
 
 Explanation:
 
@@ -1049,7 +1049,7 @@ B. Disconnect and reconnect the internal hard drive.
 C. Remove the CMOS battery and reinsert it after ten seconds.
 D. Remove the motherboard and place it back into the machine after ten minutes.
 
-Answer: C
+Correct Answer: C
 
 Explanation:
 
@@ -1067,7 +1067,7 @@ F. Install the latest device drivers.
 G. Connect the device to a monitor.
 H. Install the necessary applications.
 
-Answer: DEH
+Correct Answer: DEH
 
 Explanation:
 
@@ -1081,7 +1081,7 @@ B. NFC
 C. Bluetooth
 D. VPN
 
-Answer: A
+Correct Answer: A
 
 Explanation:
 
@@ -1095,7 +1095,7 @@ B. Hinge
 C. Motherboard
 D. Digitizer
 
-Answer: D
+Correct Answer: D
 
 Explanation:
 
@@ -1110,7 +1110,7 @@ C. There is an onboard RAM mismatch
 D. GPU is overlocked
 E. The firmware is out-of-date
 
-Answer: B
+Correct Answer: B
 
 Explanation:
 
@@ -1124,7 +1124,7 @@ B. DSL
 C. Fiber
 D. Cable
 
-Answer: B
+Correct Answer: B
 
 Explanation:
 
@@ -1138,7 +1138,7 @@ B. VLAN
 C. VPN
 D. HIPS
 
-Answer: C
+Correct Answer: C
 
 Explanation:
 
@@ -1152,7 +1152,7 @@ B. ISA
 C. AGP
 D. USB
 
-Answer: A
+Correct Answer: A
 
 Explanation:
 
@@ -1166,7 +1166,7 @@ B. Thick client
 C. CAD workstation
 D. Virtualized host computer
 
-Answer: A
+Correct Answer: A
 
 Explanation:
 
@@ -1182,7 +1182,7 @@ D. 80
 E. 110
 F. 443
 
-Answer: AF
+Correct Answer: AF
 
 Explanation:
 
@@ -1196,7 +1196,7 @@ B. E-reader
 C. Smart watch
 D. Virtual reality headset
 
-Answer: D
+Correct Answer: D
 
 Explanation:
 
@@ -1210,7 +1210,7 @@ B. RJ-11
 C. RJ-45
 D. RG-59
 
-Answer: B
+Correct Answer: B
 
 Explanation:
 
@@ -1224,7 +1224,7 @@ B. Run a label calibration
 C. Remove stuck labels from the print path
 D. Replace the print head
 
-Answer: A
+Correct Answer: A
 
 Explanation:
 
@@ -1238,7 +1238,7 @@ B. SSD
 C. NIC
 D. RAM
 
-Answer: B
+Correct Answer: B
 
 Explanation:
 
@@ -1252,7 +1252,7 @@ B. DNS server
 C. proxy server
 D. TACACS server
 
-Answer: A
+Correct Answer: A
 
 Explanation:
 
@@ -1266,7 +1266,7 @@ B. Print server
 C. Bluetooth printing
 D. Cloud printing
 
-Answer: A
+Correct Answer: A
 
 Explanation:
 
@@ -1280,7 +1280,7 @@ B. private
 C. public
 D. community
 
-Answer: A
+Correct Answer: A
 
 Explanation:
 
@@ -1294,7 +1294,7 @@ B. Touchpad
 C. Mouse
 D. Keyboard
 
-Answer: A
+Correct Answer: A
 
 Explanation:
 
@@ -1308,7 +1308,7 @@ B. Near field communication
 C. Wireless LAN
 D. Virtual private network
 
-Answer: A
+Correct Answer: A
 
 Explanation:
 
@@ -1322,7 +1322,7 @@ B. It provides power to the audio and sound boards of the machine
 C. It acts as the main voltage supply to the motherboard and processor
 D. It powers all expansion cards and external device hubs
 
-Answer: A
+Correct Answer: A
 
 Explanation:
 
@@ -1338,7 +1338,7 @@ D. Adjust the printer settings
 E. Replace the developer
 F. Empty the waste toner bottlers
 
-Answer: AC
+Correct Answer: AC
 
 Explanation:
 
@@ -1352,7 +1352,7 @@ B. HDMI connection
 C. Keystone
 D. Focus
 
-Answer: A
+Correct Answer: A
 
 Explanation:
 
@@ -1366,7 +1366,7 @@ B. 802.11ac
 C. 802.11b
 D. 802.11g
 
-Answer: A
+Correct Answer: A
 
 Explanation:
 
@@ -1380,7 +1380,7 @@ B. The print server is timing out
 C. The users are not printing in post-script mode
 D. The printer network connection is set to half duplex
 
-Answer: A
+Correct Answer: A
 
 Explanation:
 
@@ -1394,7 +1394,7 @@ B. Secure Boot should be enabled
 C. Wake-on-LAN should be unchecked
 D. The PXE server address should be set
 
-Answer: D
+Correct Answer: D
 
 Explanation:
 
@@ -1408,7 +1408,7 @@ B. Video RAM
 C. CPU frequency
 D. Monitor resolution
 
-Answer: A
+Correct Answer: A
 
 Explanation:
 
@@ -1422,7 +1422,7 @@ B. Enable NAT
 C. Create a network DMZ
 D. Upgrade the encryption standards
 
-Answer: A
+Correct Answer: A
 
 Explanation:
 
@@ -1436,7 +1436,7 @@ B. DHCP
 C. Proxy
 D. Web server
 
-Answer: A
+Correct Answer: A
 
 Explanation:
 
@@ -1450,7 +1450,7 @@ B. There are conflicting ARP records
 C. There are conflicting gateways on the network
 D. There are conflicting IP protocols
 
-Answer: A
+Correct Answer: A
 
 Explanation:
 
@@ -1466,7 +1466,7 @@ D. Update the laptop video driver
 E. Install a higher lumen lamp
 F. Change the video resolution
 
-Answer: AB
+Correct Answer: AB
 
 Explanation:
 
@@ -1480,7 +1480,7 @@ B. Check the voltage of the PSU with a tester
 C. Test for distended capacitors
 D. Check the voltage switch
 
-Answer: A
+Correct Answer: A
 
 Explanation:
 
@@ -1500,7 +1500,7 @@ B. There is a problem with a DNS server in the office
 C. The users are not getting correct IP addresses from the DHCP server
 D. The wireless access point in the area is down
 
-Answer: A
+Correct Answer: A
 
 Explanation:
 
@@ -1514,7 +1514,7 @@ B. Immediately replace physical disk 2. Wait until the arrays is rebuilt and con
 C. Delete logical disk 0 and manually configure a new RAID array only using the known-good workingdrives. Wait until the array is rebuilt and confirm in the RAID controller that the system is no longerdegraded.
 D. In the controller, convert the RAID 5 array to RAID 0 array to avoid system downtime. Wait untilthe array is rebuilt and confirm in the RAID controller that the system is no longer degraded.
 
-Answer: A
+Correct Answer: A
 
 Explanation:
 
@@ -1528,7 +1528,7 @@ B. Fiber
 C. Shielded
 D. Coaxial
 
-Answer: A
+Correct Answer: A
 
 Explanation:
 
@@ -1542,7 +1542,7 @@ B. Router
 C. Hub
 D. Repeater
 
-Answer: A
+Correct Answer: A
 
 Explanation:
 
@@ -1556,7 +1556,7 @@ B. Update the operating system, drivers, and firmware on the PC
 C. Log into the PC with another user profile and test performance
 D. Shut down the PC, unplug the power for 30 seconds, and then boot the PC
 
-Answer: A
+Correct Answer: A
 
 Explanation:
 
@@ -1570,7 +1570,7 @@ B. PAN
 C. LAN
 D. MAN
 
-Answer: C
+Correct Answer: C
 
 Explanation:
 
@@ -1584,7 +1584,7 @@ B. Download the correct drivers from the manufacturer's website and install them
 C. Unplug the USB cable from the printer and try another USB slot on the PC
 D. Set the printer as the default within the device properties
 
-Answer: B
+Correct Answer: B
 
 Explanation:
 
@@ -1598,7 +1598,7 @@ B. The device is currently running in airplane mode
 C. The internal memory is failing on the device
 D. The OS update is too resource intensive for the device
 
-Answer: A
+Correct Answer: A
 
 Explanation:
 
@@ -1612,7 +1612,7 @@ B. Frequency
 C. Antenna power level
 D. SSID
 
-Answer: A
+Correct Answer: A
 
 Explanation:
 
@@ -1626,7 +1626,7 @@ B. Configure extended display mode
 C. Replace the external monitor
 D. Adjust the laptop's BIOS settings
 
-Answer: B
+Correct Answer: B
 
 Explanation:
 
@@ -1640,7 +1640,7 @@ B. Near-field communication
 C. Radio frequency ID
 D. Z-wave
 
-Answer: A
+Correct Answer: A
 
 Explanation:
 
@@ -1654,7 +1654,7 @@ B. NIC configuration
 C. Available storage space
 D. RAM utilization
 
-Answer: A
+Correct Answer: A
 
 Explanation:
 
@@ -1668,7 +1668,7 @@ B. Replace the mobile device's battery
 C. Issue a new charging cable to the employee
 D. Send the device for service and give the employee a loaner
 
-Answer: A
+Correct Answer: A
 
 Explanation:
 
@@ -1686,7 +1686,7 @@ F. Motherboard
 G. Backlit keyboard
 H. Wireless antenna
 
-Answer: ACF
+Correct Answer: ACF
 
 Explanation:
 
@@ -1700,7 +1700,7 @@ B. Switch
 C. Router
 D. Cable modem
 
-Answer: B
+Correct Answer: B
 
 Explanation:
 
@@ -1714,7 +1714,7 @@ B. Hub
 C. Repeater
 D. Bridge
 
-Answer: A
+Correct Answer: A
 
 Explanation:
 
@@ -1728,7 +1728,7 @@ B. Reenable the smartphone's Bluetooth radio
 C. Perform a rollback of the smartphone's OS
 D. Pair the smartphone with the automobile
 
-Answer: B
+Correct Answer: B
 
 Explanation:
 
@@ -1742,7 +1742,7 @@ B. Ensure the SSL/TLS option is being used
 C. Check that the account password is still valid
 D. Make sure the smartphone is not in airplane mode
 
-Answer: A
+Correct Answer: A
 
 Explanation:
 
@@ -1756,7 +1756,7 @@ B. The files are encrypted
 C. There is a corrupt file on the hard drive
 D. The files are not compatible with the type of disk used
 
-Answer: A
+Correct Answer: A
 
 Explanation:
 
@@ -1770,7 +1770,7 @@ B. RAID 1 with 1000rpm 8TB drives
 C. RAID 5 with 7200rpm 5TB drives
 D. RAID 10 with 5400rpm 6TB drives
 
-Answer: D
+Correct Answer: D
 
 Explanation:
 
@@ -1784,7 +1784,7 @@ B. Go into the firewall and open the port
 C. Verify system functionality on the user's workstation
 D. Document the issue for future reference
 
-Answer: C
+Correct Answer: C
 
 Explanation:
 
@@ -1798,7 +1798,7 @@ B. Set the SSID
 C. Update the smart wearable device firmware
 D. Enable NFC
 
-Answer: A
+Correct Answer: A
 
 Explanation:
 
@@ -1814,7 +1814,7 @@ D. USB-A
 E. Molex
 F. Lightning
 
-Answer: BC
+Correct Answer: BC
 
 Explanation:
 
@@ -1831,7 +1831,7 @@ E. Capacitors on the motherboard are distended
 F.Incorrect settings are booting the wrong device
 G. A BSOD error indicates the system is crashing
 
-Answer: CE
+Correct Answer: CE
 
 Explanation:
 
@@ -1846,7 +1846,7 @@ C. Assign a different IP address to the device in conflict with the ClO's laptop
 D. Set the network connection to use DHCP instead of a static address
 E. Change the network's SSID to a mobile hotspot to access company email
 
-Answer: B
+Correct Answer: B
 
 Explanation:
 
@@ -1860,7 +1860,7 @@ B. BNC
 C. RG-6
 D. USB
 
-Answer: D
+Correct Answer: D
 
 Explanation:
 
@@ -1874,7 +1874,7 @@ B. VLAN
 C. VPN
 D. HIPS
 
-Answer: C
+Correct Answer: C
 
 Explanation:
 
@@ -1888,7 +1888,7 @@ B.laaS
 C. PaaS
 D. SaaS
 
-Answer: C
+Correct Answer: C
 
 Explanation:
 
@@ -1902,7 +1902,7 @@ B. It is used to find the default gateway on a LAN
 C. It gives users the ability to send and receive data
 D. It allows the ability, when needed, to bridge subnets.
 
-Answer: A
+Correct Answer: A
 
 Explanation:
 
@@ -1916,7 +1916,7 @@ B. Coaxial
 C. Plenum
 D. Cat 6
 
-Answer: A
+Correct Answer: A
 
 Explanation:
 
