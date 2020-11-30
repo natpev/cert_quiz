@@ -2,6 +2,11 @@
 import signal
 import os
 from os import system
+import readline
+readline.parse_and_bind("tab: complete")
+
+
+
 
 #signal.signal(signal.SIGINT, signal.SIG_IGN)
 #signal.signal(signal.SIGTSTP, signal.SIG_IGN)
@@ -13,6 +18,15 @@ resp_num = 0
 ans_bank = ['Y','N']
 char = ['','\n']
 first = 0
+
+def complete(text,state):
+    results = [x for x in filelist if x.startswith(text)] + [None]
+    return results[state]
+
+readline.set_completer(complete)
+
+
+
 
 def clear():
 #    pass
@@ -33,8 +47,6 @@ if new.upper() == 'Y':
     with open(quiz, mode='a') as myfile:
         myfile.write('QUIZ:' + title + '\nTOTAL:\n\n\n\n')
     q_num = 1
-
-
 
 
 
@@ -99,7 +111,7 @@ try:
                     elif int(adda) <1:
                         raise ValueError("value too small")
                     else:
-                        print(adda)
+#                        print(adda)
                         break
                 except:
                     print('INVALID')
