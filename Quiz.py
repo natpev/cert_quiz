@@ -19,6 +19,9 @@ from os import system, name
 import os
 import random
 import shutil
+import readline
+readline.parse_and_bind("tab: complete")
+
 
 
 
@@ -85,6 +88,13 @@ def enter():
     ##if mac or linux
     else:
         _ = system("pause")
+
+###tab complete
+def complete(text,state):
+    results = [x for x in quizes if x.startswith(text)] + [None]
+    return results[state]
+
+readline.set_completer(complete)
 
 
 ##quiz_select
@@ -315,7 +325,7 @@ try:
         if (RANS + WANS) == 0:
             print('Right/Wrong: ' + str(RANS) + '/' + str(WANS) + '   ---   TOTAL: ' + str(RANS + WANS) + '\n\nQUESTION ' + str(resp))
         else:
-            print('Right/Wrong: ' + str(RANS) + '/' + str(WANS) + '   ---   ' + str((RANS/(RANS + WANS))*100) + '%   ---   TOTAL: ' + str(RANS + WANS) + '\n\nQUESTION ' + str(resp))
+            print('Right/Wrong: ' + str(RANS) + '/' + str(WANS) + '   ---   ' + str(round(((RANS/(RANS + WANS))*100),2)) + '%   ---   TOTAL: ' + str(RANS + WANS) + '\n\nQUESTION ' + str(resp))
         q_num += 1
         question_num = pr_ques(question_num)
         #print(question_num)
