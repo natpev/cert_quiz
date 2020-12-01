@@ -283,7 +283,7 @@ def check_answer():
 ### print explination
 def explain(num):
     exp = linecache.getline(txt,int(num - 3))
-    if len(exp) > 13:
+    if len(exp) > 14:
         sleep(.5)
         print(exp)
 
