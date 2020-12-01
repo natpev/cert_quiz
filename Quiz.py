@@ -19,7 +19,10 @@ from os import system, name
 import os
 import random
 import shutil
-import readline
+try:
+    import readline
+except:
+    pass
 readline.parse_and_bind("tab: complete")
 
 
@@ -79,15 +82,6 @@ def clear():
         _ = system('clear')
 
 
-###wait for enter
-def enter():
-    ###if windows
-    if name == 'nt':
-        _ = system('read -sn 1 -p "Press any key to continue..."')
-        print
-    ##if mac or linux
-    else:
-        _ = system("pause")
 
 ###tab complete
 def complete(text,state):
