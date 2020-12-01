@@ -267,7 +267,7 @@ def check_answer():
     if wr == 1:
         sleep(.5)
         print('WRONG')
-        print("\n\nCorrect Answers:")
+        print("\nCorrect Answers:")
         for i in correct:
             print('  '+i, end = '')
         print('\n')
@@ -277,6 +277,17 @@ def check_answer():
         sleep(.5)
         print('CORRECT!!')
         RANS += 1
+
+
+
+### print explination
+def explain(num):
+    exp = linecache.getline(txt,int(num - 3))
+    if len(exp) > 13:
+        print(exp)
+
+
+
 
 
 
@@ -328,6 +339,7 @@ try:
         my_ans = list(my_ans.upper())
         question_num = pr_ans(question_num)
         check_answer()
+        explain(question_num)
         input("ENTER to continue...")
         if resp > int(file_len):
             resp = 1
