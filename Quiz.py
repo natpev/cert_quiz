@@ -275,7 +275,7 @@ def check_answer():
         sleep(1)
     else:
         sleep(.5)
-        print('CORRECT!!')
+        print('CORRECT!!\n')
         RANS += 1
 
 
@@ -284,6 +284,7 @@ def check_answer():
 def explain(num):
     exp = linecache.getline(txt,int(num - 3))
     if len(exp) > 13:
+        sleep(.5)
         print(exp)
 
 
