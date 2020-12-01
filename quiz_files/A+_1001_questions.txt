@@ -4,8 +4,7 @@ TOTAL:133
 
 QUESTION 1
 
-A technician is troubleshooting what appears to be a RAM issue on a P
-C. Which of the followingsymptoms would indicate if this is a RAM issue?
+A technician is troubleshooting what appears to be a RAM issue on a PC. Which of the followingsymptoms would indicate if this is a RAM issue?
 
 A. POST code beeps
 B. Distended capacitors
@@ -41,7 +40,7 @@ B. Label printer
 C. Magnetic reader
 D. KVM switch
 E. NFC device
-F. Flatted scanner
+F. Flatbed scanner
 
 Correct Answer: AC
 
@@ -108,7 +107,7 @@ Explanation:
 
 QUESTION 8
 
-Ann, an accountant, reports that after turning on her new laptop, she received a message stating herIP address is already in use on the system. She
+Ann, an accountant, reports that after turning on her new laptop, she received a message stating her IP address is already in use on the system. She should....
 
 A. Remove the static IP configuration from the desktop.
 B. Set the laptop configuration to DHCP to prevent conflicts.
@@ -481,7 +480,7 @@ Explanation:
 
 QUESTION 34
 
-A user reports that printing on heavy cardstock paper results in the image smearing if touched. When printing on plain paper, the problem does not occur.Which of the following would be the NEXT troubleshooting step to perform?Increase the fuser temperature.
+A user reports that printing on heavy cardstock paper results in the image smearing if touched. When printing on plain paper, the problem does not occur.Which of the following would be the NEXT troubleshooting step to perform?
 
 A. Increase the fuser temperature.
 B. Change the paper feed rate.
@@ -510,12 +509,12 @@ Explanation:
 
 QUESTION 36
 
-An end user has signed up to use a web-based calendar application.Which of the following solutions has the user purchased?
+An end user has signed up to use a web-based calendar application. Which of the following solutions has the user purchased?
 
 A. DaaS
 B. SaaS
 C. PaaS
-D.laaS
+D. IaaS
 
 Correct Answer: B
 
@@ -710,7 +709,7 @@ Explanation:
 
 QUESTION 50
 
-Which of the following devices can be used to connect multiple devices within broadcasting to everynetwork port?
+Which of the following devices can be used to connect multiple devices without broadcasting to everynetwork port?
 
 A. Unmanaged switch
 B. Hub
@@ -767,8 +766,7 @@ Explanation:
 
 QUESTION 54
 
-A technician upgraded the memory on a server from two 8GB sticks to eight 32G
-B. The servermemory is now at full capacity per the user guide. When the technician powers on the system, only 128 GB ofmemory is recognized by the OS and the BIOS. The technician decides to upgrade to the latestversion of the firmware on the system, which does not help. Next, the technician installs the memoryin sets of 64GB at a time. Each individual set of 64GB is fully recognized by the server.Which of the following will not allow the server to recognize all of the memory installed at the sametime?
+A technician upgraded the memory on a server from two 8GB sticks to eight 32GB. The servermemory is now at full capacity per the user guide. When the technician powers on the system, only 128 GB ofmemory is recognized by the OS and the BIOS. The technician decides to upgrade to the latestversion of the firmware on the system, which does not help. Next, the technician installs the memoryin sets of 64GB at a time. Each individual set of 64GB is fully recognized by the server.Which of the following will not allow the server to recognize all of the memory installed at the sametime?
 
 A. The power supply is not supplying enough power for the memory.
 B. The memory has too many ECC errors and is shutting down
@@ -1675,7 +1673,7 @@ Explanation:
 
 QUESTION 117
 
-A customer contacts the help disk stating a laptop does not remain charged for more than 30 minutesand will not charge more than 15%. Which of the following components are the MOST likely causesthe issue? (Select three.)
+A customer contacts the help desk stating a laptop does not remain charged for more than 30 minutesand will not charge more than 15%. Which of the following components are the MOST likely causesthe issue? (Select three.)
 
 A. LCD power inverter
 B. AC adapter
@@ -1909,7 +1907,7 @@ Explanation:
 
 QUESTION 133
 
-A network administrator would like to increase network bandwidth to iGbps between two officebuildings that are 0.5mi (805m) apart. Which of the following would be the BEST solution?
+A network administrator would like to increase network bandwidth to 1 Gbps between two officebuildings that are 0.5mi (805m) apart. Which of the following would be the BEST solution?
 
 A. Fiber
 B. Coaxial
