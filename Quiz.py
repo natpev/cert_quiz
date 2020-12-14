@@ -40,7 +40,7 @@ def credits():
     sleep(.1)
     print('#                                                              #'.center(int(columns)))
     sleep(.1)
-    print('#                            v1.0.2                            #'.center(int(columns)))
+    print('#                            v1.0.3                            #'.center(int(columns)))
     sleep(.1)
     print('#                             LINUX                            #'.center(int(columns)))
     sleep(.1)
@@ -67,9 +67,6 @@ def term_size():
     else:
         rows = 30
         columns = 65
-    
-    
-
 
 
 ###clear sceen
@@ -80,7 +77,6 @@ def clear():
     ##if mac or linux
     else:
         _ = system('clear')
-
 
 
 ###tab complete
@@ -177,16 +173,12 @@ def pr_ques(num):
     global resp
     global question_num
     ###print the questions
-##    print(str(num) + 'num')
-##    print(str(resp) + ' resp')
     is_it_there = 0
     while is_it_there != 1:
         lookup = ("QUESTION " + str(resp) + '\n')
         with open(txt, encoding='utf-8') as f:
             for i, line in enumerate(f, 1):
                 if lookup in line:
-##                    print(line + 'line')
-##                    print(str(i) + ' i')
                     question_num = (i + 2)
                     num = question_num
                     is_it_there = 1
@@ -214,11 +206,7 @@ def pr_ques(num):
             print(line, end="")
             sleep(.25)
             num += 1
-    #print(ans_bank)
     return num
-
-
-
 
 
 ###prints answers
@@ -229,8 +217,6 @@ def pr_ans(num):
     correct = line[16:]
     correct = list(correct)
     correct.pop()
-    #print('\n\n' + line, end="")
-    #print(correct)
     num +=5
     return num
 
