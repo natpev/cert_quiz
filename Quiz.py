@@ -209,7 +209,7 @@ def pr_ques(num):
     return num
 
 
-###prints answers
+###sets correct answers
 def pr_ans(num):
     num -= 1
     line = linecache.getline(txt,int(num))
